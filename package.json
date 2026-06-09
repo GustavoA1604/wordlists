@@ -6,6 +6,8 @@
   "private": true,
   "scripts": {
     "build": "node pt-br/build.js",
+    "candidates": "node pt-br/gen-candidates.js",
+    "analyze": "node pt-br/analyze.js",
     "migrate": "node pt-br/migrate-from-entrelinhas.js",
     "test": "node --test",
     "format": "prettier --write .",

@@ -45,6 +45,47 @@ per line, `#` for comments), then re-run `npm run build`:
 Overrides survive source updates: regenerating from upstream never wipes your
 manual curation. Words are stored without accents (`a`-`z` only).
 
+## Growing the dictionary (candidate review)
+
+No broad source is clean enough to merge wholesale (each adds its own noise: brand
+names and anglicisms by frequency, archaic words by dictionary). Instead, new words
+flow through a frequency-ranked review queue with noise filtered into set-aside files:
+
+```bash
+npm run candidates                  # writes ranked queues to pt-br/review/ (5-letter)
+npm run candidates -- --len=6       # other lengths for future games
+npm run candidates -- --name-min=500 # looser name threshold (default 1000)
+```
+
+It reads `sources/fserb-icf.txt` (frequency scores) and `sources/silviotamaso.txt`
+(curated), drops anything already valid or decided in `curated/`, then classifies the
+rest:
+
+- **pure English** (in the English wordlist but not in the Ueda PT dictionary) ->
+  set aside. Assimilated loans that are in the PT dictionary (`mouse`, `jeans`) stay.
+- **first names** (IBGE prenomes above `--name-min`) -> set aside. Place names are
+  not first names, so `texas`/`macau` stay; a place that is also a first name
+  (`paris`, `sofia`) is set aside but easy to rescue.
+- **place names** (world gazetteer + PT country/municipality lists) rescue foreign
+  places from the English filter.
+- `silviotamaso` membership rescues a word from either set-aside bucket.
+
+Outputs in `pt-br/review/`:
+
+- `candidates-icf-ranked-5.txt` - the clean queue, most frequent first.
+- `setaside-english-5.txt`, `setaside-names-5.txt` - filtered-out words, kept for
+  audit (scan them for the occasional real word or wanted place).
+- `candidates-5.annotated.tsv` - every candidate with all flags (score, silvio,
+  english, pt_dict, name, place, bucket).
+
+Review the top of the clean queue, move keepers into `curated/valid-additions.txt`,
+then `npm run build`. Re-running `npm run candidates` shrinks the queue as you curate.
+The `pt-br/review/` and `pt-br/_candidates/` dirs are gitignored (regenerated artifacts).
+
+To evaluate a brand-new source, drop a `*.txt` / `*.js` / `*.json` into
+`pt-br/_candidates/` and run `npm run analyze` to see how many (and which) words it
+would add versus the current export.
+
 ## Normalization
 
 Every word is NFD-decomposed, stripped of combining accent marks, lowercased, and

@@ -118,6 +118,7 @@ adulo
 advem
 advim
 advir
+aedes
 aerea
 aereo
 afaga
@@ -388,6 +389,7 @@ arame
 aramo
 arara
 arava
+araxa
 arcai
 arcam
 arcar
@@ -430,6 +432,7 @@ arguo
 arias
 arida
 arido
+aries
 armai
 armam
 armar
@@ -471,6 +474,7 @@ assoa
 assoe
 assoo
 assou
+astra
 astro
 ataca
 ataco
@@ -519,6 +523,7 @@ atrai
 atras
 atrio
 atriz
+atroz
 atuai
 atual
 atuam
@@ -598,6 +603,7 @@ babem
 babes
 babou
 bacia
+bacon
 bacos
 bafos
 bagas
@@ -714,6 +720,7 @@ berra
 berre
 berro
 besta
+betim
 bicai
 bicam
 bicar
@@ -739,7 +746,9 @@ bispo
 blefa
 blefe
 blefo
+blitz
 bloco
+blues
 blusa
 boate
 boato
@@ -800,6 +809,7 @@ botei
 botem
 botes
 botou
+botox
 boxea
 braba
 brabo
@@ -867,6 +877,7 @@ bulia
 bulir
 bulis
 buliu
+bumba
 bumbo
 bunda
 bunde
@@ -878,6 +889,7 @@ burle
 burlo
 burra
 burro
+busao
 busca
 busco
 busto
@@ -900,6 +912,7 @@ cacau
 cacei
 cacem
 caces
+cache
 cacho
 cacoa
 cacoe
@@ -907,6 +920,7 @@ cacoo
 cacos
 cacou
 cacto
+caete
 cafes
 cagai
 cagam
@@ -1142,6 +1156,7 @@ china
 chiou
 choca
 choco
+chope
 chora
 chore
 choro
@@ -1199,6 +1214,7 @@ citem
 cites
 citou
 ciume
+civel
 civil
 civis
 clama
@@ -1275,6 +1291,7 @@ colon
 colou
 comam
 comas
+combo
 comei
 comem
 comer
@@ -1286,6 +1303,7 @@ comum
 conde
 cones
 conga
+congo
 conta
 conte
 conto
@@ -1317,6 +1335,7 @@ corra
 corre
 corri
 corro
+corsa
 corta
 corte
 corto
@@ -1346,6 +1365,7 @@ couro
 couto
 couve
 covas
+cover
 covil
 covis
 coxao
@@ -1361,6 +1381,7 @@ cozes
 cozeu
 cozia
 craca
+crack
 crase
 crava
 crave
@@ -1435,6 +1456,7 @@ curem
 cures
 curia
 curou
+curry
 cursa
 curse
 curso
@@ -1445,6 +1467,7 @@ curto
 curva
 curve
 curvo
+cusco
 cuspa
 cuspe
 cuspi
@@ -1455,6 +1478,7 @@ custo
 cutis
 dadas
 dados
+dalai
 dalia
 damas
 damos
@@ -1535,6 +1559,7 @@ desta
 deste
 detem
 deter
+detox
 deusa
 devam
 devas
@@ -1668,6 +1693,7 @@ dubla
 duble
 dublo
 ducha
+duche
 duela
 duele
 duelo
@@ -1692,6 +1718,8 @@ durou
 dutos
 duzia
 ebano
+ebola
+ebook
 ebrio
 ecoai
 ecoam
@@ -1909,6 +1937,7 @@ falte
 falto
 famas
 fanho
+fanta
 farao
 faras
 farda
@@ -1969,6 +1998,7 @@ fenda
 fende
 fendi
 fendo
+fenix
 fenos
 feras
 feraz
@@ -1991,6 +2021,7 @@ fetal
 fetos
 feudo
 fezes
+fiada
 fiado
 fiais
 fiamo
@@ -2071,6 +2102,7 @@ fixes
 fixos
 fixou
 fizer
+flash
 flato
 flavo
 floco
@@ -2083,6 +2115,7 @@ fluia
 fluir
 fluis
 fluiu
+fluor
 fluxo
 fobia
 focai
@@ -2097,6 +2130,7 @@ fodei
 fodem
 foder
 fodes
+fodeu
 fodia
 fofas
 fofos
@@ -2374,6 +2408,7 @@ gires
 giria
 giros
 girou
+glace
 gleba
 glifo
 globo
@@ -2421,6 +2456,7 @@ gozem
 gozes
 gozos
 gozou
+graal
 graca
 grade
 grado
@@ -2479,6 +2515,7 @@ guria
 guris
 gurus
 habil
+haiti
 hajam
 hajas
 halos
@@ -2504,6 +2541,8 @@ hifen
 himen
 hindu
 hinos
+hiper
+hobby
 homem
 honra
 honre
@@ -2522,6 +2561,7 @@ hurra
 iamos
 iates
 ibero
+ibope
 icada
 icado
 icais
@@ -2537,6 +2577,7 @@ ideia
 idolo
 idosa
 idoso
+iemen
 ienes
 igapo
 iglus
@@ -2584,6 +2625,7 @@ incoa
 incoe
 incoo
 india
+indie
 indio
 induz
 infla
@@ -2602,6 +2644,7 @@ inste
 insto
 intel
 inter
+intra
 intua
 intui
 intuo
@@ -2646,6 +2689,7 @@ jazer
 jazes
 jazeu
 jazia
+jeans
 jecas
 jegue
 jeito
@@ -2653,6 +2697,7 @@ jejua
 jejue
 jejum
 jejuo
+jeova
 jesus
 jilos
 jinga
@@ -2700,6 +2745,7 @@ jurou
 justa
 justo
 kiwis
+kombi
 labia
 labio
 labor
@@ -2910,6 +2956,9 @@ locao
 locar
 locas
 locou
+logar
+login
+logos
 logra
 logre
 logro
@@ -2972,13 +3021,16 @@ luzia
 luzir
 luzis
 luziu
+macae
 macas
+macau
 macho
 macia
 macio
 macom
 macos
 macro
+madre
 mafia
 mafua
 magia
@@ -3051,6 +3103,7 @@ matar
 matas
 matei
 matem
+mater
 mates
 matiz
 matos
@@ -3142,6 +3195,7 @@ mijei
 mijem
 mijes
 mijou
+milao
 milha
 milho
 mimai
@@ -3267,6 +3321,7 @@ motor
 motos
 moura
 mouro
+mouse
 movam
 movas
 movei
@@ -3380,6 +3435,7 @@ nelas
 neles
 nenem
 nenes
+nepal
 nervo
 nesga
 nessa
@@ -3453,6 +3509,7 @@ nutre
 nutri
 nutro
 nuvem
+nylon
 oasis
 obesa
 obeso
@@ -3572,6 +3629,7 @@ ornei
 ornem
 ornes
 ornou
+oscar
 osmio
 ossea
 osseo
@@ -3624,11 +3682,13 @@ paiol
 paira
 paire
 pairo
+paiva
 pajea
 pajem
 pajes
 palco
 palha
+palio
 palma
 palmo
 pampa
@@ -3732,6 +3792,7 @@ pelem
 peles
 pelos
 pelou
+pelve
 penai
 penal
 penam
@@ -3745,7 +3806,9 @@ pendo
 penei
 penem
 penes
+penha
 penis
+penne
 penou
 pensa
 pense
@@ -3830,6 +3893,7 @@ piore
 pioro
 pipas
 pique
+pirai
 pirao
 pirar
 pires
@@ -3988,6 +4052,7 @@ proas
 prole
 propo
 prosa
+proto
 prova
 prove
 provi
@@ -4039,6 +4104,7 @@ puxei
 puxem
 puxes
 puxou
+qatar
 quais
 quase
 queda
@@ -4135,6 +4201,7 @@ ratas
 ratea
 ratos
 razao
+reage
 reagi
 reais
 reaja
@@ -4161,6 +4228,7 @@ reege
 refaz
 refem
 refez
+refil
 refiz
 regai
 regam
@@ -4179,6 +4247,7 @@ regre
 regro
 regua
 regue
+reiki
 reina
 reine
 reino
@@ -4201,6 +4270,7 @@ remia
 remir
 remis
 remiu
+remix
 remoa
 remoe
 remoi
@@ -4227,6 +4297,7 @@ retas
 retem
 reter
 retos
+retro
 reuna
 reune
 reuni
@@ -4342,6 +4413,7 @@ rolei
 rolem
 roles
 rolha
+rolim
 rolos
 rolou
 romas
@@ -4373,6 +4445,7 @@ roube
 roubo
 rouca
 rouco
+round
 roupa
 roxas
 roxos
@@ -4394,6 +4467,7 @@ rugai
 rugam
 rugar
 rugas
+rugby
 rugia
 rugir
 rugis
@@ -4495,6 +4569,7 @@ salvo
 samba
 sambe
 sambo
+sampa
 sanai
 sanam
 sanar
@@ -4541,6 +4616,7 @@ secar
 secas
 secos
 secou
+sedan
 sedar
 sedas
 sedes
@@ -4606,6 +4682,8 @@ setor
 sexos
 sexta
 sexto
+short
+siena
 sifao
 sigam
 sigas
@@ -4643,6 +4721,9 @@ sitos
 situa
 situe
 situo
+skank
+skate
+skype
 soado
 soais
 soamo
@@ -4733,6 +4814,9 @@ sovei
 sovem
 soves
 sovou
+split
+spray
+strip
 suada
 suado
 suais
@@ -4763,6 +4847,7 @@ suica
 suico
 suina
 suino
+suite
 sujai
 sujam
 sujar
@@ -4804,6 +4889,7 @@ surro
 surta
 surte
 surto
+sushi
 susta
 suste
 susti
@@ -4877,6 +4963,7 @@ taxem
 taxes
 taxis
 taxou
+tchau
 tecam
 tecas
 tecei
@@ -4941,6 +5028,7 @@ terra
 tesao
 tesas
 teses
+tesla
 tesos
 testa
 teste
@@ -4961,6 +5049,7 @@ tiete
 tigre
 timao
 times
+timor
 tinam
 tinas
 tinem
@@ -5022,6 +5111,7 @@ tomes
 tomos
 tomou
 tonel
+toner
 tonta
 tonto
 tonus
@@ -5078,6 +5168,7 @@ total
 totem
 touca
 touro
+tours
 traca
 trace
 traco
@@ -5094,6 +5185,7 @@ traje
 trajo
 trama
 tramo
+trans
 trapo
 trara
 trata
@@ -5126,6 +5218,7 @@ trina
 trino
 trios
 tripa
+tripe
 troca
 troce
 troco
@@ -5413,6 +5506,7 @@ vexem
 vexes
 vexou
 vezes
+viado
 viaja
 viaje
 viajo
@@ -5539,6 +5633,7 @@ vulto
 vulva
 xales
 xamas
+xampu
 xaras
 xaxim
 xelim
