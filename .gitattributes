@@ -1,0 +1,4 @@
+# Keep word lists and code LF so the build and consumers parse identically on all
+# platforms.
+* text=auto eol=lf
+*.png binary
