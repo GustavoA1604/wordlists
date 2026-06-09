@@ -705,6 +705,7 @@ beiro
 belas
 belem
 belga
+belgo
 belos
 bemol
 benta
@@ -948,6 +949,7 @@ cajas
 cajus
 calai
 calam
+calao
 calar
 calas
 calca
@@ -1451,6 +1453,7 @@ curam
 curar
 curas
 curau
+curdo
 curei
 curem
 cures
@@ -1999,6 +2002,7 @@ fende
 fendi
 fendo
 fenix
+fenol
 fenos
 feras
 feraz
@@ -2176,6 +2180,7 @@ fossa
 fosse
 fosso
 foste
+foton
 fotos
 fraca
 fraco
@@ -2536,6 +2541,7 @@ herde
 herdo
 heroi
 hiato
+hidra
 hiena
 hifen
 himen
@@ -2624,6 +2630,7 @@ incho
 incoa
 incoe
 incoo
+index
 india
 indie
 indio
@@ -2715,6 +2722,7 @@ jorge
 jorra
 jorre
 jorro
+joule
 jovem
 jubas
 judas
@@ -3109,6 +3117,7 @@ matiz
 matos
 matou
 meada
+meado
 mecam
 mecas
 mecha
@@ -3150,6 +3159,7 @@ meras
 merce
 merda
 meros
+mesao
 mesas
 meses
 mesma
@@ -4106,6 +4116,7 @@ puxes
 puxou
 qatar
 quais
+quark
 quase
 queda
 quede
@@ -4451,6 +4462,7 @@ roxas
 roxos
 rubis
 rublo
+rubor
 rubra
 rubro
 rudes
@@ -4919,6 +4931,7 @@ talhe
 talho
 talio
 talos
+tamil
 tampa
 tampe
 tampo
@@ -4963,6 +4976,7 @@ taxem
 taxes
 taxis
 taxou
+tchan
 tchau
 tecam
 tecas
@@ -5675,6 +5689,7 @@ zeros
 zerou
 zinco
 ziper
+zoada
 zomba
 zombe
 zombo

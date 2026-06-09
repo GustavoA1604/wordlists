@@ -6,6 +6,7 @@ astra
 atena
 atroz
 bacon
+belgo
 betim
 blitz
 blues
@@ -16,6 +17,7 @@ busao
 cache
 caete
 cajas
+calao
 chope
 civel
 combo
@@ -24,6 +26,7 @@ corsa
 cover
 crack
 creta
+curdo
 curry
 cusco
 dalai
@@ -37,6 +40,7 @@ elfas
 elfos
 fanta
 fenix
+fenol
 fiada
 flash
 fluor
@@ -47,19 +51,23 @@ foder
 fodes
 fodeu
 fodia
+foton
 fubas
 glace
 graal
 haiti
+hidra
 hiper
 hobby
 ibope
 iemen
 iglus
+index
 indie
 intra
 jeans
 jeova
+joule
 kiwis
 kombi
 lamas
@@ -70,6 +78,8 @@ macae
 macau
 madre
 mater
+meado
+mesao
 milao
 mouse
 nepal
@@ -87,6 +97,7 @@ pirai
 pirou
 proto
 qatar
+quark
 rapel
 reage
 refil
@@ -95,6 +106,7 @@ remix
 retro
 rolim
 round
+rubor
 rugby
 sampa
 sedan
@@ -108,6 +120,8 @@ spray
 strip
 suite
 sushi
+tamil
+tchan
 tchau
 tesla
 timor
@@ -123,3 +137,4 @@ trans
 tripe
 viado
 xampu
+zoada
