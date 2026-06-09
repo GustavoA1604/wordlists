@@ -1,0 +1,17 @@
+{
+  "name": "wordlists",
+  "version": "0.1.0",
+  "description": "Curated, source-controlled word lists (PT-BR) for word games.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node pt-br/build.js",
+    "migrate": "node pt-br/migrate-from-entrelinhas.js",
+    "test": "node --test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  }
+}
