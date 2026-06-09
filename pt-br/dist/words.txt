@@ -268,6 +268,7 @@ amado
 amago
 amais
 amamo
+amapa
 amara
 amaro
 amava
@@ -487,6 +488,7 @@ ateie
 ateio
 ateis
 atemo
+atena
 atens
 ateou
 atera
@@ -591,6 +593,7 @@ babao
 babar
 babas
 babei
+babel
 babem
 babes
 babou
@@ -598,6 +601,7 @@ bacia
 bacos
 bafos
 bagas
+bagda
 bagos
 bagre
 bahia
@@ -693,6 +697,7 @@ beira
 beire
 beiro
 belas
+belem
 belga
 belos
 bemol
@@ -1132,6 +1137,7 @@ chico
 chiei
 chiem
 chies
+chile
 china
 chiou
 choca
@@ -2265,6 +2271,7 @@ gajas
 gajos
 galao
 galas
+gales
 galga
 galgo
 galho
@@ -2593,6 +2600,7 @@ inovo
 insta
 inste
 insto
+intel
 inter
 intua
 intui
@@ -2713,11 +2721,13 @@ ladra
 ladre
 ladro
 lagar
+lages
 lagoa
 lagos
 laica
 laico
 lajes
+lamas
 lamba
 lambe
 lambi
@@ -2867,6 +2877,7 @@ lindo
 linfa
 linha
 linho
+linux
 liras
 lirio
 lisas
@@ -3110,6 +3121,7 @@ mexeu
 mexia
 miado
 miais
+miami
 miamo
 miara
 miava
@@ -3403,6 +3415,7 @@ nisso
 nisto
 nitro
 nivel
+nobel
 nobre
 nocao
 nodal
@@ -4935,6 +4948,7 @@ testo
 tetas
 tetos
 tetra
+texas
 texto
 tiara
 tibia
@@ -5021,17 +5035,23 @@ topes
 topos
 topou
 toque
+torai
+toram
+torar
 toras
 torax
 torca
 torce
 torci
 torco
+torei
+tores
 torio
 torna
 torne
 torno
 toros
+torou
 torpe
 torra
 torre

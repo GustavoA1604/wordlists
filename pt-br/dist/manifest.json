@@ -1,10 +1,10 @@
 {
   "validBase": 5632,
   "commonBase": 2016,
-  "validAdditions": 21,
-  "validRemovals": 69,
+  "validAdditions": 29,
+  "validRemovals": 57,
   "commonAdditions": 0,
   "commonRemovals": 0,
-  "valid": 5584,
+  "valid": 5604,
   "common": 2016
 }

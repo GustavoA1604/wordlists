@@ -1,4 +1,5 @@
 # valid-additions: words to force-include in the valid pool
+atena
 budas
 cajas
 creta
@@ -15,8 +16,15 @@ fodia
 fubas
 iglus
 kiwis
+lamas
 obice
 panes
 paves
 pirou
 rapel
+torai
+toram
+torar
+torei
+tores
+torou
