@@ -1235,6 +1235,7 @@ cloro
 clube
 coada
 coado
+coage
 coagi
 coais
 coaja
@@ -1593,6 +1594,7 @@ direi
 diria
 disca
 disco
+dispa
 dispo
 disse
 disso
@@ -3352,6 +3354,8 @@ mudes
 mudez
 mudos
 mudou
+mugem
+muges
 mugia
 mugir
 mugis
@@ -4313,6 +4317,9 @@ reuna
 reune
 reuni
 reuno
+reusa
+reuse
+reuso
 rever
 reves
 revia
@@ -4480,6 +4487,8 @@ rugam
 rugar
 rugas
 rugby
+rugem
+ruges
 rugia
 rugir
 rugis
@@ -5325,6 +5334,7 @@ urdir
 urdis
 urdiu
 ureia
+urgem
 urgia
 urgir
 urgis

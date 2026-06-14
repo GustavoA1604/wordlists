@@ -7,6 +7,8 @@
   "scripts": {
     "build": "node pt-br/build.js",
     "candidates": "node pt-br/gen-candidates.js",
+    "verb-gap": "node pt-br/gen-verb-candidates.js",
+    "verb-gap:network": "node pt-br/fetch-conjugations.js",
     "analyze": "node pt-br/analyze.js",
     "migrate": "node pt-br/migrate-from-entrelinhas.js",
     "test": "node --test",

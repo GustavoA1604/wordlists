@@ -86,6 +86,29 @@ To evaluate a brand-new source, drop a `*.txt` / `*.js` / `*.json` into
 `pt-br/_candidates/` and run `npm run analyze` to see how many (and which) words it
 would add versus the current export.
 
+## Auditing the verb-conjugation gap
+
+Verbs can be missing some of their conjugations. Two scripts audit that gap (results
+go to the gitignored `pt-br/review/`):
+
+```bash
+npm run verb-gap                 # local: diff ueda-dicio against the export
+npm run verb-gap:network         # network: fetch correct (incl. irregular) forms
+```
+
+- `verb-gap` (local) treats the pre-inflected `sources/ueda-dicio.txt` as ground truth
+  and lists target-length words it has that the export lacks, annotating names/places
+  so verb forms are easy to pick out. For the current 5-letter export this finds
+  nothing: every 5-letter dicio word is already valid or in `valid-removals.txt`.
+- `verb-gap:network` fetches conjugations from conjugacao.com.br (cached under the
+  gitignored `pt-br/_conjcache/`) for verbs whose forms `ueda-dicio` is silent on,
+  i.e. exactly where a rule-based generator is unreliable. It then keeps only forms
+  missing from both the export and `ueda-dicio`. An audit over the 5-letter export
+  confirmed the gap is essentially closed: it surfaced only a handful of genuine but
+  obscure forms (the rest was the site mechanically conjugating non-verbs, which
+  `ueda-dicio` correctly omits). Use `--len=N` for other lengths if a game ever needs
+  non-5-letter words, which is where the real conjugation volume lives.
+
 ## Normalization
 
 Every word is NFD-decomposed, stripped of combining accent marks, lowercased, and
