@@ -1,5 +1,4 @@
 abaco
-abada
 abalo
 abate
 abono
@@ -44,7 +43,6 @@ album
 alcar
 alcas
 alces
-aldea
 alelo
 aleta
 algas
@@ -128,7 +126,6 @@ atear
 ateus
 ativo
 atlas
-atono
 atras
 atrio
 atriz
@@ -138,7 +135,6 @@ audaz
 aulas
 auras
 aureo
-aurir
 autor
 autos
 aveia
@@ -175,7 +171,6 @@ banha
 banho
 banir
 banjo
-banzo
 baque
 barao
 barba
@@ -191,6 +186,7 @@ bases
 basta
 batas
 bater
+batom
 bauru
 bazar
 beata
@@ -218,8 +214,6 @@ bilha
 bilis
 bingo
 bioma
-biota
-biros
 birra
 bisao
 bispo
@@ -255,7 +249,6 @@ borda
 bordo
 borra
 bossa
-bosta
 botao
 botar
 botas
@@ -292,7 +285,6 @@ bulas
 bulbo
 bules
 bumbo
-bunda
 buque
 burgo
 burro
@@ -311,7 +303,6 @@ cacho
 cacos
 cacto
 cafes
-cagar
 caiar
 caido
 caixa
@@ -380,6 +371,7 @@ ceias
 celas
 celta
 cenas
+censo
 cento
 ceras
 cerca
@@ -425,6 +417,7 @@ cisne
 cisto
 citar
 ciume
+civil
 civis
 clara
 claro
@@ -446,7 +439,6 @@ cofre
 coice
 coifa
 coisa
-coito
 colar
 colas
 comer
@@ -465,7 +457,6 @@ corar
 corda
 cores
 corja
-corno
 coroa
 coros
 corpo
@@ -529,7 +520,6 @@ daqui
 dardo
 datar
 datas
-debil
 dedal
 dedao
 dedos
@@ -551,7 +541,6 @@ deusa
 dever
 diabo
 dicas
-diese
 dieta
 digno
 diodo
@@ -583,8 +572,6 @@ draga
 drama
 dreno
 droga
-drusa
-duais
 dubio
 duble
 ducha
@@ -597,6 +584,7 @@ duque
 durar
 duros
 dutos
+duzia
 ebano
 ebrio
 ecoar
@@ -611,7 +599,6 @@ entes
 entre
 envio
 epico
-erbio
 errar
 erros
 ervas
@@ -653,7 +640,6 @@ fatal
 fatia
 fator
 fatos
-fatuo
 fauna
 fauno
 favas
@@ -706,7 +692,6 @@ fitar
 fitas
 fixar
 fixas
-flato
 floco
 flora
 fluir
@@ -775,7 +760,6 @@ futil
 fuzil
 fuzis
 fuzue
-gabao
 gabar
 gados
 gafes
@@ -835,7 +819,6 @@ gorro
 gosma
 gosto
 gotas
-gozar
 grade
 grado
 grama
@@ -847,14 +830,12 @@ grave
 graxa
 grego
 grelo
-grena
 greta
 greve
 grifo
 grilo
 gripe
 grito
-grosa
 grota
 gruas
 grude
@@ -877,6 +858,7 @@ helio
 hepta
 hiato
 hiena
+hifen
 hinos
 homem
 honra
@@ -884,6 +866,7 @@ horas
 horda
 horta
 horto
+hotel
 humor
 iates
 ibero
@@ -911,7 +894,6 @@ irmas
 iscas
 istmo
 itens
-itrio
 jacas
 jambu
 jarra
@@ -959,6 +941,7 @@ lares
 largo
 larva
 lasca
+laser
 latao
 latas
 latim
@@ -995,6 +978,7 @@ levas
 leves
 lhama
 libra
+licao
 liceu
 licor
 lidar
@@ -1012,6 +996,7 @@ lindo
 linha
 linho
 liras
+lirio
 lisos
 lista
 litio
@@ -1059,6 +1044,7 @@ macio
 macos
 mafia
 mafua
+magia
 magma
 magoa
 magos
@@ -1108,7 +1094,6 @@ menor
 menos
 menta
 mente
-merda
 meros
 mesas
 meses
@@ -1128,7 +1113,6 @@ minas
 minha
 miojo
 miolo
-mioma
 miope
 mirar
 mirim
@@ -1137,7 +1121,6 @@ missa
 misto
 mitos
 miudo
-mobil
 mocao
 mocos
 modal
@@ -1219,10 +1202,12 @@ ninho
 ninja
 nisso
 nisto
+nivel
 nobre
 nocao
 nodoa
 noite
+noiva
 noivo
 nomes
 noras
@@ -1325,6 +1310,7 @@ pasta
 pasto
 patas
 pates
+patim
 patio
 patos
 pausa
@@ -1339,7 +1325,6 @@ pedal
 pedir
 pedra
 pegar
-peido
 peito
 peixe
 pelas
@@ -1349,7 +1334,6 @@ penal
 penar
 penas
 penca
-penis
 penta
 pente
 pequi
@@ -1388,6 +1372,7 @@ pisar
 pisos
 pista
 pivos
+pixel
 pizza
 placa
 plano
@@ -1422,9 +1407,7 @@ porao
 porca
 porco
 porem
-porno
 poros
-porra
 porre
 porta
 porte
@@ -1448,6 +1431,7 @@ prato
 praxe
 prazo
 prece
+preco
 prega
 prego
 presa
@@ -1459,10 +1443,8 @@ prole
 prosa
 prova
 prumo
-pubis
 pudim
 pudor
-puido
 pular
 pulga
 pulos
@@ -1473,7 +1455,6 @@ punir
 pures
 purga
 puros
-putos
 puxao
 puxar
 quais
@@ -1485,6 +1466,7 @@ quica
 quilo
 quina
 quite
+quota
 rabos
 racao
 racas
@@ -1515,6 +1497,7 @@ recem
 recuo
 redea
 redes
+redor
 refem
 regar
 reger
@@ -1561,7 +1544,6 @@ rocas
 rocha
 rodar
 rodas
-rodio
 rodos
 rogar
 roido
@@ -1592,9 +1574,7 @@ rumba
 rumor
 rumos
 runas
-rupia
 rural
-rusga
 russo
 sabao
 sabia
@@ -1635,7 +1615,6 @@ sarna
 sarro
 sauna
 sauva
-savia
 sebos
 secao
 secar
@@ -1673,7 +1652,6 @@ sifao
 sigla
 sigma
 signo
-silfo
 silos
 simio
 sinal
@@ -1752,7 +1730,6 @@ tarde
 tarja
 taros
 tatil
-tatui
 tatus
 taxar
 taxas
@@ -1780,11 +1757,9 @@ terco
 termo
 terno
 terra
-tesao
 teses
 testa
 teste
-tetas
 tetos
 tetra
 texto
@@ -1855,6 +1830,7 @@ trico
 trigo
 trios
 tripa
+tripe
 troca
 troco
 trono
@@ -1868,6 +1844,7 @@ tufao
 tufos
 tumba
 tumor
+tunel
 turco
 turma
 turne
@@ -1903,7 +1880,6 @@ utero
 uvula
 vacas
 vacuo
-vadio
 vagao
 vagar
 vagas
@@ -1920,7 +1896,6 @@ vapor
 varal
 varar
 varas
-vasco
 vasos
 vasto
 vazao
@@ -1973,7 +1948,6 @@ viris
 visao
 visar
 visco
-visgo
 visor
 vista
 visto
@@ -1996,7 +1970,6 @@ vovos
 vozes
 vulgo
 vulto
-vulva
 xales
 xamas
 xaxim

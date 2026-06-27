@@ -25,7 +25,6 @@ abram
 abras
 abrem
 abres
-abreu
 abria
 abril
 abrir
@@ -38,6 +37,7 @@ abuso
 acaba
 acabe
 acabo
+acaia
 acaju
 acaro
 acaso
@@ -195,7 +195,6 @@ aguia
 aguou
 ainda
 aipim
-aires
 ajais
 ajamo
 ajuda
@@ -310,7 +309,6 @@ andem
 andes
 andor
 andou
-andre
 aneis
 anela
 anele
@@ -429,6 +427,8 @@ arfei
 arfem
 arfes
 arfou
+argel
+argos
 argua
 argui
 arguo
@@ -456,7 +456,6 @@ arrie
 arrio
 arroz
 artes
-artur
 asila
 asile
 asilo
@@ -505,7 +504,6 @@ atica
 atice
 atico
 atido
-atila
 atina
 atine
 atino
@@ -729,7 +727,6 @@ bicai
 bicam
 bicar
 bicas
-bicha
 bicho
 bicos
 bicou
@@ -861,7 +858,6 @@ bucal
 bucha
 bucho
 budas
-bueno
 bufai
 bufam
 bufao
@@ -872,6 +868,7 @@ bufem
 bufes
 bufos
 bufou
+bugio
 bugre
 bujao
 bulam
@@ -1103,7 +1100,6 @@ ceifa
 ceife
 ceifo
 celas
-celia
 celta
 cenas
 censo
@@ -1121,7 +1117,6 @@ cerro
 certa
 certo
 cervo
-cesar
 cesio
 cessa
 cesse
@@ -1503,7 +1498,6 @@ danem
 danes
 danos
 danou
-dante
 daqui
 darao
 daras
@@ -1680,6 +1674,7 @@ dotei
 dotem
 dotes
 dotou
+doula
 doura
 doure
 douro
@@ -1707,7 +1702,6 @@ duela
 duele
 duelo
 dueto
-dumas
 dunas
 dunga
 dupla
@@ -1739,7 +1733,6 @@ ecoem
 ecoes
 ecoou
 edema
-edipo
 edita
 edite
 edito
@@ -1771,10 +1764,12 @@ elmos
 emana
 emane
 emano
+emaus
 emita
 emite
 emiti
 emito
+emoji
 emula
 emule
 emulo
@@ -1885,6 +1880,7 @@ exare
 exaro
 exata
 exato
+excel
 exiba
 exibe
 exibi
@@ -1999,7 +1995,6 @@ feira
 feita
 feito
 feixe
-felix
 feliz
 femea
 femur
@@ -2295,6 +2290,7 @@ fusca
 fusco
 fusos
 futil
+futon
 fuzil
 fuzis
 fuzue
@@ -2352,6 +2348,7 @@ gaste
 gasto
 gatas
 gatos
+gauss
 gazua
 geada
 geado
@@ -2438,7 +2435,6 @@ golfe
 golfo
 golpe
 gomas
-gomes
 gomos
 gongo
 gonzo
@@ -2539,6 +2535,7 @@ hauri
 havei
 haver
 havia
+hegel
 helio
 hepta
 heras
@@ -2677,7 +2674,6 @@ isola
 isole
 isolo
 istmo
-italo
 itens
 itera
 itere
@@ -2715,7 +2711,6 @@ jesus
 jilos
 jinga
 jipes
-joana
 jogai
 jogam
 jogar
@@ -2724,7 +2719,6 @@ jogos
 jogou
 jogue
 joias
-jorge
 jorra
 jorre
 jorro
@@ -2758,7 +2752,9 @@ juros
 jurou
 justa
 justo
+kioto
 kiwis
+klein
 kombi
 labia
 labio
@@ -2984,7 +2980,6 @@ lonas
 longa
 longe
 longo
-lopes
 loque
 lorde
 lotai
@@ -3104,9 +3099,7 @@ mapea
 marca
 marco
 mares
-maria
 marra
-marta
 marte
 masca
 masco
@@ -3393,6 +3386,7 @@ mures
 muros
 murou
 murro
+murta
 musas
 musca
 musco
@@ -3522,7 +3516,6 @@ nulas
 nulos
 numas
 nunca
-nunes
 nutra
 nutre
 nutri
@@ -3701,7 +3694,6 @@ paiol
 paira
 paire
 pairo
-paiva
 pajea
 pajem
 pajes
@@ -3765,8 +3757,6 @@ patim
 patio
 patos
 patua
-paula
-paulo
 pausa
 pauta
 paute
@@ -3860,6 +3850,7 @@ peses
 pesos
 pesou
 peste
+pesto
 petiz
 piaba
 piada
@@ -4250,6 +4241,7 @@ refem
 refez
 refil
 refiz
+refri
 regai
 regam
 regar
@@ -4722,7 +4714,6 @@ silos
 silva
 silve
 silvo
-simao
 simio
 sinal
 sinas
@@ -4830,8 +4821,6 @@ sorvo
 sosia
 sotao
 soube
-sousa
-souza
 sovai
 sovam
 sovar
@@ -5011,7 +5000,6 @@ teime
 teimo
 telao
 telas
-teles
 telha
 temam
 temas
@@ -5274,6 +5262,7 @@ turbe
 turbo
 turca
 turco
+turfe
 turma
 turne
 turno
@@ -5461,6 +5450,7 @@ vedei
 vedem
 vedes
 vedou
+vegas
 veias
 veios
 vejai
@@ -5536,11 +5526,9 @@ vexem
 vexes
 vexou
 vezes
-viado
 viaja
 viaje
 viajo
-viana
 vibra
 vibre
 vibro
