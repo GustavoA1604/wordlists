@@ -2,24 +2,24 @@
 
 Provenance and licensing for the raw inputs in `pt-br/sources/`.
 
-| File | Origin | Feeds | License |
-| --- | --- | --- | --- |
-| `finder.js` | [g-pg/wordle-finder](https://github.com/g-pg/wordle-finder) `src/data/words.js` | valid base | see upstream repo |
-| `omret.json` | [vhfarias/omret](https://github.com/vhfarias/omret) `database/wordList.json` | common base (answer candidates) | see upstream repo |
-| `fserb-icf.txt` | [fserb/pt-br](https://github.com/fserb/pt-br) `icf` | candidate queue ranking (`word,score`, lower = more frequent) | see upstream |
-| `silviotamaso.txt` | [silviotamaso/PTBR-dic](https://github.com/silviotamaso/PTBR-dic) | candidate queue (curated "used in Brazil" list) | see upstream |
-| `ueda-palavras.txt` | [Ueda PT-BR dictionaries](https://www.ime.usp.br/~pf/dicios/) | PT-dictionary safeguard for the English filter; otherwise NOT merged | see upstream |
-| `ueda-dicio.txt` | [Ueda PT-BR dictionaries](https://www.ime.usp.br/~pf/dicios/) | PT-dictionary safeguard for the English filter; otherwise NOT merged | see upstream |
+| File                | Origin                                                                          | Feeds                                                                | License           |
+| ------------------- | ------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ----------------- |
+| `finder.js`         | [g-pg/wordle-finder](https://github.com/g-pg/wordle-finder) `src/data/words.js` | valid base                                                           | see upstream repo |
+| `omret.json`        | [vhfarias/omret](https://github.com/vhfarias/omret) `database/wordList.json`    | common base (answer candidates)                                      | see upstream repo |
+| `fserb-icf.txt`     | [fserb/pt-br](https://github.com/fserb/pt-br) `icf`                             | candidate queue ranking (`word,score`, lower = more frequent)        | see upstream      |
+| `silviotamaso.txt`  | [silviotamaso/PTBR-dic](https://github.com/silviotamaso/PTBR-dic)               | candidate queue (curated "used in Brazil" list)                      | see upstream      |
+| `ueda-palavras.txt` | [Ueda PT-BR dictionaries](https://www.ime.usp.br/~pf/dicios/)                   | PT-dictionary safeguard for the English filter; otherwise NOT merged | see upstream      |
+| `ueda-dicio.txt`    | [Ueda PT-BR dictionaries](https://www.ime.usp.br/~pf/dicios/)                   | PT-dictionary safeguard for the English filter; otherwise NOT merged | see upstream      |
 
 ### Filter resources (used by `gen-candidates.js`, never added as words)
 
-| File | Origin | Role | License |
-| --- | --- | --- | --- |
-| `english-words.txt` | [dwyl/english-words](https://github.com/dwyl/english-words) `words_alpha.txt` | flag pure-English words (in English but not in the PT dictionary) | Unlicense |
-| `prenomes-ibge.csv` | [datasets-br/prenomes](https://github.com/datasets-br/prenomes) (IBGE census) | flag people's first names (above a frequency threshold) | see upstream |
-| `world-cities.csv` | [datasets/world-cities](https://github.com/datasets/world-cities) | rescue place names from the English filter | see upstream |
-| `places-paises.txt` | [fserb/pt-br](https://github.com/fserb/pt-br) `listas/paises` | rescue PT country names | see upstream |
-| `places-municipios-br.txt` | [fserb/pt-br](https://github.com/fserb/pt-br) `listas/municipios-br` | rescue Brazilian municipality names | see upstream |
+| File                       | Origin                                                                        | Role                                                              | License      |
+| -------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------- | ------------ |
+| `english-words.txt`        | [dwyl/english-words](https://github.com/dwyl/english-words) `words_alpha.txt` | flag pure-English words (in English but not in the PT dictionary) | Unlicense    |
+| `prenomes-ibge.csv`        | [datasets-br/prenomes](https://github.com/datasets-br/prenomes) (IBGE census) | flag people's first names (above a frequency threshold)           | see upstream |
+| `world-cities.csv`         | [datasets/world-cities](https://github.com/datasets/world-cities)             | rescue place names from the English filter                        | see upstream |
+| `places-paises.txt`        | [fserb/pt-br](https://github.com/fserb/pt-br) `listas/paises`                 | rescue PT country names                                           | see upstream |
+| `places-municipios-br.txt` | [fserb/pt-br](https://github.com/fserb/pt-br) `listas/municipios-br`          | rescue Brazilian municipality names                               | see upstream |
 
 ## Notes
 

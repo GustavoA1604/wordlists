@@ -79,7 +79,10 @@ function writeOutput({ valid, common, stats }) {
   writeFileSync(join(dist, "words.txt"), valid.join("\n") + "\n");
   writeFileSync(join(dist, "common.txt"), common.join("\n") + "\n");
   // No timestamp: keep manifest deterministic so rebuilds are idempotent.
-  writeFileSync(join(dist, "manifest.json"), JSON.stringify(stats, null, 2) + "\n");
+  writeFileSync(
+    join(dist, "manifest.json"),
+    JSON.stringify(stats, null, 2) + "\n",
+  );
 }
 
 // Run as a script: build and write dist/.

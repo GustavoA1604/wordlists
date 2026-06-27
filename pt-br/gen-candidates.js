@@ -30,10 +30,17 @@ const isLen = (w) => w.length === LEN;
 const src = (f) => join(ptbr, "sources", f);
 
 function lines(path) {
-  return readFileSync(path, "utf8").split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
+  return readFileSync(path, "utf8")
+    .split(/\r?\n/)
+    .map((l) => l.trim())
+    .filter(Boolean);
 }
 function normSet(path, filter = isLen) {
-  return new Set(lines(path).map(normalizeWord).filter((w) => w && filter(w)));
+  return new Set(
+    lines(path)
+      .map(normalizeWord)
+      .filter((w) => w && filter(w)),
+  );
 }
 function curatedSet(name) {
   return new Set(readCurated(name).map(normalizeWord).filter(Boolean));
@@ -58,9 +65,14 @@ const silvio = normSet(src("silviotamaso.txt"));
 
 // English filter: word is "pure English" if it is in the English wordlist but not in
 // a traditional PT dictionary (Ueda). Optional: skipped if the file is absent.
-const english = existsSync(src("english-words.txt")) ? normSet(src("english-words.txt")) : new Set();
+const english = existsSync(src("english-words.txt"))
+  ? normSet(src("english-words.txt"))
+  : new Set();
 const ptDict = english.size
-  ? new Set([...normSet(src("ueda-palavras.txt")), ...normSet(src("ueda-dicio.txt"))])
+  ? new Set([
+      ...normSet(src("ueda-palavras.txt")),
+      ...normSet(src("ueda-dicio.txt")),
+    ])
   : new Set();
 
 // Place names: rescue foreign places (texas, paris) that are also English words, so
@@ -117,29 +129,69 @@ const queue = [...new Set([...score.keys(), ...silvio])]
 // rescues from the English bucket (but first names stay filtered even if also a place).
 for (const c of queue) {
   if (c.name && !c.silvio) c.bucket = "name";
-  else if (c.english && !c.ptDict && !c.silvio && !c.place) c.bucket = "english";
+  else if (c.english && !c.ptDict && !c.silvio && !c.place)
+    c.bucket = "english";
   else c.bucket = "clean";
 }
 
 const reviewDir = join(ptbr, "review");
 mkdirSync(reviewDir, { recursive: true });
 const pick = (b) => queue.filter((c) => c.bucket === b).map((c) => c.w);
-const cleanScored = queue.filter((c) => c.bucket === "clean" && c.score !== Infinity).map((c) => c.w);
+const cleanScored = queue
+  .filter((c) => c.bucket === "clean" && c.score !== Infinity)
+  .map((c) => c.w);
 
-writeFileSync(join(reviewDir, `candidates-icf-ranked-${LEN}.txt`), cleanScored.join("\n") + "\n");
-writeFileSync(join(reviewDir, `candidates-silviotamaso-${LEN}.txt`), queue.filter((c) => c.bucket === "clean" && c.silvio).map((c) => c.w).join("\n") + "\n");
-writeFileSync(join(reviewDir, `setaside-names-${LEN}.txt`), pick("name").join("\n") + "\n");
-writeFileSync(join(reviewDir, `setaside-english-${LEN}.txt`), pick("english").join("\n") + "\n");
+writeFileSync(
+  join(reviewDir, `candidates-icf-ranked-${LEN}.txt`),
+  cleanScored.join("\n") + "\n",
+);
+writeFileSync(
+  join(reviewDir, `candidates-silviotamaso-${LEN}.txt`),
+  queue
+    .filter((c) => c.bucket === "clean" && c.silvio)
+    .map((c) => c.w)
+    .join("\n") + "\n",
+);
+writeFileSync(
+  join(reviewDir, `setaside-names-${LEN}.txt`),
+  pick("name").join("\n") + "\n",
+);
+writeFileSync(
+  join(reviewDir, `setaside-english-${LEN}.txt`),
+  pick("english").join("\n") + "\n",
+);
 writeFileSync(
   join(reviewDir, `candidates-${LEN}.annotated.tsv`),
   "word\ticf_score\tsilvio\tenglish\tpt_dict\tname\tplace\tbucket\n" +
-    queue.map((c) => [c.w, c.score === Infinity ? "" : c.score.toFixed(4), c.silvio ? "y" : "", c.english ? "y" : "", c.ptDict ? "y" : "", c.name ? "y" : "", c.place ? "y" : "", c.bucket].join("\t")).join("\n") + "\n",
+    queue
+      .map((c) =>
+        [
+          c.w,
+          c.score === Infinity ? "" : c.score.toFixed(4),
+          c.silvio ? "y" : "",
+          c.english ? "y" : "",
+          c.ptDict ? "y" : "",
+          c.name ? "y" : "",
+          c.place ? "y" : "",
+          c.bucket,
+        ].join("\t"),
+      )
+      .join("\n") +
+    "\n",
 );
 
-console.log(`Candidate queue (${LEN}-letter). Excluded already-decided: ${valid.size} valid, ${added.size} added, ${removed.size} removed.`);
-console.log(`Filters: english wordlist ${english.size ? "on" : "off"}, names>=${NAME_MIN} (${names.size} ${LEN}-letter names), places rescue (${places.size} ${LEN}-letter place tokens).`);
+console.log(
+  `Candidate queue (${LEN}-letter). Excluded already-decided: ${valid.size} valid, ${added.size} added, ${removed.size} removed.`,
+);
+console.log(
+  `Filters: english wordlist ${english.size ? "on" : "off"}, names>=${NAME_MIN} (${names.size} ${LEN}-letter names), places rescue (${places.size} ${LEN}-letter place tokens).`,
+);
 console.log(`  clean queue (ranked):   ${cleanScored.length}`);
-console.log(`  set aside as names:     ${pick("name").length}  -> review/setaside-names-${LEN}.txt`);
-console.log(`  set aside as english:   ${pick("english").length}  -> review/setaside-english-${LEN}.txt`);
+console.log(
+  `  set aside as names:     ${pick("name").length}  -> review/setaside-names-${LEN}.txt`,
+);
+console.log(
+  `  set aside as english:   ${pick("english").length}  -> review/setaside-english-${LEN}.txt`,
+);
 console.log(`\nClean queue, top 50 by frequency:`);
 console.log("  " + cleanScored.slice(0, 50).join(" "));

@@ -66,5 +66,10 @@ const counts = {
 };
 
 console.log("base 5-letter valid:", v5.size, "common:", c5.size);
-console.log("current entrelinhas valid:", curValid.size, "answers:", curAnswers.size);
+console.log(
+  "current entrelinhas valid:",
+  curValid.size,
+  "answers:",
+  curAnswers.size,
+);
 console.log("seeded curated deltas:", counts);

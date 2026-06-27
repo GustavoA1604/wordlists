@@ -32,10 +32,17 @@ const isLen = (w) => w.length === LEN;
 const src = (f) => join(ptbr, "sources", f);
 
 function lines(path) {
-  return readFileSync(path, "utf8").split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
+  return readFileSync(path, "utf8")
+    .split(/\r?\n/)
+    .map((l) => l.trim())
+    .filter(Boolean);
 }
 function normSet(path, filter = isLen) {
-  return new Set(lines(path).map(normalizeWord).filter((w) => w && filter(w)));
+  return new Set(
+    lines(path)
+      .map(normalizeWord)
+      .filter((w) => w && filter(w)),
+  );
 }
 function curatedSet(name) {
   return new Set(readCurated(name).map(normalizeWord).filter(Boolean));
@@ -81,7 +88,9 @@ const addPlace = (field) => {
 if (existsSync(src("world-cities.csv"))) {
   for (const line of lines(src("world-cities.csv")).slice(1)) {
     const c = line.split(",");
-    addPlace(c[0]); addPlace(c[1]); addPlace(c[2]);
+    addPlace(c[0]);
+    addPlace(c[1]);
+    addPlace(c[2]);
   }
 }
 for (const f of ["places-paises.txt", "places-municipios-br.txt"]) {
@@ -91,9 +100,30 @@ for (const f of ["places-paises.txt", "places-municipios-br.txt"]) {
 // Verbal-ending heuristic (weak; just to help scanning). Covers the inflections that
 // distinguish conjugated forms from typical nouns/adjectives at 5 letters.
 const VERB_ENDINGS = [
-  "ou", "ei", "eu", "iu", " am", "em", "ia", "es", "as",
-  "ado", "ido", "ava", "era", "ira", "amos", "emos", "imos",
-  "asse", "esse", "isse", "ara", "aram", "eram", "iram",
+  "ou",
+  "ei",
+  "eu",
+  "iu",
+  " am",
+  "em",
+  "ia",
+  "es",
+  "as",
+  "ado",
+  "ido",
+  "ava",
+  "era",
+  "ira",
+  "amos",
+  "emos",
+  "imos",
+  "asse",
+  "esse",
+  "isse",
+  "ara",
+  "aram",
+  "eram",
+  "iram",
 ];
 const verbish = (w) => VERB_ENDINGS.some((e) => w.endsWith(e));
 
@@ -133,14 +163,23 @@ writeFileSync(
           c.place ? "y" : "",
         ].join("\t"),
       )
-      .join("\n") + "\n",
+      .join("\n") +
+    "\n",
 );
 
-console.log(`Target length: ${LEN}. Already-decided excluded: ${valid.size} valid.`);
+console.log(
+  `Target length: ${LEN}. Already-decided excluded: ${valid.size} valid.`,
+);
 console.log(`Words ueda-dicio has but the export lacks: ${gap.length}`);
-console.log(`  set aside as first names (>=${NAME_MIN}): ${gap.filter((c) => c.name).length}`);
-console.log(`  set aside as places only:                ${clean.filter((c) => c.place && !c.verbish).length}`);
-console.log(`  review queue (verb-ish / non-place):     ${verbCandidates.length}`);
+console.log(
+  `  set aside as first names (>=${NAME_MIN}): ${gap.filter((c) => c.name).length}`,
+);
+console.log(
+  `  set aside as places only:                ${clean.filter((c) => c.place && !c.verbish).length}`,
+);
+console.log(
+  `  review queue (verb-ish / non-place):     ${verbCandidates.length}`,
+);
 console.log(`  -> review/verb-conjugations-${LEN}.txt`);
 console.log(`  -> review/verb-conjugations-${LEN}.annotated.tsv`);
 console.log(`\nReview queue:`);

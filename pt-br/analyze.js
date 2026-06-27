@@ -10,7 +10,13 @@
 //
 // Usage: node pt-br/analyze.js [--len=5] [--min=3] [--max=15]
 
-import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync } from "node:fs";
+import {
+  readFileSync,
+  writeFileSync,
+  mkdirSync,
+  readdirSync,
+  existsSync,
+} from "node:fs";
 import { join, basename } from "node:path";
 import { pathToFileURL } from "node:url";
 import { normalizeWord, sortUnique } from "../lib/normalize.js";
@@ -29,7 +35,10 @@ function inRange(w) {
 }
 
 function readLines(path) {
-  return readFileSync(path, "utf8").split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
+  return readFileSync(path, "utf8")
+    .split(/\r?\n/)
+    .map((l) => l.trim())
+    .filter(Boolean);
 }
 
 // Pull plausible word tokens out of an arbitrary text/js/json blob.
@@ -47,7 +56,9 @@ function extractRaw(path) {
 }
 
 const baseline = new Set(
-  readLines(join(ptbr, "dist", "words.txt")).map(normalizeWord).filter(Boolean),
+  readLines(join(ptbr, "dist", "words.txt"))
+    .map(normalizeWord)
+    .filter(Boolean),
 );
 
 // Build the candidate list: local Ueda files + anything in _candidates/.
@@ -59,7 +70,10 @@ const candDir = join(ptbr, "_candidates");
 if (existsSync(candDir)) {
   for (const f of readdirSync(candDir)) {
     if (/\.(txt|js|json)$/.test(f)) {
-      candidates.push({ name: basename(f).replace(/\.[^.]+$/, ""), path: join(candDir, f) });
+      candidates.push({
+        name: basename(f).replace(/\.[^.]+$/, ""),
+        path: join(candDir, f),
+      });
     }
   }
 }
@@ -76,21 +90,27 @@ function lenHistogram(words) {
 const scopeLabel = onlyLen
   ? `len=${onlyLen}`
   : `len ${minLen}..${maxLen === Infinity ? "∞" : maxLen}`;
-console.log(`Baseline (current dist/words.txt): ${baseline.size} words, all 5-letter`);
+console.log(
+  `Baseline (current dist/words.txt): ${baseline.size} words, all 5-letter`,
+);
 console.log(`Scope for "added" counts: ${scopeLabel}\n`);
 
 const rows = [];
 for (const c of candidates) {
   let raw;
   try {
-    raw = c.path.endsWith(".js") ? Object.values(await import(pathToFileURL(c.path).href)).flat() : extractRaw(c.path);
+    raw = c.path.endsWith(".js")
+      ? Object.values(await import(pathToFileURL(c.path).href)).flat()
+      : extractRaw(c.path);
   } catch (e) {
     console.log(`! ${c.name}: failed to read (${e.message})`);
     continue;
   }
   const normalized = sortUnique(raw.flat().map(normalizeWord).filter(Boolean));
   const added = normalized.filter((w) => !baseline.has(w) && inRange(w));
-  const addedFive = normalized.filter((w) => !baseline.has(w) && w.length === 5);
+  const addedFive = normalized.filter(
+    (w) => !baseline.has(w) && w.length === 5,
+  );
 
   writeFileSync(join(outDir, `${c.name}.added.txt`), added.join("\n") + "\n");
   rows.push({

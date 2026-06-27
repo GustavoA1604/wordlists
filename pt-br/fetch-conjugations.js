@@ -34,7 +34,10 @@ const src = (f) => join(ptbr, "sources", f);
 const cacheDir = join(ptbr, "_conjcache");
 
 function lines(path) {
-  return readFileSync(path, "utf8").split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
+  return readFileSync(path, "utf8")
+    .split(/\r?\n/)
+    .map((l) => l.trim())
+    .filter(Boolean);
 }
 function normLines(path) {
   return lines(path).map(normalizeWord).filter(Boolean);
@@ -60,19 +63,68 @@ for (const line of lines(src("fserb-icf.txt"))) {
 function defaultTargets() {
   const ueda = new Set([...normLines(src("ueda-palavras.txt")), ...dicio]);
   const END = {
-    ar: ["o","as","a","ava","amos","ei","ou","ara","aria","asse","ado","emos","aram","arao"],
-    er: ["o","es","e","ia","emos","eu","era","eria","esse","ido","eram","erao","erei"],
-    ir: ["o","es","e","imos","iu","ira","iria","isse","ido","iram","irao","irei","is"],
+    ar: [
+      "o",
+      "as",
+      "a",
+      "ava",
+      "amos",
+      "ei",
+      "ou",
+      "ara",
+      "aria",
+      "asse",
+      "ado",
+      "emos",
+      "aram",
+      "arao",
+    ],
+    er: [
+      "o",
+      "es",
+      "e",
+      "ia",
+      "emos",
+      "eu",
+      "era",
+      "eria",
+      "esse",
+      "ido",
+      "eram",
+      "erao",
+      "erei",
+    ],
+    ir: [
+      "o",
+      "es",
+      "e",
+      "imos",
+      "iu",
+      "ira",
+      "iria",
+      "isse",
+      "ido",
+      "iram",
+      "irao",
+      "irei",
+      "is",
+    ],
   };
   const ger = { ar: "ando", er: "endo", ir: "indo" };
   const targets = new Set();
   for (const inf of ueda) {
     if (!/(ar|er|ir)$/.test(inf) || inf.length < 3) continue;
-    const c = inf.slice(-2), s = inf.slice(0, -2);
+    const c = inf.slice(-2),
+      s = inf.slice(0, -2);
     if (!dicio.has(s + ger[c])) continue; // verb test: gerund exists
     for (const e of END[c]) {
       const f = s + e;
-      if (f.length === LEN && !valid.has(f) && !removed.has(f) && !dicio.has(f)) {
+      if (
+        f.length === LEN &&
+        !valid.has(f) &&
+        !removed.has(f) &&
+        !dicio.has(f)
+      ) {
         targets.add(inf);
         break;
       }
@@ -81,8 +133,11 @@ function defaultTargets() {
   return [...targets].sort();
 }
 
-const targets = (args.verbs ? lines(args.verbs).map(normalizeWord).filter(Boolean) : defaultTargets())
-  .slice(0, LIMIT);
+const targets = (
+  args.verbs
+    ? lines(args.verbs).map(normalizeWord).filter(Boolean)
+    : defaultTargets()
+).slice(0, LIMIT);
 
 mkdirSync(cacheDir, { recursive: true });
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -93,15 +148,25 @@ async function getHtml(verb) {
   const url = `https://www.conjugacao.com.br/verbo-${verb}/`;
   for (let attempt = 1; attempt <= 3; attempt++) {
     try {
-      const res = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0 (wordlists conjugation gap audit)" } });
-      if (res.status === 404) { writeFileSync(file, ""); return ""; } // not a verb / no page
+      const res = await fetch(url, {
+        headers: {
+          "User-Agent": "Mozilla/5.0 (wordlists conjugation gap audit)",
+        },
+      });
+      if (res.status === 404) {
+        writeFileSync(file, "");
+        return "";
+      } // not a verb / no page
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const html = await res.text();
       writeFileSync(file, html);
       await sleep(DELAY);
       return html;
     } catch (e) {
-      if (attempt === 3) { console.error(`  ! ${verb}: ${e.message}`); return ""; }
+      if (attempt === 3) {
+        console.error(`  ! ${verb}: ${e.message}`);
+        return "";
+      }
       await sleep(DELAY * attempt * 2);
     }
   }
@@ -120,23 +185,32 @@ function parseForms(html) {
 }
 
 const proposals = new Map(); // normalized form -> {verb, irregular, score}
-let fetched = 0, fromCache = 0, withPage = 0;
+let fetched = 0,
+  fromCache = 0,
+  withPage = 0;
 
 for (const verb of targets) {
   const cached = existsSync(join(cacheDir, `${verb}.html`));
   const html = await getHtml(verb);
-  if (cached) fromCache++; else fetched++;
+  if (cached) fromCache++;
+  else fetched++;
   if (!html) continue;
   withPage++;
   for (const { raw, irregular } of parseForms(html)) {
     const w = normalizeWord(raw);
     if (!w || !isLen(w) || decided.has(w)) continue;
     if (!proposals.has(w)) {
-      proposals.set(w, { verb, irregular, score: score.has(w) ? score.get(w) : Infinity });
+      proposals.set(w, {
+        verb,
+        irregular,
+        score: score.has(w) ? score.get(w) : Infinity,
+      });
     }
   }
   if ((fetched + fromCache) % 25 === 0) {
-    console.error(`  ...${fetched + fromCache}/${targets.length} verbs (${proposals.size} candidates so far)`);
+    console.error(
+      `  ...${fetched + fromCache}/${targets.length} verbs (${proposals.size} candidates so far)`,
+    );
   }
 }
 
@@ -146,16 +220,35 @@ const rows = [...proposals.entries()]
 
 const reviewDir = join(ptbr, "review");
 mkdirSync(reviewDir, { recursive: true });
-writeFileSync(join(reviewDir, `verb-network-candidates-${LEN}.txt`), rows.map((r) => r.w).join("\n") + "\n");
+writeFileSync(
+  join(reviewDir, `verb-network-candidates-${LEN}.txt`),
+  rows.map((r) => r.w).join("\n") + "\n",
+);
 writeFileSync(
   join(reviewDir, `verb-network-candidates-${LEN}.annotated.tsv`),
   "word\tscore\tirregular\tverb\n" +
-    rows.map((r) => [r.w, r.score === Infinity ? "" : r.score.toFixed(4), r.irregular ? "y" : "", r.verb].join("\t")).join("\n") + "\n",
+    rows
+      .map((r) =>
+        [
+          r.w,
+          r.score === Infinity ? "" : r.score.toFixed(4),
+          r.irregular ? "y" : "",
+          r.verb,
+        ].join("\t"),
+      )
+      .join("\n") +
+    "\n",
 );
 
-console.log(`\nTarget verbs: ${targets.length} (fetched ${fetched}, cached ${fromCache}, with a page ${withPage})`);
-console.log(`New ${LEN}-letter forms missing from both dist and ueda-dicio: ${rows.length}`);
-console.log(`  irregular forms among them: ${rows.filter((r) => r.irregular).length}`);
+console.log(
+  `\nTarget verbs: ${targets.length} (fetched ${fetched}, cached ${fromCache}, with a page ${withPage})`,
+);
+console.log(
+  `New ${LEN}-letter forms missing from both dist and ueda-dicio: ${rows.length}`,
+);
+console.log(
+  `  irregular forms among them: ${rows.filter((r) => r.irregular).length}`,
+);
 console.log(`  -> review/verb-network-candidates-${LEN}.txt`);
 console.log(`\nAll candidates:`);
 console.log("  " + rows.map((r) => r.w).join(" "));
