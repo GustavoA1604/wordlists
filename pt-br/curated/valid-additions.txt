@@ -1,5 +1,8 @@
 # valid-additions: words to force-include in the valid pool
+acaju
 aedes
+ancho
+angus
 araxa
 aries
 astra
@@ -10,6 +13,7 @@ belgo
 betim
 blitz
 blues
+bocos
 botox
 budas
 bumba
@@ -87,6 +91,7 @@ mouse
 mugem
 muges
 nepal
+nucas
 nylon
 obice
 oscar
@@ -130,6 +135,7 @@ strip
 suite
 sushi
 tamil
+tatos
 tchan
 tchau
 tesla
