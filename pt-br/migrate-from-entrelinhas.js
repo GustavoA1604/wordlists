@@ -29,47 +29,30 @@ function writeCurated(name, words, header) {
 
 const entrelinhas = process.argv[2] || "D:/dev/entrelinhas";
 
-const { validBase, commonBase } = await bases();
+const { t1Base, t2Base, t3Base } = await bases();
 
-const v5 = new Set(validBase.filter((w) => FIVE.test(w)));
-const c5 = new Set(commonBase.filter((w) => FIVE.test(w)));
+const allBase = [...t1Base, ...t2Base, ...t3Base];
+const v5 = new Set(allBase.filter((w) => FIVE.test(w)));
+const c5 = new Set(t1Base.filter((w) => FIVE.test(w)));
 
 const curValid = parseQuotedWords(join(entrelinhas, "src/data/valid.js"));
 const curAnswers = parseQuotedWords(join(entrelinhas, "src/data/answers.js"));
 
-const validAdd = [...curValid].filter((w) => !v5.has(w));
-const validRemove = [...v5].filter((w) => !curValid.has(w));
-const commonAdd = [...curAnswers].filter((w) => !c5.has(w));
-const commonRemove = [...c5].filter((w) => !curAnswers.has(w));
+// Words missing from sources go into t2 (extended) by default.
+// Words that sources include as t1 but should be excluded from answers go into t2.
+const t1Add = [...curAnswers].filter((w) => !c5.has(w));
+const t2Add = [
+  ...[...curValid].filter((w) => !v5.has(w)),       // missing from valid sources
+  ...[...c5].filter((w) => !curAnswers.has(w)),      // demoted from t1
+];
+const removed = [...v5].filter((w) => !curValid.has(w));
 
 const counts = {
-  "valid-additions.txt": writeCurated(
-    "valid-additions.txt",
-    validAdd,
-    "valid-additions: words to force-include in the valid pool",
-  ),
-  "valid-removals.txt": writeCurated(
-    "valid-removals.txt",
-    validRemove,
-    "valid-removals: words to force-exclude from the valid pool",
-  ),
-  "common-additions.txt": writeCurated(
-    "common-additions.txt",
-    commonAdd,
-    "common-additions: words to force-include in the common pool (implies valid)",
-  ),
-  "common-removals.txt": writeCurated(
-    "common-removals.txt",
-    commonRemove,
-    "common-removals: words to drop from the common pool (stay valid)",
-  ),
+  "t1.txt": writeCurated("t1.txt", t1Add, "t1: words to force into tier 1"),
+  "t2.txt": writeCurated("t2.txt", t2Add, "t2: words to force into tier 2"),
+  "removals.txt": writeCurated("removals.txt", removed, "removals: words to exclude from all tiers"),
 };
 
-console.log("base 5-letter valid:", v5.size, "common:", c5.size);
-console.log(
-  "current entrelinhas valid:",
-  curValid.size,
-  "answers:",
-  curAnswers.size,
-);
+console.log("base 5-letter valid:", v5.size, "t1:", c5.size);
+console.log("current entrelinhas valid:", curValid.size, "answers:", curAnswers.size);
 console.log("seeded curated deltas:", counts);

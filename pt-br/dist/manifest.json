@@ -1,10 +1,13 @@
 {
-  "validBase": 5632,
-  "commonBase": 2016,
-  "validAdditions": 162,
-  "validRemovals": 77,
-  "commonAdditions": 20,
-  "commonRemovals": 47,
-  "valid": 5718,
-  "common": 1989
+  "t1Base": 6468,
+  "t2Base": 18990,
+  "t3Base": 23391,
+  "curatedT1": 20,
+  "curatedT2": 14694,
+  "curatedT3": 7254,
+  "rejections": 691,
+  "t1": 6205,
+  "t2": 27021,
+  "t3": 13803,
+  "valid": 47029
 }

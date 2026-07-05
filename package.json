@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "build": "node pt-br/build.js",
+    "lint-curated": "node pt-br/lint-curated.js",
     "candidates": "node pt-br/gen-candidates.js",
     "verb-gap": "node pt-br/gen-verb-candidates.js",
     "verb-gap:network": "node pt-br/fetch-conjugations.js",
