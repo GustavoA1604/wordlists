@@ -201,6 +201,7 @@ acelerado
 acelerador
 acelerar
 acelero
+acem
 acenar
 acender
 acendeu
@@ -5229,7 +5230,6 @@ ciclos
 cidada
 cidadaos
 cidadas
-cie
 ciei
 ciencias
 ciente
@@ -8507,8 +8507,6 @@ egoismos
 egoista
 egoistas
 einstein
-eira
-eiro
 eito
 eivada
 eivadas
@@ -11318,10 +11316,12 @@ gargalo
 gargalos
 garganta
 gargantas
+gari
 garibaldi
 garimpa
 garimpas
 garimpo
+garis
 garoas
 garotas
 garotinho
@@ -11803,7 +11803,6 @@ gozavam
 gozavamos
 goze
 gozo
-gra
 graceja
 gracejas
 gracejo
@@ -12131,7 +12130,6 @@ historiador
 historicamente
 historio
 hitita
-hits
 hobby
 holandes
 holandesa
@@ -14142,7 +14140,6 @@ lixeira
 lixeiras
 lixeiro
 lixeiros
-loa
 loba
 lobao
 lobato
@@ -16648,7 +16645,6 @@ oficinas
 oficios
 ofuscar
 ogivas
-ohm
 oitava
 oitavas
 oitavo
@@ -18552,7 +18548,6 @@ pontudo
 pontudos
 pontuo
 pontuou
-pool
 popa
 populacional
 popularmente
@@ -21215,7 +21210,6 @@ rubros
 ruco
 rude
 rudeza
-rue
 ruela
 ruelas
 ruem
@@ -21665,7 +21659,6 @@ sebentas
 sebento
 sebentos
 sebo
-sec
 secador
 secagem
 secagens

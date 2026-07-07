@@ -515,7 +515,6 @@ open
 org
 orlando
 osmar
-out
 oxford
 paiva
 pal
@@ -594,7 +593,6 @@ sarmento
 sb
 sc
 service
-set
 severino
 sf
 share
@@ -624,7 +622,6 @@ stick
 still
 sum
 sup
-sus
 susana
 tai
 tancredo

@@ -156,6 +156,7 @@ aborto
 abortos
 abotoar
 abotoares
+abr
 abra
 abraca
 abracando
@@ -387,6 +388,7 @@ acelerar
 acelerares
 aceleras
 acelero
+acem
 acena
 acenar
 acenares
@@ -10273,6 +10275,7 @@ comandante
 comandar
 comandares
 comandas
+comande
 comando
 comandos
 comandou
@@ -18920,6 +18923,7 @@ feudais
 feudal
 feudo
 feudos
+fev
 fevereiro
 fez
 fezes
@@ -20857,6 +20861,7 @@ gargalo
 gargalos
 garganta
 gargantas
+gari
 garibaldi
 garimpa
 garimpas
@@ -24300,6 +24305,7 @@ jaguncos
 jamaica
 jamais
 jambu
+jan
 janeiro
 janela
 janelas
@@ -24573,6 +24579,7 @@ juizas
 juizes
 juizo
 juizos
+jul
 julga
 julgada
 julgadas
@@ -24602,6 +24609,7 @@ jumenta
 jumentas
 jumento
 jumentos
+jun
 juncal
 juncao
 junco
@@ -26684,6 +26692,7 @@ magreza
 magrinha
 magro
 magros
+mai
 maia
 maias
 mail
@@ -29988,6 +29997,7 @@ noutras
 noutro
 noutros
 nouveau
+nov
 nova
 noval
 novamente
@@ -31243,6 +31253,7 @@ ousemos
 ouses
 ouso
 ousou
+out
 outdoor
 outeiro
 outeiros
@@ -39209,6 +39220,7 @@ rustico
 rusticos
 sa
 saara
+sab
 sabado
 sabados
 sabao
@@ -39962,6 +39974,7 @@ seduz
 seduzes
 seduzir
 seduzires
+seg
 sega
 segmenta
 segmentacao
@@ -40397,6 +40410,7 @@ sessenta
 sessoes
 sesta
 sestas
+set
 seta
 setas
 sete
@@ -42034,6 +42048,7 @@ surtes
 surtir
 surto
 suruba
+sus
 suscetivel
 sushi
 suspeita

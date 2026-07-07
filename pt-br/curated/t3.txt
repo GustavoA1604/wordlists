@@ -32,6 +32,7 @@ aborda
 abordares
 abordas
 abotoares
+abr
 abraca
 abracares
 abracas
@@ -2130,6 +2131,7 @@ ciaste
 ciastes
 ciavas
 ciaveis
+cie
 cieis
 ciem
 ciemos
@@ -2283,6 +2285,7 @@ comamos
 comanda
 comandares
 comandas
+comande
 combateres
 combates
 combina
@@ -3265,6 +3268,8 @@ efetivas
 efetuares
 efetuas
 eh
+eira
+eiro
 eita
 ejetas
 ejetes
@@ -3887,6 +3892,7 @@ festejares
 festejas
 fetiche
 fetiches
+fev
 fiai
 fiaras
 fiardes
@@ -4546,6 +4552,7 @@ gozavas
 gozaveis
 gozeis
 gozemos
+gra
 graal
 graciosas
 gracioso
@@ -4644,6 +4651,7 @@ hi
 hip
 histerias
 hit
+hits
 homilias
 homossexualismo
 honduras
@@ -4950,6 +4958,7 @@ jacuzzi
 jaguar
 jaguares
 jamaica
+jan
 jantares
 jantas
 jantes
@@ -5005,6 +5014,7 @@ jorras
 jorres
 jubileus
 judies
+jul
 julga
 julgadora
 julgadoras
@@ -5013,6 +5023,7 @@ julgares
 julgas
 julgavas
 julgues
+jun
 juntadas
 juntado
 juntados
@@ -5299,6 +5310,7 @@ lixavas
 lixaveis
 lixeis
 lixemos
+loa
 lobby
 localizes
 locaras
@@ -5464,6 +5476,7 @@ mafra
 magoares
 magoas
 magoes
+mai
 malasia
 malasio
 malhares
@@ -6112,6 +6125,7 @@ notavas
 notebook
 noteis
 notemos
+nov
 novinha
 nucleares
 nude
@@ -6224,6 +6238,7 @@ oficia
 oficiares
 oficias
 ofuscares
+ohm
 olfatos
 olhais
 olharas
@@ -6394,6 +6409,7 @@ ousavas
 ousaveis
 ouseis
 ousemos
+out
 outdoor
 outlet
 ouvias
@@ -6954,6 +6970,7 @@ pontinho
 pontuais
 pontuares
 pontuas
+pool
 poreis
 porias
 porno
@@ -7207,6 +7224,7 @@ puxaveis
 puxeis
 puxemos
 puzzle
+qua
 quadras
 quantum
 quark
@@ -7226,6 +7244,7 @@ queixas
 quereres
 queres
 querias
+qui
 quietas
 quilombos
 quintetos
@@ -8013,6 +8032,7 @@ royalties
 rpm
 rublos
 rubras
+rue
 rufa
 rufais
 rufaras
@@ -8097,6 +8117,7 @@ rupia
 rusga
 rusgas
 rush
+sab
 saberas
 saberdes
 sabereis
@@ -8227,6 +8248,7 @@ saxofones
 scanner
 screen
 script
+sec
 secais
 secaras
 secardes
@@ -8263,6 +8285,7 @@ sedias
 sedies
 seduzes
 seduzires
+seg
 segues
 segui
 seguias
@@ -8341,6 +8364,7 @@ servirias
 servis
 serzes
 serzis
+set
 sex
 sexy
 shake
@@ -8720,6 +8744,7 @@ surres
 surtas
 surtes
 suruba
+sus
 sustares
 sustas
 susteres

@@ -87,6 +87,7 @@ aceitava
 aceitem
 aceitos
 acelero
+acem
 acendeu
 acendia
 acene
@@ -2815,7 +2816,6 @@ ciclones
 ciclos
 cidadaos
 cidadas
-cie
 ciei
 ciencias
 cifre
@@ -5756,8 +5756,10 @@ garcons
 garfos
 gargalos
 gargantas
+gari
 garimpa
 garimpas
+garis
 garoas
 garrafas
 garrida

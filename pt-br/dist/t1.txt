@@ -2747,7 +2747,6 @@ garantir
 garbo
 garca
 garfo
-garis
 garoa
 garota
 garoto
@@ -4763,7 +4762,6 @@ puro
 puros
 puxao
 puxar
-qua
 quadra
 quadrado
 quadrados
@@ -4808,7 +4806,6 @@ querida
 querido
 quero
 questao
-qui
 quibe
 quica
 quilo
