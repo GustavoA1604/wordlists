@@ -127,13 +127,6 @@ To evaluate a brand-new source, drop a `*.txt` / `*.js` / `*.json` into
 `pt-br/_candidates/` and run `npm run analyze` to see how many (and which) words it
 would add versus the current export.
 
-## Auditing against external conjugators
-
-MorphoBr is the morphological ground truth. Two network scripts survive as
-independent cross-checks against conjugacao.com.br (cached under the gitignored
-`pt-br/_conjcache/`): `npm run verb-gap` (local diff vs ueda-dicio) and
-`npm run verb-gap:network`. They only write to `pt-br/review/`.
-
 ## Regenerating the MorphoBr snapshot
 
 ```bash

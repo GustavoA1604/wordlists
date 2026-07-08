@@ -3,5 +3,4 @@ node_modules/
 .claude
 analysis/
 _candidates/
-_conjcache/
 review/

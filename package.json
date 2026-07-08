@@ -10,8 +10,6 @@
     "move": "node --max-old-space-size=6000 pt-br/move.js",
     "lint-curated": "node --max-old-space-size=6000 pt-br/lint-curated.js",
     "candidates": "node pt-br/gen-candidates.js",
-    "verb-gap": "node pt-br/gen-verb-candidates.js",
-    "verb-gap:network": "node pt-br/fetch-conjugations.js",
     "analyze": "node pt-br/analyze.js",
     "compile-morphobr": "node --max-old-space-size=6000 pt-br/compile-morphobr.js",
     "test": "node --max-old-space-size=6000 --test",

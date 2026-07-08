@@ -1,7 +1,7 @@
 // Core tiering engine: sources + MorphoBr morphology + curated decisions -> tiers.
 //
-// Shared by build.js (dist generation), migrate-to-lemmas.js (one-off migration),
-// and word.js / move.js (curation CLIs). See README.md "How tiering works".
+// Shared by build.js (dist generation), lint-curated.js, and word.js / move.js
+// (curation CLIs). See README.md "How tiering works".
 //
 // The model separates facts from decisions:
 //   facts     - morphology (lemma, POS, features) comes from sources/morphobr.tsv.gz

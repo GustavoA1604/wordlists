@@ -24,18 +24,21 @@ Provenance and licensing for the raw inputs in `pt-br/sources/`.
 
 ## Notes
 
-- The current `valid` base is `finder` plus the `omret` common words. This
-  reproduces the lists entrelinhas shipped before this repo existed (5,584 valid /
-  2,016 common at 5 letters).
-- `fserb-icf.txt` and `silviotamaso.txt` are NOT merged into the build base. They
-  feed the review queue (`npm run candidates`): no broad source is clean enough to
-  auto-accept (each carries its own noise: brand names and anglicisms by frequency,
-  archaic/obscure words by dictionary). New words enter `valid` only after manual
-  review into `curated/valid-additions.txt`.
-- The Ueda dictionaries are committed and available via `loadUedaSources()` in
-  `lib/sources.js`, but are not wired into anything yet. They are the extension point
-  for a strict "is this a real word" game or longer-word coverage.
-- Other candidate sources evaluated but not adopted: fserb-lexico (web lexicon, still
-  noisy), AlfredoFilho/Palavras_PT-BR (huge, very noisy), datasets-br/unitex-pt-br.
+- The tier bases: t1 = `omret` + top-5k of `fserb-icf`; t2 = `silviotamaso` +
+  top-15k of `fserb-icf`; t3 = `finder` + ranks 15k-20k of `fserb-icf`. On top of
+  the bases, the engine expands the paradigms of in-game lemmas using
+  `morphobr.tsv.gz` and applies the curated decisions (see README "How tiering
+  works").
+- Broad sources beyond those slices are NOT auto-merged: no broad source is clean
+  enough (brand names and anglicisms by frequency, archaic/obscure words by
+  dictionary). New words enter through the review queue (`npm run candidates`)
+  and are recorded with `npm run move`.
+- The Ueda dictionaries are not merged as words. They serve as the broad
+  PT-dictionary safeguard for the English filter in `gen-candidates.js` and as a
+  comparison baseline in `analyze.js`.
+- Other candidate sources evaluated but not adopted as word sources: fserb-lexico
+  (web lexicon, still noisy), AlfredoFilho/Palavras_PT-BR (huge, very noisy).
+  Unitex-PB data entered indirectly: MorphoBr (adopted for morphology, not as a
+  word source) is built on it.
 - Use `npm run analyze` to compare any new source (drop a `*.txt`/`*.js`/`*.json`
   file in `pt-br/_candidates/`) against the current export before adopting it.
