@@ -24,6 +24,7 @@ aclamado	A	3
 acolhido	-	3
 acorda	N	3
 acrescento	N	3
+adao	N	3	
 adentro	ADV	3
 adiantado	-	3
 admirado	A	3
@@ -678,7 +679,7 @@ islandia	-	3	country
 iso	-	3
 it	N	3	english
 itapemirim	-	3	place
-itau	PROP	3	
+itau	PROP	3
 itrio	N	3
 jacarei	-	3	place
 jacobino	-	3
@@ -867,7 +868,7 @@ muni	N	3
 mura	N	3
 murcha	N	3
 murta	N	2
-mus	-	3	
+mus	-	3
 muscas	-	3
 nacho	-	2	english
 nadadoro	-	2
@@ -950,7 +951,7 @@ peneiro	N	2
 penetra	-	3
 penis	N	2
 penne	-	2
-per	-	3	
+per	-	3
 perdoado	A	3
 pericio	-	2
 perpetuas	N	2
@@ -1316,7 +1317,7 @@ tempera	N	3
 tempero	N	3
 template	-	3	english
 teresopolis	-	3	place
-tes	-	3	
+tes	-	3
 tesao	N	3
 tesla	N	2
 test	-	3
@@ -1462,7 +1463,7 @@ zeraveis	-	3
 zere	A	2
 zereis	-	3
 zeremos	-	3
-zeus	PROP	3	
+zeus	PROP	3
 zika	-	3
 zomba	N	3	place
 zombie	N	3

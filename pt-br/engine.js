@@ -25,10 +25,13 @@
 //     imperative (rule: 2nd person + imperatives
 //     land in t3)
 //   - lemma in t3                                  -> t3
-//   - verb form whose lemma is below t1, unless    -> t3
-//     the form itself is frequency-attested
-//     (t2 base): conjugations of uncommon verbs
-//     are obscure even when regular
+//   - verb form whose lemma is below t1, and       -> t3
+//     subjunctive/imperative-only forms of any
+//     verb, unless the form itself is
+//     frequency-attested (t1/t2 base) and not an
+//     English-only word: conjugations of uncommon
+//     verbs and unattested exhortative forms are
+//     obscure even when regular
 //   - any other inflection (conjugation, plural,   -> max(lemma tier, 2)
 //     feminine, participle, gerund)
 //   - DIM/AUG/SUPER rows contribute nothing: MorphoBr generates -zinho/-zao/
@@ -146,6 +149,19 @@ export async function loadEngine() {
   const forms = readForms();
   const removals = new Set(readCurated("removals.txt").map(normalizeWord).filter(Boolean));
 
+  // English words that are NOT also in a broad PT dictionary: their presence in
+  // the frequency corpus attests English usage, not Portuguese (same test as
+  // gen-candidates.js). Used to deny frequency rescue to verb-form homographs.
+  const englishNoise = (() => {
+    const read = (f) =>
+      readFileSync(join(ptbr, "sources", f), "utf8")
+        .split(/\r?\n/)
+        .map(normalizeWord)
+        .filter(Boolean);
+    const pt = new Set([...read("ueda-palavras.txt"), ...read("ueda-dicio.txt")]);
+    return new Set(read("english-words.txt").filter((w) => !pt.has(w)));
+  })();
+
   const baseTier = (w) =>
     t1Base.has(w) ? 1 : t2Base.has(w) ? 2 : t3Base.has(w) ? 3 : null;
 
@@ -179,10 +195,19 @@ export async function loadEngine() {
     if (form === lemma) return lt;
     if (lt === 3) return 3;
     if (pos === "V" && verbObscure(real)) return 3;
-    // Conjugations of less frequent verbs (lemma below t1) are obscure unless
-    // the form itself is frequency-attested (t2 base): "rezei" (rezar, t1)
-    // stays t2, but "azei" (azar the verb, t2) should not be an answer.
-    if (pos === "V" && lt >= 2 && !t2Base.has(form)) return 3;
+    if (pos === "V") {
+      // Two classes of conjugation are obscure unless the form itself is
+      // frequency-attested: any form of a less frequent verb (lemma below t1,
+      // "azei"/"tombavam"), and subjunctive/imperative-only forms even of t1
+      // verbs ("vare": nobody meets it outside "que ele vare"; "fale"/"coma"
+      // are attested and stay). Attestation is denied when the form is an
+      // English word absent from the PT dictionaries: corpus frequency for
+      // "ale" or "spot" attests English, not Portuguese.
+      const subjOnly = real.every((r) => /^(IMP|SBJR|SBJP|SBJF)(\+|$)/.test(r.feats));
+      const attested =
+        (t1Base.has(form) || t2Base.has(form)) && !englishNoise.has(form);
+      if ((lt >= 2 || subjOnly) && !attested) return 3;
+    }
     return Math.max(lt, 2);
   }
 

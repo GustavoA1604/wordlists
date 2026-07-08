@@ -28,6 +28,7 @@ age	3	migrated: explicit t1-related decision
 agencio	2	migrated: lemma not in game
 agoura	2	migrated: lemma not in game
 agouras	2	migrated: lemma not in game
+agras	3	agro nao flexiona no feminino (quirk MorphoBr)
 agulho	2	migrated: lemma not in game
 aldea	3	migrated: explicit t1-related decision
 alenta	2	migrated: lemma not in game
@@ -486,6 +487,7 @@ sozinhas	2	migrated: lemma not in game
 sozinhos	2	migrated: lemma not in game
 suborna	2	migrated: lemma not in game
 subornas	2	migrated: lemma not in game
+sue	3	soa ingles; subjuntivo de suar fica como bonus
 sufixa	2	migrated: lemma not in game
 sufixas	2	migrated: lemma not in game
 suicido	2	migrated: lemma not in game
