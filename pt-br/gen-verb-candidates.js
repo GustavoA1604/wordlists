@@ -22,6 +22,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { normalizeWord } from "../lib/normalize.js";
 import { ptbr, readCurated } from "../lib/sources.js";
+import { readLemmas, readForms } from "./engine.js";
 
 const args = Object.fromEntries(
   process.argv.slice(2).map((a) => a.replace(/^--/, "").split("=")),
@@ -52,8 +53,9 @@ function curatedSet(name) {
 const valid = new Set(lines(join(ptbr, "dist", "words.txt")));
 const decided = new Set([
   ...valid,
-  ...curatedSet("valid-additions.txt"),
-  ...curatedSet("valid-removals.txt"),
+  ...curatedSet("removals.txt"),
+  ...readLemmas().keys(),
+  ...readForms().keys(),
 ]);
 
 // Ground truth: the pre-inflected dictionary, target length only.

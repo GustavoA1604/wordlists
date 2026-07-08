@@ -445,7 +445,6 @@ artista
 artistica
 arvore
 as
-asia
 asilo
 asnos
 aspas
@@ -2568,7 +2567,6 @@ fizemos
 fizer
 fizeram
 flamengo
-flex
 floco
 flor
 flora
@@ -2913,7 +2911,6 @@ haver
 havera
 havia
 haviam
-hein
 helio
 henrique
 hepta
@@ -3197,7 +3194,6 @@ jejum
 jerusalem
 jilos
 jipes
-joao
 joga
 jogado
 jogador
@@ -3397,7 +3393,6 @@ limpo
 lince
 linda
 lindo
-line
 lingua
 linguagem
 linguas
@@ -4536,7 +4531,6 @@ posso
 possuem
 possui
 possuir
-post
 posta
 postado
 postagem

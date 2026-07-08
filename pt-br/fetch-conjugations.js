@@ -22,6 +22,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { normalizeWord } from "../lib/normalize.js";
 import { ptbr, readCurated } from "../lib/sources.js";
+import { readLemmas, readForms } from "./engine.js";
 
 const args = Object.fromEntries(
   process.argv.slice(2).map((a) => a.replace(/^--/, "").split("=")),
@@ -47,8 +48,8 @@ function curatedSet(name) {
 }
 
 const valid = new Set(lines(join(ptbr, "dist", "words.txt")));
-const removed = curatedSet("valid-removals.txt");
-const added = curatedSet("valid-additions.txt");
+const removed = curatedSet("removals.txt");
+const added = new Set([...readLemmas().keys(), ...readForms().keys()]);
 const decided = new Set([...valid, ...removed, ...added]);
 const dicio = new Set(normLines(src("ueda-dicio.txt")));
 

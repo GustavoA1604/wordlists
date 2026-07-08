@@ -1,13 +1,9 @@
 {
-  "t1Base": 6468,
-  "t2Base": 18990,
-  "t3Base": 23391,
-  "curatedT1": 20,
-  "curatedT2": 13656,
-  "curatedT3": 9916,
-  "rejections": 688,
-  "t1": 6202,
-  "t2": 25448,
-  "t3": 15425,
-  "valid": 47075
+  "curatedLemmas": 1464,
+  "curatedForms": 537,
+  "removals": 736,
+  "t1": 6196,
+  "t2": 38106,
+  "t3": 82771,
+  "valid": 127073
 }

@@ -2,6 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { build } from "../pt-br/build.js";
 import { readCurated } from "../lib/sources.js";
+import { readLemmas, readForms } from "../pt-br/engine.js";
 import { normalizeWord } from "../lib/normalize.js";
 
 const result = await build();
@@ -37,11 +38,49 @@ test("words.txt is the union of all tiers", () => {
   assert.equal(fromTiers.size, validSet.size);
 });
 
-test("curated t1 additions land in t1", () => {
-  const t1Set = new Set(result.t1);
-  for (const raw of readCurated("t1.txt")) {
-    const w = normalizeWord(raw);
-    if (w) assert.ok(t1Set.has(w), `t1 addition missing from t1: ${w}`);
+test("lexicon has exactly one line per valid word, tiers consistent", () => {
+  assert.equal(result.lexicon.length, result.valid.length);
+  const tierOf = new Map();
+  for (const [t, list] of [[1, result.t1], [2, result.t2], [3, result.t3]]) {
+    for (const w of list) tierOf.set(w, t);
+  }
+  const seen = new Set();
+  for (const line of result.lexicon) {
+    const e = JSON.parse(line);
+    assert.ok(!seen.has(e.w), `duplicate lexicon entry: ${e.w}`);
+    seen.add(e.w);
+    assert.equal(e.t, tierOf.get(e.w), `lexicon tier mismatch for ${e.w}`);
+    for (const a of e.a ?? []) {
+      assert.match(a.l, /^[a-z]+$/, `bad lemma for ${e.w}: ${a.l}`);
+      assert.ok(["N", "V", "A", "ADV"].includes(a.pos), `bad pos for ${e.w}: ${a.pos}`);
+      assert.ok(Array.isArray(a.f) && a.f.length > 0, `missing feats for ${e.w}`);
+    }
+  }
+});
+
+test("curated lemma decisions are honored", () => {
+  const tierOf = new Map();
+  for (const [t, list] of [[1, result.t1], [2, result.t2], [3, result.t3]]) {
+    for (const w of list) tierOf.set(w, t);
+  }
+  const validSet = new Set(result.valid);
+  for (const [lemma, rows] of readLemmas()) {
+    for (const { tier } of rows) {
+      if (tier === "x") assert.ok(!validSet.has(lemma), `tier-x lemma still valid: ${lemma}`);
+      else assert.equal(tierOf.get(lemma), tier, `lemma row not honored: ${lemma}`);
+    }
+  }
+});
+
+test("curated form overrides are honored", () => {
+  const tierOf = new Map();
+  for (const [t, list] of [[1, result.t1], [2, result.t2], [3, result.t3]]) {
+    for (const w of list) tierOf.set(w, t);
+  }
+  const validSet = new Set(result.valid);
+  for (const [form, { tier }] of readForms()) {
+    if (tier === "x") assert.ok(!validSet.has(form), `tier-x form still valid: ${form}`);
+    else assert.equal(tierOf.get(form), tier, `form override not honored: ${form}`);
   }
 });
 

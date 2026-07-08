@@ -12,38 +12,98 @@ but it is structured so other languages can be added under their own folder late
 ```
 lib/            shared helpers (normalize.js, sources.js)
 pt-br/
-  sources/      raw upstream inputs (committed; see SOURCES.md)
-  curated/      hand-maintained overrides (the maintenance surface)
-  build.js      pipeline: sources + curation -> dist/
+  sources/      raw upstream inputs, incl. morphobr.tsv.gz (see SOURCES.md)
+  curated/      hand-maintained decisions (the maintenance surface)
+    lemmas.tsv    headword-level: lemma, pos, tier, tags
+    forms.tsv     per-form exceptions to the rules (keep small)
+    removals.txt  words excluded from the pool entirely
+  engine.js     tiering engine: sources + morphology + curation -> tiers
+  build.js      pipeline: engine -> dist/
   dist/         generated output, committed (consumers read this; no build needed)
-    words.txt   master valid pool, all lengths, normalized, sorted, unique
-    common.txt  common/everyday subset (answer candidates), subset of words.txt
-    manifest.json  build stats
+    t1.txt        common/everyday tier (answer candidates)
+    t2.txt        extended tier (recognized, less frequent)
+    t3.txt        rare tier (obscure conjugations, archaic, technical, polemic)
+    words.txt     the whole valid pool (t1+t2+t3), normalized, sorted, unique
+    lexicon.jsonl one line per word: tier, analyses (lemma/POS/features), tags
+    manifest.json build stats
 test/           invariant tests (node --test)
 ```
 
 ## Building
 
 ```bash
-npm run build    # regenerate pt-br/dist/ from sources + curated overrides
-npm test         # check invariants (a-z only, sorted, unique, common ⊆ valid)
+npm run build    # regenerate pt-br/dist/ from sources + curated decisions
+npm test         # check invariants (a-z only, sorted, tiers exclusive, lexicon consistent)
 ```
 
 `dist/` is committed, so consumers that pin this repo as a submodule do not need
 to run the build.
 
+## How tiering works
+
+Facts and decisions are kept apart:
+
+- **Facts** (morphology) come from [MorphoBr](https://github.com/LR-POR/MorphoBr),
+  compiled into `sources/morphobr.tsv.gz`: for each form, its lemma, word class
+  (N/V/A/ADV) and features (gender/number, tense/person, degree). Never edited
+  by hand.
+- **Decisions** live in `curated/` and are recorded at the highest level they
+  fit. A row in `lemmas.tsv` covers the whole paradigm: decide the lemma once
+  and every conjugation / plural / feminine form follows on the next build.
+
+A lemma whose headword is valid is "in the game": its full paradigm (minus
+mechanical diminutives/augmentatives/superlatives) expands into the pool
+automatically. Tiers then resolve per word, in precedence order:
+
+1. `removals.txt` / tier `x` row: excluded.
+2. `forms.tsv` override.
+3. `lemmas.tsv` headword row.
+4. t1 base membership (omret + top-5k frequency): stays t1. Frequency is
+   trusted; rules never demote everyday words.
+5. Morphology rules, taking the best (lowest) tier across a word's readings:
+   - the headword itself gets the lemma's tier;
+   - 2nd-person and imperative-only verb forms land in t3;
+   - forms of a t3 lemma stay t3;
+   - conjugations of verbs below t1 land in t3 unless the form itself is
+     frequency-attested (t2 base): regular conjugations of uncommon verbs
+     should not become answers;
+   - every other inflection gets `max(lemma tier, 2)`.
+6. Source membership fallback (t2 base -> t2, else t3).
+
+Homographs get every reading: `acordo` is both a t1 noun and a form of
+`acordar`, and `dist/lexicon.jsonl` carries all analyses with their tiers so a
+POS-aware game can treat each reading differently.
+
+Tags (`polemic`, `place`, `country`, `abbrev`, `english`, `firstname`, ...) are
+recorded on curated rows and exported in the lexicon. They are informational:
+the default tier policy lives in `TAG_POLICY` (engine.js), and each game can
+re-map them (e.g. exclude `polemic` words entirely, keep `place` words playable).
+
 ## Maintaining the dictionary
 
-Add or remove words by editing the override files in `pt-br/curated/` (one word
-per line, `#` for comments), then re-run `npm run build`:
+The two everyday commands:
 
-- `valid-additions.txt` - force a word into the valid pool.
-- `valid-removals.txt` - force a word out of the valid pool (cascades out of common too).
-- `common-additions.txt` - force a word into the common pool (implies valid).
-- `common-removals.txt` - drop a word from common only (it stays valid).
+```bash
+npm run word -- corres          # explain: analyses, tier, and why
+npm run move -- porra 3 --tag=polemic     # record a decision + retier
+npm run move -- corrias 3 --reason="..."  # per-form exception
+npm run build                   # regenerate dist/
+npm run lint-curated            # well-formedness + redundant-row report
+```
 
-Overrides survive source updates: regenerating from upstream never wipes your
-manual curation. Words are stored without accents (`a`-`z` only).
+`move` records the decision at the right level automatically: headwords (and
+words with no analyses) go to `lemmas.tsv` where the whole paradigm follows;
+pure inflections go to `forms.tsv` (or `removals.txt` for `x`). Use `--form` to
+force a form-level decision for a headword.
+
+File formats (tab-separated, `#` comments):
+
+- `lemmas.tsv`: `lemma  pos  tier  tags`. Tier `1|2|3|x` (`x` = removed), or
+  empty when a tag implies it. `pos` narrows a decision to one word class for
+  MorphoBr lemmas, or labels a stub (`PROP`, `ABBR`, `INTJ`, `LOAN`, `-`).
+- `forms.tsv`: `form  tier  reason`. Exceptions where the rules are wrong for
+  one specific form; keep it small.
+- `removals.txt`: one word per line, excluded from everything.
 
 ## Growing the dictionary (candidate review)
 
@@ -59,61 +119,44 @@ npm run candidates -- --name-min=500 # looser name threshold (default 1000)
 
 It reads `sources/fserb-icf.txt` (frequency scores) and `sources/silviotamaso.txt`
 (curated), drops anything already valid or decided in `curated/`, then classifies the
-rest:
-
-- **pure English** (in the English wordlist but not in the Ueda PT dictionary) ->
-  set aside. Assimilated loans that are in the PT dictionary (`mouse`, `jeans`) stay.
-- **first names** (IBGE prenomes above `--name-min`) -> set aside. Place names are
-  not first names, so `texas`/`macau` stay; a place that is also a first name
-  (`paris`, `sofia`) is set aside but easy to rescue.
-- **place names** (world gazetteer + PT country/municipality lists) rescue foreign
-  places from the English filter.
-- `silviotamaso` membership rescues a word from either set-aside bucket.
-
-Outputs in `pt-br/review/`:
-
-- `candidates-icf-ranked-5.txt` - the clean queue, most frequent first.
-- `setaside-english-5.txt`, `setaside-names-5.txt` - filtered-out words, kept for
-  audit (scan them for the occasional real word or wanted place).
-- `candidates-5.annotated.tsv` - every candidate with all flags (score, silvio,
-  english, pt_dict, name, place, bucket).
-
-Review the top of the clean queue, move keepers into `curated/valid-additions.txt`,
-then `npm run build`. Re-running `npm run candidates` shrinks the queue as you curate.
-The `pt-br/review/` and `pt-br/_candidates/` dirs are gitignored (regenerated artifacts).
+rest (pure English, first names, place names; see the script header for details).
+Review the top of the clean queue, then record keepers with `npm run move -- <word>
+<tier>` (a new verb or noun brings its whole paradigm along), and `npm run build`.
 
 To evaluate a brand-new source, drop a `*.txt` / `*.js` / `*.json` into
 `pt-br/_candidates/` and run `npm run analyze` to see how many (and which) words it
 would add versus the current export.
 
-## Auditing the verb-conjugation gap
+## Auditing against external conjugators
 
-Verbs can be missing some of their conjugations. Two scripts audit that gap (results
-go to the gitignored `pt-br/review/`):
+MorphoBr is the morphological ground truth. Two network scripts survive as
+independent cross-checks against conjugacao.com.br (cached under the gitignored
+`pt-br/_conjcache/`): `npm run verb-gap` (local diff vs ueda-dicio) and
+`npm run verb-gap:network`. They only write to `pt-br/review/`.
+
+## Regenerating the MorphoBr snapshot
 
 ```bash
-npm run verb-gap                 # local: diff ueda-dicio against the export
-npm run verb-gap:network         # network: fetch correct (incl. irregular) forms
+git clone --depth 1 https://github.com/LR-POR/MorphoBr /tmp/MorphoBr
+npm run compile-morphobr -- --src=/tmp/MorphoBr
 ```
 
-- `verb-gap` (local) treats the pre-inflected `sources/ueda-dicio.txt` as ground truth
-  and lists target-length words it has that the export lacks, annotating names/places
-  so verb forms are easy to pick out. For the current 5-letter export this finds
-  nothing: every 5-letter dicio word is already valid or in `valid-removals.txt`.
-- `verb-gap:network` fetches conjugations from conjugacao.com.br (cached under the
-  gitignored `pt-br/_conjcache/`) for verbs whose forms `ueda-dicio` is silent on,
-  i.e. exactly where a rule-based generator is unreliable. It then keeps only forms
-  missing from both the export and `ueda-dicio`. An audit over the 5-letter export
-  confirmed the gap is essentially closed: it surfaced only a handful of genuine but
-  obscure forms (the rest was the site mechanically conjugating non-verbs, which
-  `ueda-dicio` correctly omits). Use `--len=N` for other lengths if a game ever needs
-  non-5-letter words, which is where the real conjugation volume lives.
+This rebuilds `sources/morphobr.tsv.gz` (normalized, deduped, clitics skipped).
 
 ## Normalization
 
 Every word is NFD-decomposed, stripped of combining accent marks, lowercased, and
 kept only if it is purely `a`-`z` (drops spaces, hyphens, digits, proper nouns).
-Length is never constrained here; that is a per-game concern.
+Length is never constrained here; that is a per-game concern for consumers.
+
+## Consumers
+
+- Tier files (`t1/t2/t3/words.txt`) are unchanged in format: entrelinhas and
+  enquadrados keep reading them as before.
+- `lexicon.jsonl` is for POS-aware consumers (palaxia): one JSON object per
+  line, `{"w":"acordo","t":1,"a":[{"l":"acordo","pos":"N","f":["M+SG"],"t":1},
+  {"l":"acordar","pos":"V","f":["PRS+1+SG"],"t":2}]}` plus optional `"g"` tags.
+  `t` at the top level is the word's best tier; each analysis carries its own.
 
 ## Style
 
@@ -123,4 +166,4 @@ comma, parentheses, or a period. A spaced hyphen is fine as an inline separator.
 ## License
 
 Repo code: MIT. Word data is governed by each upstream source's own license; see
-`SOURCES.md`.
+`SOURCES.md` (MorphoBr data: Apache-2.0).

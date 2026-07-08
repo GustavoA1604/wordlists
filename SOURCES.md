@@ -10,6 +10,7 @@ Provenance and licensing for the raw inputs in `pt-br/sources/`.
 | `silviotamaso.txt`  | [silviotamaso/PTBR-dic](https://github.com/silviotamaso/PTBR-dic)               | candidate queue (curated "used in Brazil" list)                      | see upstream      |
 | `ueda-palavras.txt` | [Ueda PT-BR dictionaries](https://www.ime.usp.br/~pf/dicios/)                   | PT-dictionary safeguard for the English filter; otherwise NOT merged | see upstream      |
 | `ueda-dicio.txt`    | [Ueda PT-BR dictionaries](https://www.ime.usp.br/~pf/dicios/)                   | PT-dictionary safeguard for the English filter; otherwise NOT merged | see upstream      |
+| `morphobr.tsv.gz`   | [LR-POR/MorphoBr](https://github.com/LR-POR/MorphoBr) compiled by `compile-morphobr.js` | morphological ground truth: form -> lemma/POS/features (drives tiering rules and `dist/lexicon.jsonl`) | Apache-2.0        |
 
 ### Filter resources (used by `gen-candidates.js`, never added as words)
 

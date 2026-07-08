@@ -1,140 +1,124 @@
-// Curated file linter.
+// Lint the curated decision files (lemmas.tsv, forms.tsv, removals.txt).
 //
-// 1. Fail fast if any word appears in more than one curated file.
-// 2. Remove entries that are redundant (word would land in the same tier
-//    without the override — the curated entry has no effect).
-// 3. Re-write each file sorted alphabetically, preserving the header comment.
+// Hard errors (exit 1):
+//   - malformed rows (bad tier and no tier-implying tag, non-word first column)
+//   - the same word decided in more than one place (lemmas.tsv vs forms.tsv vs
+//     removals.txt), or duplicated within a file
 //
-// Usage: node pt-br/lint-curated.js [--dry-run]
+// Warnings (reported, exit 0):
+//   - redundant rows: the engine would produce the same tier without the row
+//   - lemmas.tsv rows whose pos claims a MorphoBr class the lemma does not have
+//
+// Usage: npm run lint-curated
 
-import { readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { argv, exit } from "node:process";
-import { bases } from "./build.js";
-import { ptbr, readCurated } from "../lib/sources.js";
+import { readFileSync, existsSync } from "node:fs";
 import { normalizeWord } from "../lib/normalize.js";
+import { ptbr, readCurated } from "../lib/sources.js";
+import { loadEngine, TAG_POLICY } from "./engine.js";
 
-const DRY_RUN = argv.includes("--dry-run");
+let errors = 0;
+const error = (msg) => { errors++; console.error(`ERROR: ${msg}`); };
+const warn = (msg) => console.warn(`warn:  ${msg}`);
 
-// ── helpers ─────────────────────────────────────────────────────────────────
-
-function readFile(name) {
-  return readFileSync(join(ptbr, "curated", name), "utf8");
+function rawRows(name) {
+  const path = join(ptbr, "curated", name);
+  if (!existsSync(path)) return [];
+  return readFileSync(path, "utf8")
+    .split(/\r?\n/)
+    .map((l) => l.trim())
+    .filter((l) => l && !l.startsWith("#"))
+    .map((l) => l.split("\t").map((c) => c.trim()));
 }
 
-/** Parse a curated file into { header, words }. header is the first `#` line. */
-function parse(name) {
-  const raw = readFile(name);
-  const lines = raw.split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
-  const header = lines.find((l) => l.startsWith("#")) ?? "";
-  const words = lines
-    .filter((l) => !l.startsWith("#"))
-    .map(normalizeWord)
-    .filter(Boolean);
-  return { header, words };
+const validTier = (t) => t === "x" || t === "1" || t === "2" || t === "3";
+
+// ── structural checks ────────────────────────────────────────────────────────
+
+const seen = new Map(); // word -> file
+function claim(word, file) {
+  if (seen.has(word)) error(`"${word}" decided in both ${seen.get(word)} and ${file}`);
+  else seen.set(word, file);
 }
 
-function write(name, header, words) {
-  const sorted = [...new Set(words)].sort();
-  const content = [header, ...sorted, ""].join("\n");
-  writeFileSync(join(ptbr, "curated", name), content, "utf8");
-}
-
-// ── load all four curated files ──────────────────────────────────────────────
-
-const FILES = ["t1.txt", "t2.txt", "t3.txt", "removals.txt"];
-const parsed = Object.fromEntries(FILES.map((f) => [f, parse(f)]));
-
-// ── step 1: duplicate check ──────────────────────────────────────────────────
-
-const seen = new Map(); // word → filename
-let hasDupes = false;
-for (const file of FILES) {
-  for (const w of parsed[file].words) {
-    if (seen.has(w)) {
-      console.error(`DUPLICATE: "${w}" in ${seen.get(w)} and ${file}`);
-      hasDupes = true;
-    } else {
-      seen.set(w, file);
-    }
+for (const row of rawRows("lemmas.tsv")) {
+  const [lemma, , tier = "", tagsRaw = ""] = row;
+  const w = normalizeWord(lemma);
+  if (!w || w !== lemma) { error(`lemmas.tsv: bad headword "${lemma}"`); continue; }
+  const tags = tagsRaw.split(",").filter(Boolean);
+  if (!validTier(tier) && !tags.some((t) => TAG_POLICY[t] !== undefined)) {
+    error(`lemmas.tsv: "${lemma}" has no tier and no tier-implying tag`);
   }
+  claim(w, "lemmas.tsv");
 }
-if (hasDupes) {
-  console.error("Fix duplicates before continuing.");
-  exit(1);
+for (const row of rawRows("forms.tsv")) {
+  const [form, tier = ""] = row;
+  const w = normalizeWord(form);
+  if (!w || w !== form) { error(`forms.tsv: bad form "${form}"`); continue; }
+  if (!validTier(tier)) error(`forms.tsv: "${form}" has bad tier "${tier}"`);
+  claim(w, "forms.tsv");
 }
-console.log("✓ No duplicates across curated files.");
+for (const raw of readCurated("removals.txt")) {
+  const w = normalizeWord(raw);
+  if (!w || w !== raw) { error(`removals.txt: bad word "${raw}"`); continue; }
+  claim(w, "removals.txt");
+}
 
-// ── step 2: compute base sets ────────────────────────────────────────────────
+if (errors) {
+  console.error(`\n${errors} error(s).`);
+  process.exit(1);
+}
+console.log("✓ curated files well-formed, no cross-file duplicates.");
 
-const { t1Base, t2Base, t3Base } = await bases();
-const t1BaseSet = new Set(t1Base);
-const t2BaseSet = new Set(t2Base);
-const t3BaseSet = new Set(t3Base);
+// ── semantic checks (need the engine) ────────────────────────────────────────
 
-const curatedT1 = new Set(parsed["t1.txt"].words);
-const curatedT2 = new Set(parsed["t2.txt"].words);
-const curatedT3 = new Set(parsed["t3.txt"].words);
-const curatedRem = new Set(parsed["removals.txt"].words);
-
-// ── step 3: find and remove redundant entries ────────────────────────────────
+const engine = await loadEngine();
 
 /**
- * A curated entry is redundant when the word would end up in the same tier
- * (or be absent) even without the explicit override.
- *
- *  t1.txt:       word is already in t1BaseSet  → naturally t1
- *  t2.txt:       word is in t2BaseSet AND NOT in t1BaseSet  → naturally t2
- *  t3.txt:       word is in t3BaseSet AND NOT in t1BaseSet AND NOT in t2BaseSet  → naturally t3
- *  removals.txt: word is absent from every source and curated tier
- *                → would never appear anyway
+ * What a word would resolve to if its own curated row did not exist: t1-base
+ * trust, then rules (with the word's own lemma tier falling back to source
+ * membership), then source membership.
  */
-function isRedundant(file, w) {
-  switch (file) {
-    case "t1.txt":
-      return t1BaseSet.has(w);
-    case "t2.txt":
-      return !t1BaseSet.has(w) && t2BaseSet.has(w);
-    case "t3.txt":
-      return t3BaseSet.has(w) && !t1BaseSet.has(w) && !t2BaseSet.has(w);
-    case "removals.txt": {
-      const inAnyBase = t1BaseSet.has(w) || t2BaseSet.has(w) || t3BaseSet.has(w);
-      const inAnyCurated = curatedT1.has(w) || curatedT2.has(w) || curatedT3.has(w);
-      return !inAnyBase && !inAnyCurated;
+const DERIV_ONLY = (rows) => rows.every((r) => /(?:^|\+)(?:DIM|AUG|SUPER)(?:\+|$)/.test(r.feats));
+function tierWithoutOwnRow(word) {
+  if (engine.t1Base.has(word)) return 1;
+  const base = engine.baseTier(word);
+  const ruleTiers = engine
+    .analysesOf(word)
+    .map((g) =>
+      g.lemma === word
+        ? (DERIV_ONLY(g.rows) ? null : base) // headword analysis: lemma tier falls back to sources
+        : engine.analysisTier(word, g.lemma, g.pos, g.rows),
+    )
+    .filter((t) => t !== null);
+  if (ruleTiers.length) return Math.min(...ruleTiers);
+  return base;
+}
+
+let redundant = 0;
+for (const [lemma, rows] of engine.lemmas) {
+  const posClasses = new Set((engine.morpho.byLemma.get(lemma) ?? []).map((r) => r.pos));
+  for (const { pos, tier, tags } of rows) {
+    if (["N", "V", "A", "ADV"].includes(pos) && !posClasses.has(pos)) {
+      warn(`lemmas.tsv: "${lemma}" claims pos ${pos} but MorphoBr has [${[...posClasses].join(",") || "nothing"}]`);
+    }
+    // Redundant when the engine would already give this tier without the row
+    // (tags still carry information, so tagged rows are never flagged).
+    if (tier !== "x" && rows.length === 1 && tags.length === 0 && tierWithoutOwnRow(lemma) === tier) {
+      redundant++;
+      if (redundant <= 20) warn(`lemmas.tsv: "${lemma}" row is redundant (engine already says t${tier})`);
     }
   }
 }
+if (redundant > 20) warn(`...and ${redundant - 20} more redundant lemma rows`);
 
-let totalRemoved = 0;
-for (const file of FILES) {
-  const { header, words } = parsed[file];
-  const redundant = words.filter((w) => isRedundant(file, w));
-  const kept = words.filter((w) => !isRedundant(file, w));
-
-  if (redundant.length > 0) {
-    console.log(
-      `${file}: removing ${redundant.length} redundant entr${redundant.length === 1 ? "y" : "ies"}: ${redundant.join(", ")}`,
-    );
-    totalRemoved += redundant.length;
+let formRedundant = 0;
+for (const [form, { tier }] of engine.forms) {
+  if (tierWithoutOwnRow(form) === tier) {
+    formRedundant++;
+    if (formRedundant <= 20) warn(`forms.tsv: "${form}" override is redundant (engine already says t${tier})`);
   }
-
-  if (!DRY_RUN) write(file, header, kept);
-  else parsed[file].kept = kept; // used only for dry-run reporting
 }
+if (formRedundant > 20) warn(`...and ${formRedundant - 20} more redundant form rows`);
 
-if (totalRemoved === 0) console.log("✓ No redundant entries found.");
-
-// ── step 4: sort ─────────────────────────────────────────────────────────────
-
-if (!DRY_RUN) {
-  for (const file of FILES) {
-    const { header, words } = parsed[file];
-    // Re-read after redundancy removal (write() already sorted, this is a no-op
-    // if we just wrote, but ensures sort even when nothing was removed).
-    const cleaned = words.filter((w) => !isRedundant(file, w));
-    write(file, header, cleaned);
-  }
-  console.log("✓ Files sorted and written.");
-} else {
-  console.log("(dry-run: no files written)");
-}
+console.log(`✓ lint done: ${engine.lemmas.size} lemma rows, ${engine.forms.size} form rows, ${engine.removals.size} removals (${redundant + formRedundant} redundant).`);

@@ -12,7 +12,7 @@
 //     that are in the PT dictionary (mouse, jeans, bacon) stay.
 //   - otherwise -> the clean queue, ranked most-frequent-first.
 //
-// Approve by moving keepers into curated/valid-additions.txt, then `npm run build`.
+// Approve keepers with `npm run move -- <word> <tier>`, then `npm run build`.
 //
 // Usage: node pt-br/gen-candidates.js [--len=5] [--name-min=1000]
 
@@ -20,6 +20,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { normalizeWord } from "../lib/normalize.js";
 import { ptbr, readCurated } from "../lib/sources.js";
+import { readLemmas, readForms } from "./engine.js";
 
 const args = Object.fromEntries(
   process.argv.slice(2).map((a) => a.replace(/^--/, "").split("=")),
@@ -46,12 +47,15 @@ function curatedSet(name) {
   return new Set(readCurated(name).map(normalizeWord).filter(Boolean));
 }
 
-// Already-decided words: currently valid (post-curation export) plus anything we
-// explicitly added or removed by hand. None of these should reappear in the queue.
+// Already-decided words: currently valid (post-curation export) plus anything
+// with a curated decision. None of these should reappear in the queue.
 const valid = new Set(lines(join(ptbr, "dist", "words.txt")));
-const added = curatedSet("valid-additions.txt");
-const removed = curatedSet("valid-removals.txt");
-const decided = new Set([...valid, ...added, ...removed]);
+const decided = new Set([
+  ...valid,
+  ...curatedSet("removals.txt"),
+  ...readLemmas().keys(),
+  ...readForms().keys(),
+]);
 
 // icf: "word,score", lower score = more frequent. Keep the best score per word.
 const score = new Map();
@@ -181,7 +185,7 @@ writeFileSync(
 );
 
 console.log(
-  `Candidate queue (${LEN}-letter). Excluded already-decided: ${valid.size} valid, ${added.size} added, ${removed.size} removed.`,
+  `Candidate queue (${LEN}-letter). Excluded already-decided: ${valid.size} valid, ${decided.size} decided total.`,
 );
 console.log(
   `Filters: english wordlist ${english.size ? "on" : "off"}, names>=${NAME_MIN} (${names.size} ${LEN}-letter names), places rescue (${places.size} ${LEN}-letter place tokens).`,
