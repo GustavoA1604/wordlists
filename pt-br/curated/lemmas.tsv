@@ -24,7 +24,7 @@ aclamado	A	3
 acolhido	-	3
 acorda	N	3
 acrescento	N	3
-adao	N	3	
+adao	N	3
 adentro	ADV	3
 adiantado	-	3
 admirado	A	3
@@ -37,7 +37,39 @@ aff	-	3	english
 afia	N	3
 ago	-	3	english
 agra	N	3	place,english
+agrai	-	3
+agrais	-	3
+agram	-	3
+agramos	-	3
+agrar	-	3
+agrara	-	3
+agraram	-	3
+agraramos	-	3
+agrarao	-	3
+agraras	-	3
+agrardes	-	3
+agrarei	-	3
+agrareis	-	3
+agrarem	-	3
+agraremos	-	3
+agrares	-	3
+agrariam	-	3
+agrariamos	-	3
+agrarieis	-	3
+agrarmos	-	3
+agrasse	-	3
+agrasseis	-	3
+agrassem	-	3
+agrassemos	-	3
+agrasses	-	3
+agraste	-	3
+agrastes	-	3
 agravado	A	3
+agrei	-	3
+agreis	-	3
+agrem	-	3
+agremos	-	3
+agrou	-	3
 aguca	N	3
 aids	-	3
 alares	N	3	english
@@ -67,6 +99,7 @@ antonios	-	2
 apache	-	3
 apaga	N	3
 apanha	N	3
+apart	-	x
 apodi	-	3	place
 apolo	N	3
 app	-	3	english
@@ -112,42 +145,42 @@ atono	A	2
 auram	-	3
 auramos	-	3
 aure	-	3
-aurem	-	2
+aurem	-	3	
 aures	-	3	english
 auri	-	3
-auria	-	2
-auriam	-	2
-auriamos	-	2
+auria	-	3
+auriam	-	3
+auriamos	-	3
 aurias	-	3
 aurieis	-	3
-aurimos	-	2
+aurimos	-	3
 aurir	-	3
-aurira	-	2
-auriram	-	2
-auriramos	-	2
-aurirao	-	2
+aurira	-	3
+auriram	-	3
+auriramos	-	3
+aurirao	-	3
 auriras	-	3
 aurirdes	-	3
-aurirei	-	2
+aurirei	-	3
 aurireis	-	3
-aurirem	-	2
-auriremos	-	2
+aurirem	-	3
+auriremos	-	3
 aurires	-	3
-auriria	-	2
-auririam	-	2
-auririamos	-	2
+auriria	-	3
+auririam	-	3
+auririamos	-	3
 auririas	-	3
 auririeis	-	3
-aurirmos	-	2
+aurirmos	-	3
 auris	-	3	english
-aurisse	-	2
+aurisse	-	3
 aurisseis	-	3
-aurissem	-	2
-aurissemos	-	2
+aurissem	-	3
+aurissemos	-	3
 aurisses	-	3
 auriste	-	3
 auristes	-	3
-auriu	-	2
+auriu	-	3
 avai	PROP	3	place
 avanca	N	3
 aventurado	A	3
@@ -208,6 +241,7 @@ beat	-	3	english
 beca	N	2
 beija	N	3
 beja	PROP	3	place
+belgo	-	3
 berra	N	3
 besteiro	N	2
 betim	-	3	place
@@ -225,7 +259,47 @@ blazer	N	3
 blogger	N	3
 blush	-	3	english
 bmx	ABBR	3	abbrev
+bocai	-	3
+bocam	-	3
+bocamos	-	3
+bocando	-	3
+bocar	-	3
+bocara	-	3
+bocaram	-	3
+bocaramos	-	3
+bocarao	-	3
+bocaras	-	3
+bocardes	-	3
+bocarei	-	3
+bocareis	-	3
+bocarem	-	3
+bocaremos	-	3
+bocares	-	3
+bocaria	-	3
+bocariam	-	3
+bocariamos	-	3
+bocarias	-	3
+bocarieis	-	3
+bocarmos	-	3
+bocasse	-	3
+bocasseis	-	3
+bocassem	-	3
+bocassemos	-	3
+bocasses	-	3
+bocaste	-	3
+bocastes	-	3
+bocava	-	3
+bocavam	-	3
+bocavamos	-	3
+bocavas	-	3
+bocaveis	-	3
+boce	-	3
+bocei	-	3
+bocem	-	3
+bocemos	-	3
+boces	-	3
 bochecho	N	3
+bocou	-	3
 body	-	3	english
 bombo	N	3	place
 bonzinha	-	3
@@ -296,6 +370,7 @@ capo	N	3
 captura	N	3
 caralho	N	3
 cariri	A	3
+carre	-	3
 carrega	N	3
 cartoon	N	3
 cash	-	3	english
@@ -371,6 +446,7 @@ corta	N	3
 cos	N	3
 costeiro	-	2
 costura	N	3
+cotio	-	3
 cottage	N	3	english
 country	-	3	english
 crava	N	3
@@ -381,8 +457,8 @@ cult	LOAN	3	english
 cultivado	A	3
 curry	-	2
 cute	N	3
-dalai	-	2	place
-damo	N	2
+dalai	-	3	place
+damo	N	3
 debatido	A	3
 debil	A	2
 deck	-	3	english
@@ -441,6 +517,7 @@ dora	N	3	firstname,english
 dosa	N	3
 doula	-	2
 down	-	3
+drear	-	3
 drink	-	3	english
 drinks	-	3	english
 drive	N	3
@@ -448,8 +525,10 @@ driver	-	3	english
 drone	-	2	english
 drusa	-	3
 dublas	N	3
+dunga	-	3
 duns	-	2
 duo	N	3
+dutil	-	x
 duzia	N	1
 ebola	N	2
 ebook	-	3
@@ -563,6 +642,7 @@ foda	N	3
 foder	V	3
 fofas	N	3
 folheado	-	3
+folk	-	3
 food	-	3	english
 formata	-	3
 formatares	-	3
@@ -591,6 +671,7 @@ futon	-	2
 gabao	N	3	country
 gabarita	-	2
 gabaritas	-	2
+gabo	-	3
 gaia	PROP	3	place
 gajo	-	3
 galga	N	3
@@ -599,15 +680,62 @@ galinho	N	2
 gamer	-	3	english
 gap	-	3	place
 garanhuns	-	3	place
+garco	-	3
 gari	N	2
 gateway	-	3	english
 gay	-	3	place
 geek	LOAN	3	english
 georgia	-	3	country
+giza	-	3
+gizado	-	3
+gizai	-	3
+gizais	-	3
+gizam	-	3
+gizamos	-	3
+gizando	-	3
+gizar	-	3
+gizara	-	3
+gizaram	-	3
+gizaramos	-	3
+gizarao	-	3
+gizaras	-	3
+gizardes	-	3
+gizarei	-	3
+gizareis	-	3
+gizarem	-	3
+gizaremos	-	3
+gizares	-	3
+gizaria	-	3
+gizariam	-	3
+gizariamos	-	3
+gizarias	-	3
+gizarieis	-	3
+gizarmos	-	3
+gizas	-	3
+gizasse	-	3
+gizasseis	-	3
+gizassem	-	3
+gizassemos	-	3
+gizasses	-	3
+gizaste	-	3
+gizastes	-	3
+gizava	-	3
+gizavam	-	3
+gizavamos	-	3
+gizavas	-	3
+gizaveis	-	3
+gize	-	3
+gizei	-	3
+gizeis	-	3
+gizem	-	3
+gizemos	-	3
+gizo	-	3
+gizou	-	3
 glace	-	2
 gois	PROP	3	place
 golaco	N	3
 gora	-	3
+goraz	-	3
 gospel	N	3
 governado	A	3
 gozar	V	3
@@ -622,7 +750,9 @@ grita	N	3
 grosa	N	3
 guararapes	-	3	place
 guatemala	-	3	country
+gude	-	2
 guiado	A	3
+guiao	-	3
 guincha	N	2
 guru	N	3
 habitado	A	3
@@ -675,6 +805,7 @@ invadido	A	3
 inversa	N	3
 invertido	-	3
 investida	N	3
+ion	-	2
 islandia	-	3	country
 iso	-	3
 it	N	3	english
@@ -789,6 +920,7 @@ look	-	3	english
 loque	N	3
 lota	N	3	place
 lounge	-	3
+luna	-	3
 macae	-	3	place
 macau	N	3	country
 machuca	N	3
@@ -819,8 +951,10 @@ match	N	3	english
 mater	-	3
 maua	PROP	3	place
 maxi	-	3
+maxim	-	3
 meca	N	3
 medra	N	3
+meiao	-	3
 meioes	-	2
 mela	N	3
 melo	N	2	place
@@ -846,9 +980,10 @@ miss	N	3
 misturada	N	3
 miudas	N	3
 mix	-	3
-mobil	-	2
+mobil	-	3
 model	-	3	english
 modens	-	2
+moedor	-	2
 moema	-	3	place
 mofa	N	3
 molha	N	3
@@ -875,6 +1010,7 @@ nadadoro	-	2
 nadadoros	-	2
 nanas	N	3
 nautica	N	3
+nava	-	3
 ne	N	3
 nebuloso	-	3
 nega	N	3
@@ -892,14 +1028,16 @@ nina	N	3
 ninfeta	N	3
 nirvana	N	3	english
 notebook	N	3
+notre	-	3
 nov	-	3
+noval	-	3
 nude	-	3	english
 nudez	N	3
 nuns	-	2
 obice	N	2
 obriga	N	3
 ocultas	N	3
-odia	-	2
+odia	-	x
 ofertado	A	3
 office	-	3	english
 offline	-	3
@@ -945,7 +1083,6 @@ peido	N	2
 peita	N	3
 peitudo	A	3
 pelem	N	3
-peluda	N	3
 pen	-	3	place
 peneiro	N	2
 penetra	-	3
@@ -959,8 +1096,10 @@ personal	-	3	english
 pertenca	N	3
 pesquisado	A	3
 pesto	-	2
+pet	-	3
 peta	-	3
 petisca	N	2
+pets	-	3
 phd	ABBR	3	abbrev
 pi	N	3
 piado	N	3
@@ -972,12 +1111,54 @@ piercing	-	3	english
 pila	N	3	place
 pilota	-	3
 pin	ABBR	3	abbrev
+pina	-	3
 piora	N	3
 pipoco	N	2
 pira	N	3
 pisca	N	3
 pit	-	3
 pita	N	3	place
+pitado	-	3
+pitai	-	3
+pitais	-	3
+pitam	-	3
+pitamos	-	3
+pitando	-	3
+pitar	-	3
+pitara	-	3
+pitaram	-	3
+pitaramos	-	3
+pitarao	-	3
+pitaras	-	3
+pitardes	-	3
+pitarei	-	3
+pitareis	-	3
+pitarem	-	3
+pitaremos	-	3
+pitares	-	3
+pitaria	-	3
+pitariam	-	3
+pitariamos	-	3
+pitarias	-	3
+pitarieis	-	3
+pitarmos	-	3
+pitasse	-	3
+pitasseis	-	3
+pitassem	-	3
+pitassemos	-	3
+pitasses	-	3
+pitaste	-	3
+pitastes	-	3
+pitava	-	3
+pitavam	-	3
+pitavamos	-	3
+pitavas	-	3
+pitei	-	3
+piteis	-	3
+pitem	-	3
+pitemos	-	3
+pites	-	3
+pitou	-	3
 pixel	N	1
 plana	N	3
 plantado	A	3
@@ -1041,6 +1222,7 @@ rabisca	N	2
 racha	N	3
 racing	-	3	english
 rack	-	3	english
+ragu	-	3
 rajado	-	2
 rajo	N	2
 rala	N	3
@@ -1052,6 +1234,8 @@ rapel	N	2
 rapper	N	3	english
 rasteiro	A	3
 rating	-	3	english
+rave	-	2
+raves	-	2
 reata	N	3
 rebate	N	3
 reclamado	A	3
@@ -1095,8 +1279,51 @@ retorico	-	2
 retracaos	-	3
 retratado	A	3
 reusa	-	2
+reusado	-	2
+reusai	-	2
+reusais	-	2
+reusam	-	2
+reusamos	-	2
+reusando	-	2
+reusar	-	2
+reusara	-	2
+reusaram	-	2
+reusaramos	-	2
+reusarao	-	2
+reusaras	-	2
+reusardes	-	2
+reusarei	-	2
+reusareis	-	2
+reusarem	-	2
+reusaremos	-	2
+reusares	-	2
+reusaria	-	2
+reusariam	-	2
+reusariamos	-	2
+reusarias	-	2
+reusarieis	-	2
+reusarmos	-	2
+reusas	-	2
+reusasse	-	2
+reusasseis	-	2
+reusassem	-	2
+reusassemos	-	2
+reusasses	-	2
+reusaste	-	2
+reusastes	-	2
+reusava	-	2
+reusavam	-	2
+reusavamos	-	2
+reusavas	-	2
+reusaveis	-	2
 reuse	-	2	english
+reusei	-	2
+reuseis	-	2
+reusem	-	2
+reusemos	-	2
+reuses	-	2
 reuso	-	2
+reusou	-	2
 reveillon	N	3
 revenda	N	3
 revir	V	3
@@ -1161,45 +1388,87 @@ shampoo	-	3
 sigma	N	3
 silfo	N	3
 sin	-	3	english
+sinado	-	3
 sinai	-	3
-sinam	-	2
-sinamos	-	2
-sinara	-	2
-sinaram	-	2
-sinaramos	-	2
-sinarao	-	2
+sinai	-	3
+sinam	-	3
+sinam	-	3
+sinamos	-	3
+sinamos	-	3
+sinando	-	3
+sinar	-	3
+sinara	-	3
+sinara	-	3
+sinaram	-	3
+sinaram	-	3
+sinaramos	-	3
+sinaramos	-	3
+sinarao	-	3
+sinarao	-	3
+sinaras	-	3
 sinaras	-	3
 sinardes	-	3
-sinarei	-	2
+sinardes	-	3
+sinarei	-	3
+sinarei	-	3
 sinareis	-	3
-sinarem	-	2
-sinaremos	-	2
+sinareis	-	3
+sinarem	-	3
+sinarem	-	3
+sinaremos	-	3
+sinaremos	-	3
 sinares	-	3
-sinaria	-	2
-sinariam	-	2
-sinariamos	-	2
+sinares	-	3
+sinaria	-	3
+sinaria	-	3
+sinariam	-	3
+sinariam	-	3
+sinariamos	-	3
+sinariamos	-	3
+sinarias	-	3
 sinarias	-	3
 sinarieis	-	3
-sinarmos	-	2
-sinasse	-	2
+sinarieis	-	3
+sinarmos	-	3
+sinarmos	-	3
+sinasse	-	3
+sinasse	-	3
 sinasseis	-	3
-sinassem	-	2
-sinassemos	-	2
+sinasseis	-	3
+sinassem	-	3
+sinassem	-	3
+sinassemos	-	3
+sinassemos	-	3
+sinasses	-	3
 sinasses	-	3
 sinaste	-	3
+sinaste	-	3
 sinastes	-	3
-sinava	-	2
-sinavam	-	2
-sinavamos	-	2
+sinastes	-	3
+sinava	-	3
+sinava	-	3
+sinavam	-	3
+sinavam	-	3
+sinavamos	-	3
+sinavamos	-	3
+sinavas	-	3
 sinavas	-	3
 sinaveis	-	3
-sinei	-	2
+sinaveis	-	3
+sine	-	3
+sine	-	3
+sinei	-	3
+sinei	-	3
+sineis	-	3
 sineis	-	3
 sinem	-	3
+sinem	-	3
+sinemos	-	3
 sinemos	-	3
 sines	-	3	english
 single	N	3
-sinou	-	2
+sinou	-	3
+sinou	-	3
 sir	N	3	english
 sirzas	-	3
 sismas	-	3
@@ -1218,44 +1487,87 @@ soft	-	3	english
 solicito	A	3
 sombria	N	3
 sona	-	3
+sonado	-	3
+sonai	-	3
 sonai	-	3
 sonais	-	3
-sonam	-	2
-sonamos	-	2
-sonara	-	2
-sonaram	-	2
-sonaramos	-	2
-sonarao	-	2
+sonais	-	3
+sonam	-	3
+sonam	-	3
+sonamos	-	3
+sonamos	-	3
+sonando	-	3
+sonar	-	3
+sonara	-	3
+sonara	-	3
+sonaram	-	3
+sonaram	-	3
+sonaramos	-	3
+sonaramos	-	3
+sonarao	-	3
+sonarao	-	3
+sonaras	-	3
 sonaras	-	3
 sonardes	-	3
-sonarei	-	2
+sonardes	-	3
+sonarei	-	3
+sonarei	-	3
 sonareis	-	3
-sonarem	-	2
-sonaremos	-	2
-sonaria	-	2
-sonariam	-	2
-sonariamos	-	2
+sonareis	-	3
+sonarem	-	3
+sonarem	-	3
+sonaremos	-	3
+sonaremos	-	3
+sonaria	-	3
+sonaria	-	3
+sonariam	-	3
+sonariam	-	3
+sonariamos	-	3
+sonariamos	-	3
+sonarias	-	3
 sonarias	-	3
 sonarieis	-	3
-sonarmos	-	2
+sonarieis	-	3
+sonarmos	-	3
+sonarmos	-	3
 sonas	-	3
-sonasse	-	2
+sonas	-	3
+sonasse	-	3
+sonasse	-	3
 sonasseis	-	3
-sonassem	-	2
-sonassemos	-	2
+sonasseis	-	3
+sonassem	-	3
+sonassem	-	3
+sonassemos	-	3
+sonassemos	-	3
+sonasses	-	3
 sonasses	-	3
 sonaste	-	3
+sonaste	-	3
 sonastes	-	3
-sonava	N	2
-sonavam	-	2
-sonavamos	-	2
+sonastes	-	3
+sonava	-	3
+sonava	N	3
+sonavam	-	3
+sonavam	-	3
+sonavamos	-	3
+sonavamos	-	3
+sonavas	-	3
 sonaveis	-	3
-sonei	-	2
+sonaveis	-	3
+sone	-	3
+sonei	-	3
+sonei	-	3
+soneis	-	3
 soneis	-	3
 sonem	-	3
+sonem	-	3
 sonemos	-	3
+sonemos	-	3
+sones	-	3
 sones	-	3	english
-sonou	-	2
+sonou	-	3
+sonou	-	3
 sossega	N	2
 soul	-	3
 spa	-	3
@@ -1275,6 +1587,7 @@ strass	-	3	english
 streaming	-	3	english
 strike	-	3	english
 strip	A	3
+suao	-	3
 subordinada	N	3
 suica	N	2	country
 suite	N	2
@@ -1335,6 +1648,7 @@ torneiro	N	2
 tosa	N	3	place
 touch	-	3	english
 tour	-	3	english
+tours	-	3
 trafega	N	2
 traido	A	3
 trailer	N	3
@@ -1401,10 +1715,12 @@ vibe	LOAN	3	english
 vinculo	N	3
 viro	N	3
 visgo	N	2
+vitro	-	3
 vlw	-	3
 vodka	N	3	english
 vogue	N	3	english
 vol	-	3	english
+volvo	-	3
 vs	-	3
 vulva	N	3
 wc	-	3	english
@@ -1460,7 +1776,7 @@ zeravam	-	2
 zeravamos	-	2
 zeravas	-	3
 zeraveis	-	3
-zere	A	2
+zere	A	3
 zereis	-	3
 zeremos	-	3
 zeus	PROP	3

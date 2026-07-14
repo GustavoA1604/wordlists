@@ -24,7 +24,8 @@ pt-br/
     t2.txt        extended tier (recognized, less frequent)
     t3.txt        rare tier (obscure conjugations, archaic, technical, polemic)
     words.txt     the whole valid pool (t1+t2+t3), normalized, sorted, unique
-    lexicon.jsonl one line per word: tier, analyses (lemma/POS/features), tags
+    lexicon.jsonl one line per word: tier, analyses (lemma/POS/features), tags,
+                  Wiktionary definitions
     manifest.json build stats
 test/           invariant tests (node --test)
 ```
@@ -136,6 +137,18 @@ npm run compile-morphobr -- --src=/tmp/MorphoBr
 
 This rebuilds `sources/morphobr.tsv.gz` (normalized, deduped, clitics skipped).
 
+## Regenerating the Wiktionary snapshot
+
+```bash
+curl -LO https://kaikki.org/ptwiktionary/raw-wiktextract-data.jsonl.gz
+npm run compile-wiktionary -- --src=raw-wiktextract-data.jsonl.gz
+```
+
+This rebuilds `sources/wiktionary.jsonl.gz` (Portuguese-language entries only,
+normalized, deduped by word+POS). kaikki.org updates its dump roughly weekly;
+rerun this whenever fresher definitions are wanted. Definitions are descriptive
+only: a word missing one is never excluded from the pool or retiered.
+
 ## Normalization
 
 Every word is NFD-decomposed, stripped of combining accent marks, lowercased, and
@@ -146,10 +159,19 @@ Length is never constrained here; that is a per-game concern for consumers.
 
 - Tier files (`t1/t2/t3/words.txt`) are unchanged in format: entrelinhas and
   enquadrados keep reading them as before.
-- `lexicon.jsonl` is for POS-aware consumers (palaxia): one JSON object per
-  line, `{"w":"acordo","t":1,"a":[{"l":"acordo","pos":"N","f":["M+SG"],"t":1},
-  {"l":"acordar","pos":"V","f":["PRS+1+SG"],"t":2}]}` plus optional `"g"` tags.
-  `t` at the top level is the word's best tier; each analysis carries its own.
+- `lexicon.jsonl` is for POS-aware and definition-aware consumers (palaxia,
+  enquadrados): one JSON object per line,
+  `{"w":"acordo","t":1,"a":[{"l":"acordo","pos":"N","f":["M+SG"],"t":1},{"l":"acordar","pos":"V","f":["PRS+1+SG"],"t":2}]}`
+  plus optional `"g"` tags. `t` at the top level is the word's best tier; each
+  analysis carries its own.
+- Optional `"d"` on a lexicon entry carries definitions: an array of
+  `{"pos":"noun","g":["gloss one","gloss two"]}`, one item per word class the
+  word is attested in on Wiktionary. It prefers the word's own entry (many
+  inflected forms have one, e.g. "flexão de X"); otherwise it falls back to its
+  lemma's definitions. Coverage tracks tier: ~99% of t1, ~92% of t2, ~78% of
+  t3 have a definition (the remainder is mostly mechanically-generated
+  MorphoBr forms with no independent headword, e.g. regular `-vel` adjectives).
+  Consumers must handle absence.
 
 ## Style
 
@@ -159,4 +181,5 @@ comma, parentheses, or a period. A spaced hyphen is fine as an inline separator.
 ## License
 
 Repo code: MIT. Word data is governed by each upstream source's own license; see
-`SOURCES.md` (MorphoBr data: Apache-2.0).
+`SOURCES.md` (MorphoBr data: Apache-2.0; Wiktionary-derived definitions:
+CC-BY-SA, attribution required for redistribution).

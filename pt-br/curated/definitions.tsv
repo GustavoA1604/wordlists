@@ -1,0 +1,122 @@
+# curated/definitions.tsv: hand-written definitions for senses Wiktionary is
+# missing, whether it has no Portuguese-language coverage for the word at all
+# (loanwords, ethnonyms, informal abbreviations, dialectal/archaic terms, ...)
+# or just an incomplete one (e.g. "pet": Wiktionary only has the "PET" plastic
+# sense, this file adds the "animal de estimação" one; both are kept, merged
+# in build.js). Columns: word<TAB>pos<TAB>gloss<TAB>[accent], one row per
+# gloss (a word with multiple senses/pos gets multiple rows). pos is
+# free-form: it only affects display order (see POS_PRIORITY in build.js),
+# not lookup. The optional 4th column is the word's accented/cased spelling
+# when it differs from the plain board word (e.g. "carre"'s only sense is
+# "carré") — see resolveOwnDefs in build.js.
+aedes	noun	gênero de mosquitos que inclui espécies transmissoras da dengue, zika e chikungunya
+agrar	verb	converter em agro
+agrar	verb	aplanar (terras) para semeadura ou cultivo
+alelo	noun	cada uma das formas alternativas de um gene, situadas no mesmo lócus em cromossomos homólogos
+aleta	noun	peça ou estrutura saliente e achatada usada para estabilizar, guiar ou resfriar algo (ex.: aleta de foguete, aleta de radiador)
+amina	noun	composto orgânico derivado da amônia pela substituição de átomos de hidrogênio por radicais orgânicos
+angra	noun	pequena baía ou enseada; recorte da costa onde o mar penetra
+apto	adj	que tem aptidão ou capacidade para algo; capaz, apropriado
+aulo	noun	instrumento musical de sopro da Grécia Antiga, semelhante a uma flauta dupla
+aurir	verb	fugir alucinadamente (regional, Bairrada)
+avila	noun	cidade e província da Espanha (Ávila), na região de Castela e Leão
+axial	adj	relativo a um eixo; que está situado ao longo de um eixo
+baque	noun	som seco e forte produzido por uma queda ou pancada; abalo, choque emocional repentino
+belgo	adj	relativo à Bélgica (usado sobretudo como prefixo, ex.: belgo-brasileiro)
+bocar	verb	pegar ou segurar com a boca; abocanhar
+bocio	noun	aumento do volume da glândula tireoide, geralmente visível como um inchaço no pescoço
+boldo	noun	planta medicinal cujas folhas são usadas em chá para problemas digestivos e hepáticos
+carre	noun	conjunto das costelas de animais de corte, como porco, boi etc.	carré
+carre	noun	prato feito com essa carne, geralmente partida em bifes com osso	carré
+cine	noun	forma reduzida e informal de cinema
+cotio	noun	variedade de figo branco e grande
+cotio	adj	diz-se de uma variedade de grão-de-bico
+cotio	noun	uso cotidiano, habitual (de/a cotio: habitualmente)
+craca	noun	pequeno crustáceo marinho que se fixa a rochas, cascos de navios e outras superfícies
+creta	noun	a maior ilha da Grécia, no mar Mediterrâneo
+cupom	noun	vale ou bilhete que dá direito a um desconto, prêmio ou brinde
+curie	noun	unidade de medida de radioatividade, hoje substituída pelo becquerel no Sistema Internacional
+cuspe	noun	saliva expelida pela boca
+dalai	noun	parte inicial do título honorífico Dalai-Lama, líder espiritual do budismo tibetano
+damo	noun	namorado
+damo	noun	moeda antiga; o mesmo que dama
+drear	adj	sombrio, triste, lúgubre ou monótono (termo poético)
+dunga	noun	no filme Branca de Neve e os Sete Anões, o anão que não fala; apelido do ex-jogador e técnico de futebol Carlos Caetano Bledorn Verri
+excel	noun	programa de planilhas eletrônicas da Microsoft, usado para cálculos, gráficos e organização de dados
+filar	verb	obter algo de graça, aproveitando-se de outra pessoa (coloquial: filar carona, filar um cigarro)
+focal	adj	relativo ao foco; que constitui o ponto central de atenção
+gabo	noun	elogio, louvor, gabação
+gabo	noun	vaidade, exaltação de si próprio; jactância
+garco	adj	diz-se de olho verde-azulado ou esverdeado	garço
+gizar	verb	riscar ou desenhar com giz
+gizar	verb	descrever de maneira rápida e sucinta; imaginar, conceber, planejar (ex.: gizar o lugar perfeito para morar)
+gizar	verb	desenhar ou projetar (planta arquitetônica etc.)
+gizar	verb	marcar o gado com giz para separar alguns animais (regional, MG)
+gizar	verb	furtar, roubar (Portugal, coloquial)
+goraz	noun	peixe esparídeo do mar (zoologia)
+guiao	noun	estandarte conduzido à frente de procissões, irmandades ou tropas; pendão	guião
+guiao	noun	cavaleiro que carregava esse estandarte	guião
+guiao	noun	sinal gráfico posto no fim de um pentagrama para indicar a altura da primeira nota da pauta seguinte	guião
+guiao	noun	barra de direção de bicicletas e veículos semelhantes; guidom	guião
+hutu	noun	pessoa pertencente ao povo hutu, etnia da região dos Grandes Lagos, na África Central
+hutu	adj	relativo aos hutus
+huno	noun	indivíduo pertencente aos hunos, povo nômade da Ásia Central que invadiu a Europa no século V
+huno	adj	relativo aos hunos
+idem	adj	o mesmo; a mesma coisa (usado para evitar repetir uma referência já citada)
+jeans	noun	tecido de algodão resistente, geralmente azul, usado para fazer calças; a calça feita desse tecido
+kit	noun	conjunto de peças, objetos ou acessórios reunidos para um fim específico
+lena	noun	mulher que arranja encontros amorosos ilícitos; alcoviteira
+luna	noun	espécie de arrecada em forma de argola (termo antigo)
+lunda	noun	região histórica do nordeste de Angola, habitada pelo povo lunda
+mail	noun	mensagem eletrônica; e-mail
+maxim	noun	revista masculina internacional, com edições em vários países, incluindo o Brasil
+meiao	noun	meia comprida que faz parte de uniforme de futebol	meião
+meiao	noun	tambor de percussão direta e membrana única, de tamanho médio, usado em festas populares como as de São Benedito	meião
+milao	noun	cidade do norte da Itália (Milão), capital da região da Lombardia
+mobil	noun	motivo, causa que leva alguém a agir (móbil); também marca internacional de combustíveis e lubrificantes
+nava	noun	planície cercada de montanhas; planície vasta e chã
+nerd	noun	pessoa muito dedicada a assuntos intelectuais, técnicos ou de nicho (como tecnologia ou ficção científica), por vezes com pouca habilidade social
+nini	noun	jovem que não estuda nem trabalha
+notre	noun	parte do nome próprio francês Notre-Dame ("Nossa Senhora"), especialmente a catedral de Paris
+noval	noun	terra desbravada recentemente para ser cultivada; arroteia
+paete	noun	pequena lâmina brilhante e reflexiva costurada em tecidos como enfeite; paetê
+pelve	noun	estrutura óssea que liga o tronco aos membros inferiores, alojando órgãos como bexiga e intestino
+penne	noun	tipo de massa italiana em forma de pequenos tubos cortados na diagonal
+penta	noun	quinto título ou conquista de uma série, especialmente no futebol brasileiro
+pesto	noun	molho italiano feito com manjericão, alho, pinoli, azeite e queijo, tradicionalmente amassado
+pet	noun	animal de estimação
+pina	noun	cada uma das peças curvas que compõem a circunferência da roda de um veículo; camba
+pina	noun	pavilhão da orelha dos mamíferos
+pina	noun	barbatana, nadadeira
+pina	noun	cada uma das partes em que se divide uma folha de pteridófita
+pitar	verb	fumar ou cachimbar; aspirar fumo
+plexo	noun	rede de nervos ou vasos sanguíneos entrelaçados
+poker	noun	jogo de cartas em que os jogadores apostam com base na força de suas mãos
+prof	noun	forma abreviada e informal de professor ou professora
+pub	noun	bar ao estilo britânico ou irlandês
+rafia	noun	fibra vegetal extraída das folhas de certas palmeiras, usada em artesanato e amarrios
+ragu	noun	guisado de carne ou vegetais em molho encorpado, geralmente servido sobre massa
+rave	noun	festa dançante noturna, geralmente ao ar livre ou em local amplo, com música eletrônica e efeitos visuais
+reusar	verb	usar novamente; utilizar algo mais de uma vez em vez de descartar
+rotor	noun	peça giratória de um motor, turbina ou outro dispositivo mecânico
+runa	noun	cada um dos caracteres do alfabeto rúnico, usado por antigos povos germânicos
+sadio	adj	que goza de boa saúde; saudável
+sensu	adv	termo latino usado em expressões como "sensu stricto" (em sentido estrito) e "sensu lato" (em sentido amplo)
+sinar	verb	marcar com o próprio nome; assinar (termo antigo)
+septo	noun	membrana ou parede que separa duas cavidades ou estruturas (ex.: septo nasal)
+siena	noun	cidade da região da Toscana, na Itália, célebre por sua arquitetura medieval
+sisal	noun	fibra vegetal resistente extraída das folhas do agave-sisalana, usada para fazer cordas e tapetes
+sonar	verb	forma arcaica do verbo soar
+suao	adj	diz-se de vento quente que sopra do sul
+suao	noun	vento quente que sopra do sul
+suao	noun	o que é do sul
+tacao	noun	parte saliente sob o calcanhar de um calçado; salto; tacão
+tava	verb	contração coloquial de "estava" (pretérito imperfeito do indicativo do verbo estar), comum na fala e na escrita informal
+tchan	noun	gênero musical brasileiro que mistura axé e pagode; (coloquial) toque especial, charme, algo a mais (ex.: "com tchan")
+timor	noun	ilha do Sudeste Asiático, dividida entre o Timor-Leste (país independente) e o Timor Ocidental (parte da Indonésia)
+totem	noun	objeto ou figura, geralmente esculpida em madeira, que representa um símbolo sagrado ou emblema de um grupo ou clã
+tour	noun	viagem turística; excursão
+ulna	noun	um dos dois ossos do antebraço, situado ao lado do dedo mínimo, entre o cotovelo e o punho
+vitro	adv	parte da expressão "in vitro"; refere-se a fenômenos observados fora de um organismo, em laboratório
+volvo	noun	marca sueca de automóveis e caminhões
+zonzo	adj	tonto, atordoado, com a cabeça leve

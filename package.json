@@ -12,6 +12,7 @@
     "candidates": "node pt-br/gen-candidates.js",
     "analyze": "node pt-br/analyze.js",
     "compile-morphobr": "node --max-old-space-size=6000 pt-br/compile-morphobr.js",
+    "compile-wiktionary": "node --max-old-space-size=6000 pt-br/compile-wiktionary.js",
     "test": "node --max-old-space-size=6000 --test",
     "format": "prettier --write .",
     "format:check": "prettier --check ."

@@ -949,7 +949,6 @@ carolina
 caros
 carpa
 carpo
-carre
 carregando
 carregar
 carreira
@@ -3621,7 +3620,6 @@ medo
 medos
 mega
 meia
-meiao
 meias
 meigo
 meio
@@ -5424,7 +5422,6 @@ somas
 sombra
 somente
 somos
-sonar
 sonda
 sonhar
 sonho

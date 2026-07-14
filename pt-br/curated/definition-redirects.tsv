@@ -1,0 +1,332 @@
+# curated/definition-redirects.tsv: words whose definition is really another
+# word's: a pure spelling variant (word<TAB>target both stand alone), or a
+# form MorphoBr doesn't morphologically link to its own lemma so the normal
+# lemma-fallback (build.js) never fires. Columns: word<TAB>target<TAB>reason.
+lage	laje	pre-orthographic-reform spelling
+zere	zerar	imperative of zerar, not linked by MorphoBr
+pets	pet	plural of pet, not linked by MorphoBr
+raves	rave	plural of rave, not a MorphoBr lemma at all
+aptos	apto	plural of apto, not linked by MorphoBr
+bikes	bike	plural of bike, not linked by MorphoBr
+nerds	nerd	plural of nerd, not linked by MorphoBr
+sadia	sadio	feminine of sadio, not linked by MorphoBr
+zonza	zonzo	feminine of zonzo, not linked by MorphoBr
+filei	filar	1st person past of filar, not linked by MorphoBr
+filou	filar	3rd person past of filar, not linked by MorphoBr
+filam	filar	3rd person plural present of filar, not linked by MorphoBr
+reusa	reusar	3rd person present of reusar, not linked by MorphoBr
+reuse	reusar	present subjunctive of reusar, not linked by MorphoBr
+reuso	reusar	1st person present of reusar, not linked by MorphoBr
+reusando	reusar	conjugated form of reusar, not linked by MorphoBr
+reusado	reusar	conjugated form of reusar, not linked by MorphoBr
+reusas	reusar	conjugated form of reusar, not linked by MorphoBr
+reusamos	reusar	conjugated form of reusar, not linked by MorphoBr
+reusais	reusar	conjugated form of reusar, not linked by MorphoBr
+reusam	reusar	conjugated form of reusar, not linked by MorphoBr
+reusava	reusar	conjugated form of reusar, not linked by MorphoBr
+reusavas	reusar	conjugated form of reusar, not linked by MorphoBr
+reusavamos	reusar	conjugated form of reusar, not linked by MorphoBr
+reusaveis	reusar	conjugated form of reusar, not linked by MorphoBr
+reusavam	reusar	conjugated form of reusar, not linked by MorphoBr
+reusei	reusar	conjugated form of reusar, not linked by MorphoBr
+reusaste	reusar	conjugated form of reusar, not linked by MorphoBr
+reusou	reusar	conjugated form of reusar, not linked by MorphoBr
+reusastes	reusar	conjugated form of reusar, not linked by MorphoBr
+reusaram	reusar	conjugated form of reusar, not linked by MorphoBr
+reusara	reusar	conjugated form of reusar, not linked by MorphoBr
+reusaras	reusar	conjugated form of reusar, not linked by MorphoBr
+reusaramos	reusar	conjugated form of reusar, not linked by MorphoBr
+reusareis	reusar	conjugated form of reusar, not linked by MorphoBr
+reusarei	reusar	conjugated form of reusar, not linked by MorphoBr
+reusaremos	reusar	conjugated form of reusar, not linked by MorphoBr
+reusarao	reusar	conjugated form of reusar, not linked by MorphoBr
+reusaria	reusar	conjugated form of reusar, not linked by MorphoBr
+reusarias	reusar	conjugated form of reusar, not linked by MorphoBr
+reusariamos	reusar	conjugated form of reusar, not linked by MorphoBr
+reusarieis	reusar	conjugated form of reusar, not linked by MorphoBr
+reusariam	reusar	conjugated form of reusar, not linked by MorphoBr
+reuses	reusar	conjugated form of reusar, not linked by MorphoBr
+reusemos	reusar	conjugated form of reusar, not linked by MorphoBr
+reuseis	reusar	conjugated form of reusar, not linked by MorphoBr
+reusem	reusar	conjugated form of reusar, not linked by MorphoBr
+reusasse	reusar	conjugated form of reusar, not linked by MorphoBr
+reusasses	reusar	conjugated form of reusar, not linked by MorphoBr
+reusassemos	reusar	conjugated form of reusar, not linked by MorphoBr
+reusasseis	reusar	conjugated form of reusar, not linked by MorphoBr
+reusassem	reusar	conjugated form of reusar, not linked by MorphoBr
+reusares	reusar	conjugated form of reusar, not linked by MorphoBr
+reusarmos	reusar	conjugated form of reusar, not linked by MorphoBr
+reusardes	reusar	conjugated form of reusar, not linked by MorphoBr
+reusarem	reusar	conjugated form of reusar, not linked by MorphoBr
+reusai	reusar	conjugated form of reusar, not linked by MorphoBr
+agramos	agrar	conjugated form of agrar, not linked by MorphoBr
+agrais	agrar	conjugated form of agrar, not linked by MorphoBr
+agram	agrar	conjugated form of agrar, not linked by MorphoBr
+agrei	agrar	conjugated form of agrar, not linked by MorphoBr
+agraste	agrar	conjugated form of agrar, not linked by MorphoBr
+agrou	agrar	conjugated form of agrar, not linked by MorphoBr
+agrastes	agrar	conjugated form of agrar, not linked by MorphoBr
+agraram	agrar	conjugated form of agrar, not linked by MorphoBr
+agrara	agrar	conjugated form of agrar, not linked by MorphoBr
+agraras	agrar	conjugated form of agrar, not linked by MorphoBr
+agraramos	agrar	conjugated form of agrar, not linked by MorphoBr
+agrareis	agrar	conjugated form of agrar, not linked by MorphoBr
+agrarei	agrar	conjugated form of agrar, not linked by MorphoBr
+agraremos	agrar	conjugated form of agrar, not linked by MorphoBr
+agrarao	agrar	conjugated form of agrar, not linked by MorphoBr
+agrariamos	agrar	conjugated form of agrar, not linked by MorphoBr
+agrarieis	agrar	conjugated form of agrar, not linked by MorphoBr
+agrariam	agrar	conjugated form of agrar, not linked by MorphoBr
+agremos	agrar	conjugated form of agrar, not linked by MorphoBr
+agreis	agrar	conjugated form of agrar, not linked by MorphoBr
+agrem	agrar	conjugated form of agrar, not linked by MorphoBr
+agrasse	agrar	conjugated form of agrar, not linked by MorphoBr
+agrasses	agrar	conjugated form of agrar, not linked by MorphoBr
+agrassemos	agrar	conjugated form of agrar, not linked by MorphoBr
+agrasseis	agrar	conjugated form of agrar, not linked by MorphoBr
+agrassem	agrar	conjugated form of agrar, not linked by MorphoBr
+agrares	agrar	conjugated form of agrar, not linked by MorphoBr
+agrarmos	agrar	conjugated form of agrar, not linked by MorphoBr
+agrardes	agrar	conjugated form of agrar, not linked by MorphoBr
+agrarem	agrar	conjugated form of agrar, not linked by MorphoBr
+agrai	agrar	conjugated form of agrar, not linked by MorphoBr
+bocando	bocar	conjugated form of bocar, not linked by MorphoBr
+bocamos	bocar	conjugated form of bocar, not linked by MorphoBr
+bocam	bocar	conjugated form of bocar, not linked by MorphoBr
+bocava	bocar	conjugated form of bocar, not linked by MorphoBr
+bocavas	bocar	conjugated form of bocar, not linked by MorphoBr
+bocavamos	bocar	conjugated form of bocar, not linked by MorphoBr
+bocaveis	bocar	conjugated form of bocar, not linked by MorphoBr
+bocavam	bocar	conjugated form of bocar, not linked by MorphoBr
+bocei	bocar	conjugated form of bocar, not linked by MorphoBr
+bocaste	bocar	conjugated form of bocar, not linked by MorphoBr
+bocou	bocar	conjugated form of bocar, not linked by MorphoBr
+bocastes	bocar	conjugated form of bocar, not linked by MorphoBr
+bocaram	bocar	conjugated form of bocar, not linked by MorphoBr
+bocara	bocar	conjugated form of bocar, not linked by MorphoBr
+bocaras	bocar	conjugated form of bocar, not linked by MorphoBr
+bocaramos	bocar	conjugated form of bocar, not linked by MorphoBr
+bocareis	bocar	conjugated form of bocar, not linked by MorphoBr
+bocarei	bocar	conjugated form of bocar, not linked by MorphoBr
+bocaremos	bocar	conjugated form of bocar, not linked by MorphoBr
+bocarao	bocar	conjugated form of bocar, not linked by MorphoBr
+bocaria	bocar	conjugated form of bocar, not linked by MorphoBr
+bocarias	bocar	conjugated form of bocar, not linked by MorphoBr
+bocariamos	bocar	conjugated form of bocar, not linked by MorphoBr
+bocarieis	bocar	conjugated form of bocar, not linked by MorphoBr
+bocariam	bocar	conjugated form of bocar, not linked by MorphoBr
+boce	bocar	conjugated form of bocar, not linked by MorphoBr
+boces	bocar	conjugated form of bocar, not linked by MorphoBr
+bocemos	bocar	conjugated form of bocar, not linked by MorphoBr
+bocem	bocar	conjugated form of bocar, not linked by MorphoBr
+bocasse	bocar	conjugated form of bocar, not linked by MorphoBr
+bocasses	bocar	conjugated form of bocar, not linked by MorphoBr
+bocassemos	bocar	conjugated form of bocar, not linked by MorphoBr
+bocasseis	bocar	conjugated form of bocar, not linked by MorphoBr
+bocassem	bocar	conjugated form of bocar, not linked by MorphoBr
+bocares	bocar	conjugated form of bocar, not linked by MorphoBr
+bocarmos	bocar	conjugated form of bocar, not linked by MorphoBr
+bocardes	bocar	conjugated form of bocar, not linked by MorphoBr
+bocarem	bocar	conjugated form of bocar, not linked by MorphoBr
+bocai	bocar	conjugated form of bocar, not linked by MorphoBr
+gizando	gizar	conjugated form of gizar, not linked by MorphoBr
+gizado	gizar	conjugated form of gizar, not linked by MorphoBr
+gizo	gizar	conjugated form of gizar, not linked by MorphoBr
+gizas	gizar	conjugated form of gizar, not linked by MorphoBr
+giza	gizar	conjugated form of gizar, not linked by MorphoBr
+gizamos	gizar	conjugated form of gizar, not linked by MorphoBr
+gizais	gizar	conjugated form of gizar, not linked by MorphoBr
+gizam	gizar	conjugated form of gizar, not linked by MorphoBr
+gizava	gizar	conjugated form of gizar, not linked by MorphoBr
+gizavas	gizar	conjugated form of gizar, not linked by MorphoBr
+gizavamos	gizar	conjugated form of gizar, not linked by MorphoBr
+gizaveis	gizar	conjugated form of gizar, not linked by MorphoBr
+gizavam	gizar	conjugated form of gizar, not linked by MorphoBr
+gizei	gizar	conjugated form of gizar, not linked by MorphoBr
+gizaste	gizar	conjugated form of gizar, not linked by MorphoBr
+gizou	gizar	conjugated form of gizar, not linked by MorphoBr
+gizastes	gizar	conjugated form of gizar, not linked by MorphoBr
+gizaram	gizar	conjugated form of gizar, not linked by MorphoBr
+gizara	gizar	conjugated form of gizar, not linked by MorphoBr
+gizaras	gizar	conjugated form of gizar, not linked by MorphoBr
+gizaramos	gizar	conjugated form of gizar, not linked by MorphoBr
+gizareis	gizar	conjugated form of gizar, not linked by MorphoBr
+gizarei	gizar	conjugated form of gizar, not linked by MorphoBr
+gizaremos	gizar	conjugated form of gizar, not linked by MorphoBr
+gizarao	gizar	conjugated form of gizar, not linked by MorphoBr
+gizaria	gizar	conjugated form of gizar, not linked by MorphoBr
+gizarias	gizar	conjugated form of gizar, not linked by MorphoBr
+gizariamos	gizar	conjugated form of gizar, not linked by MorphoBr
+gizarieis	gizar	conjugated form of gizar, not linked by MorphoBr
+gizariam	gizar	conjugated form of gizar, not linked by MorphoBr
+gize	gizar	conjugated form of gizar, not linked by MorphoBr
+gizemos	gizar	conjugated form of gizar, not linked by MorphoBr
+gizeis	gizar	conjugated form of gizar, not linked by MorphoBr
+gizem	gizar	conjugated form of gizar, not linked by MorphoBr
+gizasse	gizar	conjugated form of gizar, not linked by MorphoBr
+gizasses	gizar	conjugated form of gizar, not linked by MorphoBr
+gizassemos	gizar	conjugated form of gizar, not linked by MorphoBr
+gizasseis	gizar	conjugated form of gizar, not linked by MorphoBr
+gizassem	gizar	conjugated form of gizar, not linked by MorphoBr
+gizares	gizar	conjugated form of gizar, not linked by MorphoBr
+gizarmos	gizar	conjugated form of gizar, not linked by MorphoBr
+gizardes	gizar	conjugated form of gizar, not linked by MorphoBr
+gizarem	gizar	conjugated form of gizar, not linked by MorphoBr
+gizai	gizar	conjugated form of gizar, not linked by MorphoBr
+pitando	pitar	conjugated form of pitar, not linked by MorphoBr
+pitado	pitar	conjugated form of pitar, not linked by MorphoBr
+pitamos	pitar	conjugated form of pitar, not linked by MorphoBr
+pitais	pitar	conjugated form of pitar, not linked by MorphoBr
+pitam	pitar	conjugated form of pitar, not linked by MorphoBr
+pitava	pitar	conjugated form of pitar, not linked by MorphoBr
+pitavas	pitar	conjugated form of pitar, not linked by MorphoBr
+pitavamos	pitar	conjugated form of pitar, not linked by MorphoBr
+pitavam	pitar	conjugated form of pitar, not linked by MorphoBr
+pitei	pitar	conjugated form of pitar, not linked by MorphoBr
+pitaste	pitar	conjugated form of pitar, not linked by MorphoBr
+pitou	pitar	conjugated form of pitar, not linked by MorphoBr
+pitastes	pitar	conjugated form of pitar, not linked by MorphoBr
+pitaram	pitar	conjugated form of pitar, not linked by MorphoBr
+pitara	pitar	conjugated form of pitar, not linked by MorphoBr
+pitaras	pitar	conjugated form of pitar, not linked by MorphoBr
+pitaramos	pitar	conjugated form of pitar, not linked by MorphoBr
+pitareis	pitar	conjugated form of pitar, not linked by MorphoBr
+pitarei	pitar	conjugated form of pitar, not linked by MorphoBr
+pitaremos	pitar	conjugated form of pitar, not linked by MorphoBr
+pitarao	pitar	conjugated form of pitar, not linked by MorphoBr
+pitaria	pitar	conjugated form of pitar, not linked by MorphoBr
+pitarias	pitar	conjugated form of pitar, not linked by MorphoBr
+pitariamos	pitar	conjugated form of pitar, not linked by MorphoBr
+pitarieis	pitar	conjugated form of pitar, not linked by MorphoBr
+pitariam	pitar	conjugated form of pitar, not linked by MorphoBr
+pites	pitar	conjugated form of pitar, not linked by MorphoBr
+pitemos	pitar	conjugated form of pitar, not linked by MorphoBr
+piteis	pitar	conjugated form of pitar, not linked by MorphoBr
+pitem	pitar	conjugated form of pitar, not linked by MorphoBr
+pitasse	pitar	conjugated form of pitar, not linked by MorphoBr
+pitasses	pitar	conjugated form of pitar, not linked by MorphoBr
+pitassemos	pitar	conjugated form of pitar, not linked by MorphoBr
+pitasseis	pitar	conjugated form of pitar, not linked by MorphoBr
+pitassem	pitar	conjugated form of pitar, not linked by MorphoBr
+pitares	pitar	conjugated form of pitar, not linked by MorphoBr
+pitarmos	pitar	conjugated form of pitar, not linked by MorphoBr
+pitardes	pitar	conjugated form of pitar, not linked by MorphoBr
+pitarem	pitar	conjugated form of pitar, not linked by MorphoBr
+pitai	pitar	conjugated form of pitar, not linked by MorphoBr
+sinando	sinar	conjugated form of sinar, not linked by MorphoBr
+sinado	sinar	conjugated form of sinar, not linked by MorphoBr
+sinamos	sinar	conjugated form of sinar, not linked by MorphoBr
+sinam	sinar	conjugated form of sinar, not linked by MorphoBr
+sinava	sinar	conjugated form of sinar, not linked by MorphoBr
+sinavas	sinar	conjugated form of sinar, not linked by MorphoBr
+sinavamos	sinar	conjugated form of sinar, not linked by MorphoBr
+sinaveis	sinar	conjugated form of sinar, not linked by MorphoBr
+sinavam	sinar	conjugated form of sinar, not linked by MorphoBr
+sinei	sinar	conjugated form of sinar, not linked by MorphoBr
+sinaste	sinar	conjugated form of sinar, not linked by MorphoBr
+sinou	sinar	conjugated form of sinar, not linked by MorphoBr
+sinastes	sinar	conjugated form of sinar, not linked by MorphoBr
+sinaram	sinar	conjugated form of sinar, not linked by MorphoBr
+sinara	sinar	conjugated form of sinar, not linked by MorphoBr
+sinaras	sinar	conjugated form of sinar, not linked by MorphoBr
+sinaramos	sinar	conjugated form of sinar, not linked by MorphoBr
+sinareis	sinar	conjugated form of sinar, not linked by MorphoBr
+sinarei	sinar	conjugated form of sinar, not linked by MorphoBr
+sinaremos	sinar	conjugated form of sinar, not linked by MorphoBr
+sinarao	sinar	conjugated form of sinar, not linked by MorphoBr
+sinaria	sinar	conjugated form of sinar, not linked by MorphoBr
+sinarias	sinar	conjugated form of sinar, not linked by MorphoBr
+sinariamos	sinar	conjugated form of sinar, not linked by MorphoBr
+sinarieis	sinar	conjugated form of sinar, not linked by MorphoBr
+sinariam	sinar	conjugated form of sinar, not linked by MorphoBr
+sine	sinar	conjugated form of sinar, not linked by MorphoBr
+sinemos	sinar	conjugated form of sinar, not linked by MorphoBr
+sineis	sinar	conjugated form of sinar, not linked by MorphoBr
+sinem	sinar	conjugated form of sinar, not linked by MorphoBr
+sinasse	sinar	conjugated form of sinar, not linked by MorphoBr
+sinasses	sinar	conjugated form of sinar, not linked by MorphoBr
+sinassemos	sinar	conjugated form of sinar, not linked by MorphoBr
+sinasseis	sinar	conjugated form of sinar, not linked by MorphoBr
+sinassem	sinar	conjugated form of sinar, not linked by MorphoBr
+sinares	sinar	conjugated form of sinar, not linked by MorphoBr
+sinarmos	sinar	conjugated form of sinar, not linked by MorphoBr
+sinardes	sinar	conjugated form of sinar, not linked by MorphoBr
+sinarem	sinar	conjugated form of sinar, not linked by MorphoBr
+sinai	sinar	conjugated form of sinar, not linked by MorphoBr
+auri	aurir	conjugated form of aurir, not linked by MorphoBr
+auria	aurir	conjugated form of aurir, not linked by MorphoBr
+auriam	aurir	conjugated form of aurir, not linked by MorphoBr
+auriamos	aurir	conjugated form of aurir, not linked by MorphoBr
+aurias	aurir	conjugated form of aurir, not linked by MorphoBr
+aurieis	aurir	conjugated form of aurir, not linked by MorphoBr
+aurimos	aurir	conjugated form of aurir, not linked by MorphoBr
+aurira	aurir	conjugated form of aurir, not linked by MorphoBr
+auriram	aurir	conjugated form of aurir, not linked by MorphoBr
+auriramos	aurir	conjugated form of aurir, not linked by MorphoBr
+aurirao	aurir	conjugated form of aurir, not linked by MorphoBr
+auriras	aurir	conjugated form of aurir, not linked by MorphoBr
+aurirdes	aurir	conjugated form of aurir, not linked by MorphoBr
+aurirei	aurir	conjugated form of aurir, not linked by MorphoBr
+aurireis	aurir	conjugated form of aurir, not linked by MorphoBr
+aurirem	aurir	conjugated form of aurir, not linked by MorphoBr
+auriremos	aurir	conjugated form of aurir, not linked by MorphoBr
+aurires	aurir	conjugated form of aurir, not linked by MorphoBr
+auriria	aurir	conjugated form of aurir, not linked by MorphoBr
+auririam	aurir	conjugated form of aurir, not linked by MorphoBr
+auririamos	aurir	conjugated form of aurir, not linked by MorphoBr
+auririas	aurir	conjugated form of aurir, not linked by MorphoBr
+auririeis	aurir	conjugated form of aurir, not linked by MorphoBr
+aurirmos	aurir	conjugated form of aurir, not linked by MorphoBr
+auris	aurir	conjugated form of aurir, not linked by MorphoBr
+aurisse	aurir	conjugated form of aurir, not linked by MorphoBr
+aurisseis	aurir	conjugated form of aurir, not linked by MorphoBr
+aurissem	aurir	conjugated form of aurir, not linked by MorphoBr
+aurissemos	aurir	conjugated form of aurir, not linked by MorphoBr
+aurisses	aurir	conjugated form of aurir, not linked by MorphoBr
+auriste	aurir	conjugated form of aurir, not linked by MorphoBr
+auristes	aurir	conjugated form of aurir, not linked by MorphoBr
+auriu	aurir	conjugated form of aurir, not linked by MorphoBr
+tours	tour	plural of tour, not linked by MorphoBr
+sonando	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonado	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonas	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonamos	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonais	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonam	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonava	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonavas	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonavamos	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonaveis	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonavam	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonei	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonaste	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonou	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonastes	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonaram	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonara	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonaras	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonaramos	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonareis	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonarei	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonaremos	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonarao	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonaria	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonarias	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonariamos	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonarieis	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonariam	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sone	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sones	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonemos	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+soneis	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonem	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonasse	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonasses	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonassemos	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonasseis	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonassem	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonarmos	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonardes	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonarem	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+sonai	sonar	conjugated form of sonar (archaic form of soar), not linked by MorphoBr
+aurem	aurir	3rd person plural present indicative of aurir, not linked by MorphoBr

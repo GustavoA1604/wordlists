@@ -465,6 +465,7 @@ magda
 malafaia
 malba
 mall
+mante
 manuel
 marcela
 marciano
@@ -649,7 +650,6 @@ sm
 smile
 sofia
 solano
-sone
 sonia
 sousa
 souto
