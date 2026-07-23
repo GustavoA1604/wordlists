@@ -13,10 +13,15 @@
 //   1. removals.txt or a tier-x row          -> excluded from the pool
 //   2. curated/forms.tsv override            -> that tier
 //   3. curated headword row (word == lemma)  -> that tier
-//   4. word in t1 base (omret + top-5k freq) -> t1 (frequency trust; rules never
-//      demote everyday words, mirroring the old sweep skipping t1)
-//   5. morphological rule tier (min over analyses whose lemma is in the game)
-//   6. source-membership fallback (t2 base -> t2, else t3)
+//   4. word in t1 base (omret + top-5k freq)     -> t1 (frequency trust; rules
+//   5. word in t2 base (silviotamaso + top-15k)  -> t2  never demote a word
+//      independently attested by one of these curated-grade sources, even
+//      when it is also an inflected form of some other, rarer lemma)
+//   6. morphological rule tier (min over analyses whose lemma is in the game)
+//   7. source-membership fallback (t3 only at this point: top-20k unfiltered
+//      plus a cross-validated tail out to ~100k accepted words, admitted only
+//      when Wiktionary also has a dictionary entry for the word -- see
+//      loadEngine's `recognized`)
 //
 // Rule tier per analysis (lemma tier known):
 //   - the headword itself (form == lemma)         -> lemma tier
@@ -49,6 +54,7 @@ import { normalizeWord } from "../lib/normalize.js";
 import {
   ptbr,
   loadMorphoBr,
+  loadWiktionary,
   loadValidSources,
   loadUncommonSources,
   loadCommonSources,
@@ -140,11 +146,29 @@ function verbObscure(rows) {
 
 export async function loadEngine() {
   const norm = (ws) => new Set(ws.map(normalizeWord).filter(Boolean));
+  const morpho = loadMorphoBr();
+  const wiktionary = loadWiktionary();
+  // A word independently attested by a dictionary page: used to cross-validate
+  // frequency-corpus entries past the old top-20k cutoff, so the long tail can
+  // be trusted for real words (jaca, castanheira, "duto") without also
+  // absorbing the corpus's noise (typos, foreign text, OCR junk) that grows as
+  // a share of ranks the deeper you go. MorphoBr's own `byForm` membership is
+  // NOT used here despite being the richer index: it just means some lemma's
+  // mechanical paradigm happens to produce this exact string, which for
+  // 3-4 letter forms is often a fragment of an obscure/dubious verb rather
+  // than an attested word ("gau", "mho", "riz" all have MorphoBr analyses but
+  // no dictionary entry) -- the same over-generation noted for MorphoBr
+  // headwords at the top of this file applies just as much to its forms.
+  const recognized = (w) => wiktionary.has(w);
+
   const t1Base = norm([...loadCommonSources(), ...loadFreqSources(5000)]);
   const t2Base = norm([...loadUncommonSources(), ...loadFreqSources(15000)]);
-  const t3Base = norm([...(await loadValidSources()), ...loadFreqSources(20000)]);
+  const t3Base = norm([
+    ...(await loadValidSources()),
+    ...loadFreqSources(20000), // unchanged: same unfiltered floor as before
+    ...loadFreqSources(100000, recognized), // extended tail, cross-validated
+  ]);
 
-  const morpho = loadMorphoBr();
   const lemmas = readLemmas();
   const forms = readForms();
   const removals = new Set(readCurated("removals.txt").map(normalizeWord).filter(Boolean));
@@ -181,6 +205,28 @@ export async function loadEngine() {
     if (removals.has(lemma)) return "x";
     if (forms.has(lemma)) return forms.get(lemma).tier;
     return baseTier(lemma);
+  }
+
+  /**
+   * Like lemmaTier, but only a human decision counts: returns null instead of
+   * falling back to source membership. Used to tell "nobody decided" apart
+   * from "curated on purpose" when a word's own base-tier trust (below) would
+   * otherwise paper over a deliberate call on its lemma -- e.g. "putas" sits
+   * in the t2 frequency source on its own, but its lemma "puta" was
+   * deliberately curated to t3, and that decision should win.
+   */
+  function explicitLemmaTier(lemma, pos = null) {
+    const rows = lemmas.get(lemma);
+    if (rows) {
+      const row =
+        (pos && rows.find((r) => r.pos === pos)) ??
+        rows.find((r) => r.pos === "-") ??
+        rows[0];
+      if (row) return row.tier;
+    }
+    if (removals.has(lemma)) return "x";
+    if (forms.has(lemma)) return forms.get(lemma).tier;
+    return null;
   }
 
   /**
@@ -246,6 +292,28 @@ export async function loadEngine() {
       return { tier, why: `curated/forms.tsv${reason ? ` (${reason})` : ""}`, analyses };
     }
     if (t1Base.has(word)) return { tier: 1, why: "t1 base (omret/top-5k frequency)", analyses };
+    // t2 base gets the same non-demotion trust as t1: silviotamaso/top-15k are
+    // themselves curated-grade "everyday word" sources, so a word directly
+    // attested there should not get pulled down to t3 just because it is
+    // *also* an inflected form of some other, rarer lemma (e.g. "bailarina" is
+    // t2-attested on its own merits even though "bailarino" the lemma sits at
+    // t3). Without this, expanding t3's source membership to cover more
+    // lemmas — see `recognized` above — would collide with and downgrade
+    // t2-attested forms of those newly-in-game lemmas.
+    //
+    // Exception: a *deliberate* curation decision on every one of the word's
+    // lemmas still wins. Frequency trust is a generic "this looks common"
+    // signal; an explicit lemmas.tsv/forms.tsv/removals row is someone having
+    // actually decided the word family belongs elsewhere (most often: a
+    // slur/vulgar lemma curated to t3 on purpose). "putas" sitting in the
+    // frequency source doesn't get to un-suppress "puta".
+    if (t2Base.has(word)) {
+      const explicitTiers = analyses
+        .map((a) => explicitLemmaTier(a.lemma, a.pos))
+        .filter((t) => t !== null);
+      const allWorse = explicitTiers.length > 0 && explicitTiers.every((t) => t === "x" || t > 2);
+      if (!allWorse) return { tier: 2, why: "t2 base (silviotamaso/top-15k frequency)", analyses };
+    }
 
     const ruleTiers = analyses.map((a) => a.tier).filter((t) => t !== null);
     if (ruleTiers.length > 0) {
@@ -296,6 +364,6 @@ export async function loadEngine() {
 
   return {
     t1Base, t2Base, t3Base, morpho, lemmas, forms, removals,
-    baseTier, lemmaTier, analysisTier, analysesOf, resolve, inGameLemmas, pool,
+    baseTier, lemmaTier, explicitLemmaTier, analysisTier, analysesOf, resolve, inGameLemmas, pool,
   };
 }

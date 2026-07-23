@@ -1,10 +1,10 @@
 {
-  "curatedLemmas": 1705,
-  "curatedForms": 539,
-  "removals": 737,
-  "t1": 6193,
-  "t2": 35252,
-  "t3": 85684,
-  "valid": 127129,
-  "withDefs": 123335
+  "curatedLemmas": 1712,
+  "curatedForms": 563,
+  "removals": 736,
+  "t1": 6192,
+  "t2": 35344,
+  "t3": 305266,
+  "valid": 346802,
+  "withDefs": 343007
 }

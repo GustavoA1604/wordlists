@@ -145,7 +145,7 @@ atono	A	2
 auram	-	3
 auramos	-	3
 aure	-	3
-aurem	-	3	
+aurem	-	3
 aures	-	3	english
 auri	-	3
 auria	-	3
@@ -194,6 +194,7 @@ balanca	N	3
 bamba	N	3	place
 bang	N	3
 banzo	-	3
+baroa	-	2
 barrado	A	3
 barroca	N	3
 bateia	N	2
@@ -471,6 +472,7 @@ del	-	3
 delivery	-	3	english
 demo	N	3
 dentuco	-	2
+departir	-	3
 deriva	N	3
 derrama	N	3
 derrame	N	3
@@ -529,6 +531,7 @@ dunga	-	3
 duns	-	2
 duo	N	3
 dutil	-	x
+duto	-	2
 duzia	N	1
 ebola	N	2
 ebook	-	3
@@ -639,7 +642,7 @@ flato	N	3
 flecha	N	3
 flex	LOAN	3	english
 foda	N	3
-foder	V	3
+foder	V	3	polemic
 fofas	N	3
 folheado	-	3
 folk	-	3
@@ -672,6 +675,7 @@ gabao	N	3	country
 gabarita	-	2
 gabaritas	-	2
 gabo	-	3
+gafe	-	2
 gaia	PROP	3	place
 gajo	-	3
 galga	N	3
@@ -738,7 +742,7 @@ gora	-	3
 goraz	-	3
 gospel	N	3
 governado	A	3
-gozar	V	3
+gozar	V	3	polemic
 gra	N	3
 graal	N	3
 gracioso	-	3
@@ -1025,7 +1029,7 @@ network	N	3	english
 networking	N	3	english
 newsletter	N	3	english
 nina	N	3
-ninfeta	N	3
+ninfeta	N	3	polemic
 nirvana	N	3	english
 notebook	N	3
 notre	-	3
@@ -1059,6 +1063,7 @@ outdoor	N	3
 outlet	-	3	english
 ovem	N	3
 over	N	3	english
+paje	-	3
 palace	-	3
 palmares	N	3	place
 palmas	N	3	place
@@ -1081,7 +1086,7 @@ pedrinhos	-	2
 pegas	N	3
 peido	N	2
 peita	N	3
-peitudo	A	3
+peitudo	A	3	polemic
 pelem	N	3
 pen	-	3	place
 peneiro	N	2
@@ -1170,6 +1175,7 @@ pole	N	3
 pool	N	3
 porens	-	2
 porno	A	3
+poro	-	2
 porra	N	3
 portalegre	-	3	place
 portland	-	3	place
@@ -1194,13 +1200,13 @@ prolonga	N	3
 prolongo	N	3
 pronunciado	A	3
 prospero	A	3
-prostituta	N	3
+prostituta	N	3	polemic
 proto	A	2
 pubis	N	2
 puido	A	2
 punheta	N	3
 punk	-	3
-puta	-	3
+puta	-	3	polemic
 putaria	-	3
 puto	-	3
 puxada	N	3
@@ -1390,84 +1396,46 @@ silfo	N	3
 sin	-	3	english
 sinado	-	3
 sinai	-	3
-sinai	-	3
 sinam	-	3
-sinam	-	3
-sinamos	-	3
 sinamos	-	3
 sinando	-	3
 sinar	-	3
 sinara	-	3
-sinara	-	3
-sinaram	-	3
 sinaram	-	3
 sinaramos	-	3
-sinaramos	-	3
-sinarao	-	3
 sinarao	-	3
 sinaras	-	3
-sinaras	-	3
-sinardes	-	3
 sinardes	-	3
 sinarei	-	3
-sinarei	-	3
-sinareis	-	3
 sinareis	-	3
 sinarem	-	3
-sinarem	-	3
-sinaremos	-	3
 sinaremos	-	3
 sinares	-	3
-sinares	-	3
-sinaria	-	3
 sinaria	-	3
 sinariam	-	3
-sinariam	-	3
-sinariamos	-	3
 sinariamos	-	3
 sinarias	-	3
-sinarias	-	3
-sinarieis	-	3
 sinarieis	-	3
 sinarmos	-	3
-sinarmos	-	3
-sinasse	-	3
 sinasse	-	3
 sinasseis	-	3
-sinasseis	-	3
-sinassem	-	3
 sinassem	-	3
 sinassemos	-	3
-sinassemos	-	3
-sinasses	-	3
 sinasses	-	3
 sinaste	-	3
-sinaste	-	3
-sinastes	-	3
 sinastes	-	3
 sinava	-	3
-sinava	-	3
-sinavam	-	3
 sinavam	-	3
 sinavamos	-	3
-sinavamos	-	3
-sinavas	-	3
 sinavas	-	3
 sinaveis	-	3
-sinaveis	-	3
-sine	-	3
 sine	-	3
 sinei	-	3
-sinei	-	3
-sineis	-	3
 sineis	-	3
 sinem	-	3
-sinem	-	3
-sinemos	-	3
 sinemos	-	3
 sines	-	3	english
 single	N	3
-sinou	-	3
 sinou	-	3
 sir	N	3	english
 sirzas	-	3
@@ -1489,84 +1457,46 @@ sombria	N	3
 sona	-	3
 sonado	-	3
 sonai	-	3
-sonai	-	3
-sonais	-	3
 sonais	-	3
 sonam	-	3
-sonam	-	3
-sonamos	-	3
 sonamos	-	3
 sonando	-	3
 sonar	-	3
 sonara	-	3
-sonara	-	3
-sonaram	-	3
 sonaram	-	3
 sonaramos	-	3
-sonaramos	-	3
-sonarao	-	3
 sonarao	-	3
 sonaras	-	3
-sonaras	-	3
-sonardes	-	3
 sonardes	-	3
 sonarei	-	3
-sonarei	-	3
-sonareis	-	3
 sonareis	-	3
 sonarem	-	3
-sonarem	-	3
-sonaremos	-	3
 sonaremos	-	3
 sonaria	-	3
-sonaria	-	3
-sonariam	-	3
 sonariam	-	3
 sonariamos	-	3
-sonariamos	-	3
-sonarias	-	3
 sonarias	-	3
 sonarieis	-	3
-sonarieis	-	3
-sonarmos	-	3
 sonarmos	-	3
 sonas	-	3
-sonas	-	3
-sonasse	-	3
 sonasse	-	3
 sonasseis	-	3
-sonasseis	-	3
-sonassem	-	3
 sonassem	-	3
 sonassemos	-	3
-sonassemos	-	3
-sonasses	-	3
 sonasses	-	3
 sonaste	-	3
-sonaste	-	3
 sonastes	-	3
-sonastes	-	3
-sonava	-	3
 sonava	N	3
 sonavam	-	3
-sonavam	-	3
-sonavamos	-	3
 sonavamos	-	3
 sonavas	-	3
 sonaveis	-	3
-sonaveis	-	3
 sone	-	3
 sonei	-	3
-sonei	-	3
-soneis	-	3
 soneis	-	3
 sonem	-	3
-sonem	-	3
 sonemos	-	3
-sonemos	-	3
-sones	-	3
 sones	-	3	english
-sonou	-	3
 sonou	-	3
 sossega	N	2
 soul	-	3
@@ -1642,6 +1572,7 @@ tocaio	A	2
 tola	N	3
 tomba	N	3
 tonta	N	3
+top	-	3
 topa	N	3
 torar	V	2
 torneiro	N	2
@@ -1692,7 +1623,7 @@ upload	-	3	english
 ups	-	3	english
 user	-	3	english
 vacina	N	3
-vadio	-	3
+vadio	-	3	polemic
 vagina	N	3
 valencia	N	3	place
 valo	N	2

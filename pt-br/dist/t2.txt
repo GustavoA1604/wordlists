@@ -186,8 +186,10 @@ abraca
 abracar
 abracos
 abracou
+abrange
 abrangencia
 abrangencias
+abrangendo
 abrangente
 abrangentes
 abras
@@ -349,6 +351,7 @@ acelerar
 acem
 acena
 acenar
+acenas
 acende
 acender
 acenos
@@ -496,10 +499,12 @@ aconchegante
 aconchegantes
 aconchego
 aconchegos
+aconselha
 aconselhamento
 aconselhamentos
 aconselhaveis
 aconselhavel
+aconselho
 aconteca
 acontecemos
 aconteceram
@@ -570,6 +575,7 @@ acreditara
 acreditaram
 acreditaramos
 acreditarao
+acreditaras
 acreditarei
 acreditarem
 acreditaremos
@@ -577,9 +583,11 @@ acreditaria
 acreditariam
 acreditariamos
 acreditarmos
+acreditas
 acreditasse
 acreditassem
 acreditassemos
+acreditasses
 acreditava
 acreditavam
 acreditavamos
@@ -945,6 +953,7 @@ adversaria
 adversarias
 adversarios
 adversas
+adversidades
 adverso
 adversos
 adverte
@@ -1493,6 +1502,7 @@ aldeoas
 aldeoes
 aldeona
 aldeonas
+ale
 aleatoria
 aleatoriamente
 aleatorias
@@ -1817,7 +1827,6 @@ amapa
 amapola
 amapolas
 amara
-amarais
 amaram
 amaramos
 amarante
@@ -1828,6 +1837,7 @@ amarelas
 amarelos
 amarem
 amaremos
+amares
 amarga
 amargar
 amargas
@@ -1853,6 +1863,8 @@ amassar
 amasse
 amassem
 amassemos
+amasses
+amaste
 amava
 amavam
 amavamos
@@ -2094,6 +2106,7 @@ andavamos
 ande
 andebol
 andei
+andes
 andina
 andinas
 andino
@@ -2548,6 +2561,7 @@ apreciados
 apreciar
 apreco
 aprecos
+apreende
 apreendida
 apreendidas
 apreendido
@@ -3100,6 +3114,7 @@ arrumo
 arrumou
 arsenais
 arsenal
+artefatos
 arteria
 arteriais
 arterial
@@ -3252,6 +3267,7 @@ asseio
 asseios
 assembleias
 assemelha
+assenta
 assentamento
 assentamentos
 assessor
@@ -4306,6 +4322,7 @@ bardos
 baria
 barias
 barios
+baroa
 baroes
 baronesa
 baronesas
@@ -5889,6 +5906,7 @@ capelas
 capelo
 capeloes
 capelos
+capes
 capilar
 capilara
 capilaras
@@ -5944,6 +5962,7 @@ capuchos
 caput
 capuzes
 caquis
+caracas
 caracois
 caracol
 caracter
@@ -6172,6 +6191,7 @@ caseiras
 caseiros
 caserna
 casernas
+cases
 casinha
 casinhas
 casorio
@@ -6233,6 +6253,7 @@ catara
 cataram
 cataramos
 catarao
+cataratas
 catarei
 catarem
 cataremos
@@ -8243,8 +8264,10 @@ confiantes
 confiar
 confiara
 confiarao
+confiaras
 confiarei
 confiaremos
+confias
 confiaveis
 confiavel
 confidenciais
@@ -8496,6 +8519,8 @@ consoante
 consoantes
 consolacao
 consolacoes
+console
+consoles
 consolidacao
 consolidacoes
 consolidada
@@ -9558,6 +9583,7 @@ criptografias
 crises
 crispar
 cristais
+cristalina
 cristaos
 cristas
 cristianismos
@@ -9911,6 +9937,7 @@ dancaremos
 dancaria
 dancariam
 dancariamos
+dancarina
 dancarmos
 dancas
 dancava
@@ -10101,7 +10128,9 @@ decotadas
 decotar
 decote
 decotes
+decreta
 decretos
+decretou
 decursa
 decursas
 decurso
@@ -10364,6 +10393,7 @@ dengoso
 dengosos
 dengue
 dengues
+denomina
 denominacao
 denominacoes
 denominada
@@ -10381,6 +10411,7 @@ dentado
 dentados
 dentais
 dental
+dentaria
 dentista
 dentistas
 dentuca
@@ -10616,6 +10647,7 @@ desconfortaveis
 desconfortavel
 desconforto
 desconfortos
+desconhece
 desconhecida
 desconhecidas
 desconhecidos
@@ -10896,6 +10928,7 @@ despedidas
 despedir
 despeito
 despeitos
+despeje
 despensa
 despensas
 desperdicio
@@ -10977,11 +11010,13 @@ destacavam
 destacavamos
 destaco
 destaquei
+destina
 destinacao
 destinacoes
 destinada
 destinadas
 destinados
+destinam
 destinataria
 destinatarias
 destinatario
@@ -11728,6 +11763,7 @@ dizemos
 dizerem
 dizeres
 dizermos
+dizes
 diziam
 diziamos
 dizimar
@@ -12087,6 +12123,7 @@ duroes
 durona
 duronas
 durou
+duto
 duvidar
 duvido
 duzentos
@@ -12479,10 +12516,12 @@ embeber
 embeleza
 embelezar
 embelezaram
+embelezas
 embeleze
 embelezei
 embelezem
 embelezemos
+embelezes
 embelezo
 embelezou
 emblema
@@ -14025,12 +14064,15 @@ evocadas
 evocado
 evocados
 evocar
+evocares
 evolucoes
 evoluem
 evolui
 evoluimos
 evoluindo
 evoluir
+evoluires
+evoluis
 evoluiu
 evoluo
 exactamente
@@ -14088,6 +14130,7 @@ excita
 excitante
 excitantes
 excitar
+excitas
 excito
 excluem
 exclui
@@ -14710,6 +14753,7 @@ farense
 farenses
 fariam
 fariamos
+farias
 faringe
 faringes
 farinhas
@@ -14794,6 +14838,7 @@ fazendeiro
 fazendeiros
 fazerem
 fazermos
+fazes
 faziamos
 febra
 febras
@@ -15076,6 +15121,7 @@ fidelizacoes
 fieira
 fieiras
 fielmente
+fies
 figa
 figado
 figados
@@ -15331,6 +15377,7 @@ fizeramos
 fizerem
 fizesse
 fizessem
+fizeste
 flacida
 flacidas
 flacido
@@ -15633,6 +15680,7 @@ fosseis
 fossil
 fosso
 fossos
+foste
 fotografa
 fotografar
 fotografas
@@ -16107,6 +16155,7 @@ gaelica
 gaelicas
 gaelico
 gaelicos
+gafe
 gaga
 gagas
 gago
@@ -16757,6 +16806,7 @@ gostaremos
 gostariam
 gostariamos
 gostarmos
+gostas
 gostavam
 gostavamos
 goste
@@ -17316,6 +17366,7 @@ honestidade
 honestidades
 honesto
 honestos
+honorarios
 honoris
 honrada
 honradas
@@ -18528,6 +18579,7 @@ inspiradoras
 inspiradores
 inspirados
 inspirar
+inspiras
 inspire
 inspiro
 inspirou
@@ -19106,6 +19158,7 @@ jantava
 jantavam
 jantavamos
 jantei
+jantes
 janto
 jantou
 japao
@@ -19562,6 +19615,7 @@ lapsos
 laquei
 laques
 laranjas
+laranjeiras
 lareira
 lareiras
 largada
@@ -22470,11 +22524,13 @@ multimidia
 multimidias
 multinacionais
 multinacional
+multipla
 multiplicacao
 multiplicacoes
 multiplicar
 multiplicidade
 multiplicidades
+multiplos
 mumias
 mundana
 mundanas
@@ -22581,8 +22637,10 @@ namora
 namoradas
 namorando
 namorar
+namoras
 namoros
 nana
+nano
 naos
 napoleao
 napoleoes
@@ -22973,6 +23031,7 @@ notaveis
 notavel
 note
 notei
+notes
 noticiario
 noticiarios
 noticio
@@ -23089,6 +23148,7 @@ nutrida
 nutridas
 nutrido
 nutridos
+nutrientes
 nutrir
 nuvens
 nylon
@@ -23765,6 +23825,7 @@ ornou
 oro
 orquestra
 orquestras
+orquideas
 ortografia
 ortografias
 ortografica
@@ -24080,6 +24141,7 @@ panico
 panicos
 panorama
 panoramas
+panoramica
 pantanais
 pantanal
 pantano
@@ -24955,6 +25017,7 @@ perdoes
 perecer
 peregrinacao
 peregrinacoes
+peregrinos
 pereiras
 perene
 perenes
@@ -25089,6 +25152,7 @@ pernambucanos
 pernas
 perola
 perolas
+perpetua
 perpetuas
 persa
 persas
@@ -25861,6 +25925,7 @@ pormenores
 pormos
 pornografia
 pornografias
+poro
 poroes
 porosa
 porosas
@@ -26130,6 +26195,7 @@ prazidas
 prazido
 prazidos
 prazos
+precaria
 precaucao
 precaucoes
 precedente
@@ -26684,6 +26750,7 @@ profanos
 profas
 profecia
 profecias
+proferida
 professoras
 profeta
 profetas
@@ -27346,6 +27413,7 @@ quereria
 quereriam
 quereriamos
 querermos
+queres
 queriam
 queriamos
 queridas
@@ -27409,6 +27477,7 @@ quisera
 quiseram
 quiseramos
 quiserem
+quiseres
 quisermos
 quisesse
 quista
@@ -28331,6 +28400,7 @@ rejeitar
 rejeitou
 rejo
 relaciona
+relacionais
 relacionam
 relacionamentos
 relacionamos
@@ -28339,8 +28409,10 @@ relacionara
 relacionarao
 relacionarei
 relacionaremos
+relacionas
 relacionasse
 relacionassem
+relacionasses
 relaciono
 relada
 reladas
@@ -28439,6 +28511,7 @@ religiosas
 religiosidade
 religiosidades
 religiosos
+reliquias
 relo
 relogios
 relou
@@ -28855,13 +28928,16 @@ respeitarao
 respeitarei
 respeitarem
 respeitaremos
+respeitares
 respeitaria
 respeitariam
 respeitariamos
 respeitarmos
+respeitas
 respeitasse
 respeitassem
 respeitassemos
+respeitasses
 respeitava
 respeitavam
 respeitavamos
@@ -28869,6 +28945,7 @@ respeite
 respeitei
 respeitem
 respeitemos
+respeites
 respeitos
 respeitosamente
 respeitou
@@ -28905,6 +28982,7 @@ respondido
 respondidos
 respondo
 responsabilidades
+responsabiliza
 responsabilizacao
 responsabilizacoes
 responsaveis
@@ -28929,6 +29007,7 @@ ressuscitada
 ressuscitadas
 ressuscitado
 ressuscitados
+ressuscitou
 restabelecer
 restam
 restantes
@@ -29878,6 +29957,7 @@ saberia
 saberiam
 saberiamos
 sabermos
+sabes
 sabiam
 sabiamos
 sabias
@@ -30668,6 +30748,7 @@ sequestro
 sequestros
 sequito
 sequitos
+seras
 serei
 sereia
 sereias
@@ -30979,6 +31060,7 @@ sistematicamente
 sistematicas
 sistematico
 sistematicos
+sistemica
 sistina
 sistinas
 sistino
@@ -32327,6 +32409,7 @@ temperados
 temperamento
 temperamentos
 temperaturas
+tempere
 tempestade
 tempestades
 tempinho
@@ -32357,6 +32440,7 @@ tendoes
 tenente
 tenentes
 tenhamos
+tenhas
 tenias
 tenista
 tenistas
@@ -32424,6 +32508,7 @@ terapeuticas
 terapeutico
 terapeuticos
 terapias
+teras
 tercada
 tercadas
 tercado
@@ -32876,7 +32961,6 @@ topicas
 topografia
 topografias
 topou
-tops
 toquei
 toques
 tora
@@ -33029,6 +33113,7 @@ trabalharais
 trabalharam
 trabalharamos
 trabalharao
+trabalharas
 trabalharei
 trabalharem
 trabalharemos
@@ -33036,9 +33121,11 @@ trabalharia
 trabalhariam
 trabalhariamos
 trabalharmos
+trabalhas
 trabalhasse
 trabalhassem
 trabalhassemos
+trabalhasses
 trabalhava
 trabalhavam
 trabalhavamos
@@ -33221,6 +33308,7 @@ transparentes
 transplante
 transplantes
 transporta
+transportadora
 transportar
 transposicao
 transposicoes
@@ -33347,6 +33435,7 @@ trenas
 trenos
 trepando
 tretas
+trevas
 trevos
 trezentos
 trezes
@@ -33797,6 +33886,7 @@ urgencias
 urgentemente
 urgentes
 urgir
+urinaria
 urinas
 urna
 urra
@@ -33978,6 +34068,7 @@ vaidosos
 vaiei
 vaio
 vaiou
+vais
 vaivem
 vaivens
 val
@@ -35092,6 +35183,7 @@ votavam
 votavamos
 vote
 votei
+votes
 votou
 vovo
 vr

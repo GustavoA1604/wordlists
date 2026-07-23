@@ -76,15 +76,23 @@ const engine = await loadEngine();
 
 /**
  * What a word would resolve to if its own curated row did not exist: t1-base
- * trust, then rules (with the word's own lemma tier falling back to source
- * membership), then source membership.
+ * trust, then t2-base trust (unless every lemma reading is explicitly curated
+ * worse, mirroring resolve()'s exception), then rules (with the word's own
+ * lemma tier falling back to source membership), then source membership.
  */
 const DERIV_ONLY = (rows) => rows.every((r) => /(?:^|\+)(?:DIM|AUG|SUPER)(?:\+|$)/.test(r.feats));
 function tierWithoutOwnRow(word) {
   if (engine.t1Base.has(word)) return 1;
+  const analyses = engine.analysesOf(word);
+  if (engine.t2Base.has(word)) {
+    const explicitTiers = analyses
+      .map((g) => engine.explicitLemmaTier(g.lemma, g.pos))
+      .filter((t) => t !== null);
+    const allWorse = explicitTiers.length > 0 && explicitTiers.every((t) => t === "x" || t > 2);
+    if (!allWorse) return 2;
+  }
   const base = engine.baseTier(word);
-  const ruleTiers = engine
-    .analysesOf(word)
+  const ruleTiers = analyses
     .map((g) =>
       g.lemma === word
         ? (DERIV_ONLY(g.rows) ? null : base) // headword analysis: lemma tier falls back to sources
