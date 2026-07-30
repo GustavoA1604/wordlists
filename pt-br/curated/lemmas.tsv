@@ -108,7 +108,7 @@ apud	ABBR	3	abbrev
 apurada	N	3
 arar	V	3	place
 araxa	-	3	place
-areo	-	3
+areo	-	x
 argola	N	3
 arqueira	-	2
 arqueiras	-	2
@@ -142,7 +142,7 @@ atica	N	3
 atido	A	3
 atm	-	3
 atono	A	2
-auram	-	3
+auram	-	x
 auramos	-	3
 aure	-	3
 aurem	-	3
@@ -192,7 +192,7 @@ badala	N	3
 baila	N	3
 balanca	N	3
 bamba	N	3	place
-bang	N	3
+bang	N	x
 banzo	-	3
 baroa	-	2
 barrado	A	3
@@ -238,7 +238,7 @@ bazem	-	3
 bazemos	-	3
 bazes	-	3
 bazou	-	2
-beat	-	3	english
+beat	-	x	english
 beca	N	2
 beija	N	3
 beja	PROP	3	place
@@ -336,7 +336,7 @@ bugio	-	3
 bugs	-	3	english
 bule	N	3
 bulgaria	-	3	country
-bull	-	3
+bull	-	x
 bullying	-	3
 bumba	N	2	place
 bumbum	N	3
@@ -374,11 +374,11 @@ cariri	A	3
 carre	-	3
 carrega	N	3
 cartoon	N	3
-cash	-	3	english
+cash	-	x	english
 casino	N	3
 cassa	-	3
 cassado	A	3
-cast	-	3	english
+cast	-	x	english
 casula	N	2	place
 cativa	N	3	place
 cautela	N	3
@@ -452,7 +452,7 @@ cottage	N	3	english
 country	-	3	english
 crava	N	3
 crido	A	3
-cross	-	3	english
+cross	-	x	english
 cu	N	3
 cult	LOAN	3	english
 cultivado	A	3
@@ -462,8 +462,8 @@ dalai	-	3	place
 damo	N	3
 debatido	A	3
 debil	A	2
-deck	-	3	english
-decor	N	3	english
+deck	-	x	english
+decor	N	x	english
 decorrido	A	3
 dedaos	-	2
 default	-	3	english
@@ -492,7 +492,7 @@ despejo	N	3
 despertado	A	3
 destro	-	2
 desviado	A	3
-die	A	3
+die	A	x
 diese	N	3
 diet	LOAN	3	english
 difundido	A	3
@@ -608,9 +608,9 @@ expandido	A	3
 expedida	N	3
 expensas	N	2
 expert	N	3	english
-expo	N	3
+expo	N	x
 facilitado	A	3
-fair	-	3	english
+fair	-	x	english
 faisca	N	3
 fake	-	3	english
 familio	-	2
@@ -653,7 +653,7 @@ formatas	-	3
 formigo	-	2
 forra	-	3
 fotografado	A	3
-four	N	3	english
+four	N	x	english
 fox	-	3
 fraterna	N	3
 frequentado	A	3
@@ -779,8 +779,8 @@ honduras	-	3	country
 honras	N	3
 host	-	3	english
 hot	A	3	english
-hour	-	3	english
-hub	-	3	place
+hour	-	x	english
+hub	-	x	place
 hum	INTJ	3	interj
 ica	A	3	place
 icado	A	3
@@ -827,11 +827,11 @@ japao	N	2	country
 jau	-	3	place
 java	-	3
 jazz	N	3
-jean	-	3
+jean	-	x
 jersey	-	3
 jesus	N	3	firstname
 jet	-	3	english
-jiu	-	3
+jiu	-	x
 job	N	3
 jorra	N	3
 judeia	-	2
@@ -954,7 +954,7 @@ masturbacao	N	3
 match	N	3	english
 mater	-	3
 maua	PROP	3	place
-maxi	-	3
+maxi	-	x
 maxim	-	3
 meca	N	3
 medra	N	3
@@ -985,7 +985,7 @@ misturada	N	3
 miudas	N	3
 mix	-	3
 mobil	-	3
-model	-	3	english
+model	-	x	english
 modens	-	2
 moedor	-	2
 moema	-	3	place
@@ -1074,7 +1074,7 @@ paraibas	-	2
 parasito	-	3
 parda	N	3
 partilhado	A	3
-pass	-	3	english
+pass	-	x	english
 password	N	3	english
 pastora	N	3
 patchwork	N	3	english
@@ -1121,7 +1121,7 @@ piora	N	3
 pipoco	N	2
 pira	N	3
 pisca	N	3
-pit	-	3
+pit	-	x
 pita	N	3	place
 pitado	-	3
 pitai	-	3
@@ -1216,14 +1216,14 @@ qua	-	3
 quantum	N	3
 quark	N	3
 quatorze	N	3
-queen	-	3	english
+queen	-	x	english
 queima	N	3
 qui	-	3
 quipas	-	3
 quita	N	3
 quiz	-	3	english
 quota	N	1
-quote	-	3	english
+quote	-	x	english
 rabisca	N	2
 racha	N	3
 racing	-	3	english
@@ -1339,15 +1339,15 @@ ricarda	-	2
 rifa	N	3
 rip	-	3	english
 ritmica	N	3
-road	-	3	english
+road	-	x	english
 robotico	A	2
 rodio	-	2
-rom	N	3
+rom	N	x
 ronca	N	3
 rose	A	3
 rotula	N	3
 rotundo	-	2
-round	N	3
+round	N	x
 router	-	3
 royalties	-	3
 rpm	-	3
@@ -1499,7 +1499,7 @@ sonemos	-	3
 sones	-	3	english
 sonou	-	3
 sossega	N	2
-soul	-	3
+soul	-	x
 spa	-	3
 spam	-	3
 spin	N	3
@@ -1647,7 +1647,7 @@ vinculo	N	3
 viro	N	3
 visgo	N	2
 vitro	-	3
-vlw	-	3
+vlw	-	x
 vodka	N	3	english
 vogue	N	3	english
 vol	-	3	english

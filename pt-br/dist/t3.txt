@@ -3737,7 +3737,6 @@ absorvido
 absorvidos
 absorvieis
 absorvo
-abste
 absteida
 absteidas
 absteido
@@ -4319,7 +4318,6 @@ acagacemos
 acagaces
 acagaco
 acagacou
-acaia
 acaiaca
 acailandia
 acaima
@@ -10564,7 +10562,6 @@ adiemos
 adies
 adietado
 adil
-adimo
 adimos
 adimpla
 adimplais
@@ -15735,7 +15732,6 @@ agilizes
 agilizo
 agilizou
 agilmente
-agimo
 aginha
 agiota
 agiotada
@@ -21026,7 +21022,6 @@ alisto
 alistou
 aliteracao
 aliteracoes
-alive
 aliviada
 aliviadas
 aliviado
@@ -23512,7 +23507,6 @@ amamentes
 amamento
 amamentou
 amames
-amamo
 amanceba
 amancebada
 amancebadas
@@ -35129,7 +35123,6 @@ areniticos
 arenopolis
 arenque
 arenques
-areo
 areola
 areolas
 areopago
@@ -42487,7 +42480,6 @@ atamanquemos
 atamanques
 atamento
 atamentos
-atamo
 atamos
 atanado
 atanados
@@ -45480,7 +45472,6 @@ aumentemo
 aumentemos
 aumentes
 aurais
-auram
 auramos
 aure
 aurelia
@@ -47255,7 +47246,6 @@ aviltes
 avilto
 aviltou
 avim
-avimo
 avimos
 avinagra
 avinagrada
@@ -50235,7 +50225,6 @@ bandulhos
 bandurra
 bandurras
 banes
-bang
 banga
 bangala
 bangalas
@@ -50245,7 +50234,6 @@ bangas
 bangladesh
 bango
 bangos
-bangs
 bangue
 banguela
 banguelas
@@ -51831,7 +51819,6 @@ bazucas
 bdelio
 bdelios
 beagle
-beat
 beatifica
 beatificacao
 beatificacoes
@@ -58367,7 +58354,6 @@ bulisses
 buliste
 bulistes
 buliu
-bull
 bulldozer
 bullying
 bulo
@@ -60224,7 +60210,6 @@ caimbra
 caimbras
 caimento
 caimentos
-caimo
 caimoes
 cainca
 caincas
@@ -63195,7 +63180,6 @@ capturemos
 captures
 capturo
 capturou
-capua
 capuchinha
 capuchinhas
 capuchinho
@@ -64607,7 +64591,6 @@ caseosa
 caseosas
 caseoso
 caseosos
-cash
 casimira
 casimiras
 casinhola
@@ -64703,7 +64686,6 @@ cassiopeia
 casso
 cassos
 cassou
-cast
 castamente
 castanhais
 castanhal
@@ -65747,9 +65729,6 @@ cavernosamente
 cavernosas
 cavernoso
 cavernosos
-cavia
-cavias
-cavie
 cavies
 cavila
 cavilada
@@ -65852,7 +65831,6 @@ cavilhou
 cavilo
 cavilosamente
 cavilou
-cavio
 cavos
 cavouco
 cavoucos
@@ -65888,7 +65866,6 @@ ceado
 ceados
 ceai
 ceais
-ceamo
 ceamos
 ceando
 ceara
@@ -71984,7 +71961,6 @@ coalizacoes
 coalizao
 coalizoes
 coam
-coamo
 coamos
 coando
 coara
@@ -72547,7 +72523,6 @@ codorno
 codornos
 codos
 coe
-coege
 coeges
 coei
 coeis
@@ -79247,7 +79222,6 @@ conivencia
 conivencias
 conivente
 coniventes
-conj
 conjectura
 conjecturada
 conjecturadas
@@ -83718,7 +83692,6 @@ copulemos
 copules
 copulo
 copulou
-copy
 coqueirais
 coqueiral
 coqueiro
@@ -85292,8 +85265,6 @@ coupe
 coura
 couras
 courense
-court
-courts
 cousa
 cousas
 couta
@@ -86952,7 +86923,6 @@ croquetes
 croqui
 croquis
 cros
-cross
 crotalaria
 croton
 crotons
@@ -90138,7 +90108,6 @@ decisoria
 decisorias
 decisorio
 decisorios
-deck
 declama
 declamacao
 declamacoes
@@ -90423,7 +90392,6 @@ decompusessemos
 decompusesses
 decompuseste
 decompusestes
-decor
 decora
 decorador
 decoradora
@@ -114334,7 +114302,6 @@ didima
 didimas
 didimo
 didimos
-die
 diegese
 diegeticamente
 diegetico
@@ -121156,7 +121123,6 @@ eguaricas
 eguarico
 eguaricos
 eh
-eia
 eidetica
 eideticas
 eidetico
@@ -122215,7 +122181,6 @@ elixa
 elixas
 elixe
 elixes
-elixi
 elixis
 elixo
 elocucao
@@ -141408,7 +141373,6 @@ eolos
 eon
 eoo
 eoos
-epa
 epacta
 epactas
 eparquia
@@ -141524,7 +141488,6 @@ epiloguem
 epiloguemo
 epiloguemos
 epilogues
-epiro
 epirogenese
 epirogeneses
 episcopado
@@ -147757,8 +147720,6 @@ esguiches
 esguicho
 esguichos
 esguichou
-esima
-esimo
 esimos
 eslaide
 eslinga
@@ -156324,7 +156285,6 @@ etiologicos
 etiope
 etiopes
 etiopia
-etipe
 etipes
 etiquetador
 etiquetadora
@@ -159809,7 +159769,6 @@ expludamo
 expludamos
 expludas
 expludo
-expo
 expoem
 expoente
 expoentes
@@ -161858,7 +161817,6 @@ faim
 fains
 faio
 faiou
-fair
 faisa
 faisao
 faisas
@@ -164494,7 +164452,6 @@ fiais
 fiam
 fiambre
 fiambres
-fiamo
 fiamos
 fiando
 fiara
@@ -168452,7 +168409,6 @@ foucinho
 foucinhos
 foul
 foulard
-four
 fouto
 fovea
 foveas
@@ -169855,7 +169811,6 @@ fricote
 fricotes
 frieira
 frieiras
-frige
 friges
 frigi
 frigia
@@ -170501,19 +170456,9 @@ fujais
 fujam
 fujamo
 fujamos
-fujao
 fujas
-fujem
-fujes
-fujia
 fujias
-fujir
 fujires
-fujis
-fujiu
-fujoes
-fujona
-fujonas
 fulanizar
 fular
 fulcrada
@@ -173532,7 +173477,6 @@ gazeteiros
 gazeteou
 geai
 geais
-geamo
 geamos
 geando
 geara
@@ -181284,7 +181228,6 @@ hoteleira
 hoteleiras
 hoteleiro
 hoteleiros
-hour
 houveras
 houverdes
 houvereis
@@ -181300,7 +181243,6 @@ houvestes
 hovercraft
 hovercrafts
 huasteca
-hub
 hubris
 hui
 hulha
@@ -181755,7 +181697,6 @@ icados
 icai
 icais
 icam
-icamo
 icamos
 icando
 icapui
@@ -196079,7 +196020,6 @@ jazzistica
 jazzisticas
 jazzistico
 jazzisticos
-jean
 jeba
 jeca
 jecas
@@ -196253,8 +196193,6 @@ jihad
 jihadista
 jilo
 jindungo
-jinga
-jingas
 jinguba
 jingubas
 jipao
@@ -196269,7 +196207,6 @@ jitirana
 jitiranas
 jito
 jitos
-jiu
 joacaba
 joaima
 joalheira
@@ -200235,10 +200172,8 @@ lendeas
 lene
 lenem
 lenes
-lenga
 lengalenga
 lengalengas
-lengas
 lenhador
 lenhadora
 lenhadoras
@@ -200352,7 +200287,6 @@ leres
 leria
 lerias
 lerieis
-lermo
 les
 lesai
 lesais
@@ -203383,7 +203317,6 @@ luveira
 luveiras
 luveiro
 luveiros
-lux
 luxacao
 luxacoes
 luxai
@@ -208874,7 +208807,6 @@ maviosamente
 mavorte
 maxambomba
 maxaranguape
-maxi
 maxim
 maximamente
 maxime
@@ -208928,7 +208860,6 @@ maximizes
 maximizo
 maximizou
 maxins
-maxis
 maxissaia
 maxissaias
 maxixe
@@ -208944,7 +208875,6 @@ mazomba
 mazombas
 mazombo
 mazombos
-mds
 mea
 meacao
 meacoes
@@ -211224,7 +211154,6 @@ mialgia
 mialgias
 miam
 miami
-miamo
 miamos
 miando
 mianmar
@@ -211865,7 +211794,6 @@ mimetizemos
 mimetizes
 mimetizo
 mimetizou
-mimi
 mimicada
 mimicadas
 mimicado
@@ -212790,8 +212718,6 @@ mixes
 mixologia
 mixordia
 mixordias
-mixos
-mixto
 mixuruca
 mixurucas
 mnemonica
@@ -213021,7 +212947,6 @@ mocreia
 mocumentario
 modalismo
 modalismos
-model
 modela
 modelacao
 modelacoes
@@ -213294,7 +213219,6 @@ moei
 moeis
 moem
 moema
-moemo
 moemos
 moendo
 moera
@@ -216226,8 +216150,6 @@ nabantino
 nabantinos
 nabica
 nabicas
-nabla
-nablas
 naca
 nacada
 nacadas
@@ -222887,7 +222809,6 @@ opistotono
 opoe
 opoem
 opoes
-opomo
 opomos
 oponde
 opondes
@@ -223130,7 +223051,6 @@ oralidade
 oralidades
 oralmente
 oram
-oramo
 oramos
 orangotango
 orangotangos
@@ -223523,8 +223443,6 @@ organolepticas
 organoleptico
 organolepticos
 organologia
-orgem
-orges
 orgia
 orgias
 orgulha
@@ -224835,7 +224753,6 @@ ovelhuns
 ovem
 ovemo
 ovemos
-ovens
 over
 overbooking
 overdose
@@ -225519,7 +225436,6 @@ pagastes
 pagavas
 pagaveis
 pagavel
-pagem
 pager
 paginacao
 paginacoes
@@ -228010,7 +227926,6 @@ paspalhoes
 paspalhona
 paspalhonas
 paspalhos
-pass
 passabem
 passadeira
 passadeiras
@@ -233211,7 +233126,6 @@ piais
 pialo
 piam
 piamente
-piamo
 piamos
 pianco
 piando
@@ -233447,7 +233361,6 @@ picum
 picuma
 picumas
 pidao
-pide
 pidgin
 pidgins
 pidoes
@@ -233702,7 +233615,6 @@ pinante
 pinas
 pincaro
 pincaros
-pince
 pincela
 pincelada
 pinceladas
@@ -234564,7 +234476,6 @@ pistoleira
 pistoleiras
 pistoleiro
 pistoleiros
-pit
 pita
 pitaco
 pitadinha
@@ -245186,7 +245097,6 @@ puerperas
 puerperio
 puerperios
 puf
-puff
 pugilismo
 pugilismos
 pugilista
@@ -246623,7 +246533,6 @@ quedes
 quedo
 quedos
 quedou
-queen
 queer
 queijadinha
 queijadinhas
@@ -247584,7 +247493,6 @@ quizilou
 quizomba
 quociente
 quocientes
-quote
 quotidianamente
 quotiza
 quotizada
@@ -251387,7 +251295,6 @@ rebusquem
 rebusquemo
 rebusquemos
 rebusques
-rec
 reca
 recada
 recadastramento
@@ -254658,7 +254565,6 @@ reeduquem
 reeduquemo
 reeduquemos
 reeduques
-reege
 reeges
 reelege
 reelegei
@@ -259541,7 +259447,6 @@ remodelada
 remodeladas
 remodelado
 remodelados
-remoe
 remoei
 remoeis
 remoem
@@ -260037,7 +259942,6 @@ renio
 renios
 renitente
 renitentes
-reno
 renomeada
 renomeadas
 renomeado
@@ -267291,7 +267195,6 @@ rirdes
 rireis
 ririas
 ririeis
-rirmo
 ris
 riscai
 riscais
@@ -267467,7 +267370,6 @@ rizomatosas
 rizomatoso
 rizomatosos
 roa
-road
 roais
 roam
 roamo
@@ -267822,7 +267724,6 @@ rodrigas
 roei
 roeis
 roem
-roemo
 roemos
 roendo
 roentgenio
@@ -267868,8 +267769,6 @@ rogaste
 rogastes
 rogavas
 rogaveis
-rogem
-roges
 rogue
 rogueis
 roguem
@@ -268060,12 +267959,9 @@ rolicemo
 rolicemos
 rolices
 rolicou
-rolim
 rolinha
 rolinhas
 rolinho
-rolins
-rom
 roma
 romagem
 romagens
@@ -268794,9 +268690,6 @@ roufenha
 roufenhas
 roufenho
 roufenhos
-rouge
-round
-rounds
 roupagem
 roupagens
 rouparia
@@ -269187,7 +269080,6 @@ ruida
 ruidas
 ruidosamente
 ruieis
-ruimo
 ruimos
 ruinaria
 ruinarias
@@ -270229,7 +270121,6 @@ sail
 saim
 saimiri
 saimiris
-saimo
 sainha
 sainho
 sairas
@@ -272134,8 +272025,6 @@ saussurianos
 saveis
 savel
 savia
-sax
-saxes
 saxhorn
 saxofone
 saxofones
@@ -272162,8 +272051,6 @@ scilicet
 scooter
 scooters
 scordatura
-score
-scores
 scraper
 screen
 script
@@ -273051,7 +272938,6 @@ semas
 semblante
 semblantes
 sembrante
-semea
 semeacao
 semeacoes
 semeada
@@ -273085,7 +272971,6 @@ semeariamos
 semearias
 semearieis
 semearmos
-semeas
 semeasse
 semeasseis
 semeassem
@@ -274486,7 +274371,6 @@ siamesas
 siameses
 siamos
 siando
-siao
 siar
 siara
 siaram
@@ -276003,9 +275887,7 @@ sisemo
 sisemos
 sises
 sisifo
-sisma
 sismas
-sisme
 sismes
 sismicamente
 sismologa
@@ -279283,7 +279165,6 @@ soubeste
 soubestes
 souffle
 souffles
-soul
 soure
 sourense
 sourenses
@@ -279387,7 +279268,6 @@ suailes
 suaili
 suais
 suam
-suamo
 suamos
 suando
 suao
@@ -283021,7 +282901,6 @@ susterieis
 sustermos
 sustes
 susteve
-susti
 sustida
 sustidas
 sustido
@@ -287201,7 +287080,6 @@ teutonica
 teutonicas
 teutonico
 teutonicos
-tex
 texana
 texanas
 texano
@@ -296870,7 +296748,6 @@ unilateralismo
 unilateralismos
 unilateralista
 unilateralmente
-unimo
 unimos
 unionense
 unionenses
@@ -297441,7 +297318,6 @@ urzeiras
 urzes
 usai
 usais
-usamo
 usanca
 usancas
 usaras
@@ -301265,7 +301141,6 @@ vidraceiros
 vidraria
 vidrarias
 vidras
-vidre
 vidreira
 vidreiras
 vidreiro
@@ -301298,7 +301173,6 @@ vietcongues
 vietnames
 vietnamita
 vietnamitas
-vieza
 vigada
 vigadas
 vigado
@@ -301864,7 +301738,6 @@ vinquemos
 vinques
 vintena
 vintenas
-vioes
 violacea
 violaceas
 violaceo
@@ -302125,7 +301998,6 @@ virilizemos
 virilizes
 virilizo
 virilizou
-virmo
 virmond
 viro
 virol
@@ -302660,7 +302532,6 @@ vituperio
 vituperios
 vitupero
 vituperou
-viuve
 viuves
 vivacidade
 vivacidades
@@ -302787,13 +302658,11 @@ vizelense
 vizelenses
 vlog
 vlogue
-vlw
 vmo
 vmos
 voadeira
 voai
 voais
-voamo
 voaras
 voardes
 voareis
