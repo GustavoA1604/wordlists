@@ -57100,8 +57100,6 @@ bretas
 brete
 bretema
 bretes
-bretoa
-bretoas
 bretoes
 brevet
 breveta
@@ -68097,8 +68095,6 @@ charlatanismos
 charlatao
 charlatas
 charlatoes
-charlatona
-charlatonas
 charlava
 charlavam
 charlavamos
@@ -74962,8 +74958,6 @@ comichemos
 comiches
 comicho
 comichoes
-comichona
-comichonas
 comichou
 comicidade
 comicidades
@@ -205017,8 +205011,6 @@ malsas
 malsoante
 malsoantes
 malsoes
-malsona
-malsonas
 malsucedida
 malsucedidas
 malsucedido
@@ -256523,11 +256515,7 @@ regateiem
 regateies
 regateio
 regateou
-regatoa
-regatoas
 regatoes
-regatona
-regatonas
 regavas
 regaveis
 regei
@@ -283167,8 +283155,6 @@ tabeliaes
 tabeliao
 tabeliaos
 tabelias
-tabelioa
-tabelioas
 tabelionato
 tabelionatos
 tabelou

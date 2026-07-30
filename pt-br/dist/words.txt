@@ -20213,8 +20213,6 @@ alazaes
 alazao
 alazas
 alazoes
-alazona
-alazonas
 alba
 albacora
 albacoras
@@ -21026,13 +21024,9 @@ aldeie
 aldeiem
 aldeies
 aldeio
-aldeoa
-aldeoas
 aldeoes
 aldeola
 aldeolas
-aldeona
-aldeonas
 aldeota
 aldeotas
 aldeou
@@ -29434,11 +29428,7 @@ ancilostomiase
 ancilostomiases
 ancinho
 ancinhos
-ancioa
-ancioas
 ancioes
-anciona
-ancionas
 anco
 ancora
 ancorada
@@ -29856,8 +29846,6 @@ anfiteatros
 anfitria
 anfitriao
 anfitrias
-anfitrioa
-anfitrioas
 anfitrioes
 anfora
 anforas
@@ -62972,8 +62960,6 @@ bretas
 brete
 bretema
 bretes
-bretoa
-bretoas
 bretoes
 breu
 breus
@@ -75826,8 +75812,6 @@ charlatanismos
 charlatao
 charlatas
 charlatoes
-charlatona
-charlatonas
 charlava
 charlavam
 charlavamos
@@ -77920,8 +77904,6 @@ cidade
 cidadela
 cidadelas
 cidades
-cidadoa
-cidadoas
 cidelandia
 cidra
 cidrais
@@ -83874,8 +83856,6 @@ comichemos
 comiches
 comicho
 comichoes
-comichona
-comichonas
 comichou
 comicidade
 comicidades
@@ -220963,8 +220943,6 @@ ladroas
 ladroeira
 ladroeiras
 ladroes
-ladrona
-ladronas
 ladros
 ladrou
 lady
@@ -229416,8 +229394,6 @@ malsas
 malsoante
 malsoantes
 malsoes
-malsona
-malsonas
 malsucedida
 malsucedidas
 malsucedido
@@ -289681,11 +289657,7 @@ regateies
 regateio
 regateou
 regato
-regatoa
-regatoas
 regatoes
-regatona
-regatonas
 regatos
 regava
 regavam
@@ -320731,8 +320703,6 @@ tabeliaes
 tabeliao
 tabeliaos
 tabelias
-tabelioa
-tabelioas
 tabelionato
 tabelionatos
 tabelo
@@ -323088,8 +323058,6 @@ tecelagens
 tecelao
 tecelaos
 tecelas
-teceloa
-teceloas
 teceloes
 tecem
 tecemos
@@ -342448,8 +342416,6 @@ vilipendiosas
 vilipendioso
 vilipendiosos
 vilipendiou
-viloa
-viloas
 viloes
 vilosidade
 vilosidades

@@ -1405,8 +1405,6 @@ alazaes
 alazao
 alazas
 alazoes
-alazona
-alazonas
 alba
 albanes
 albanesa
@@ -1497,11 +1495,7 @@ aldeao
 aldeaos
 aldeas
 aldeias
-aldeoa
-aldeoas
 aldeoes
-aldeona
-aldeonas
 ale
 aleatoria
 aleatoriamente
@@ -2064,11 +2058,7 @@ anciaos
 ancias
 ancinho
 ancinhos
-ancioa
-ancioas
 ancioes
-anciona
-ancionas
 ancorar
 andada
 andadas
@@ -2135,8 +2125,6 @@ anfibios
 anfitria
 anfitriao
 anfitrias
-anfitrioa
-anfitrioas
 anfitrioes
 angela
 angelica
@@ -6911,8 +6899,6 @@ cidada
 cidadanias
 cidadaos
 cidadas
-cidadoa
-cidadoas
 cidras
 ciencias
 ciente
@@ -19505,8 +19491,6 @@ ladras
 ladroa
 ladroas
 ladroes
-ladrona
-ladronas
 lagar
 lagares
 lagarta
@@ -32300,8 +32284,6 @@ tecela
 tecelao
 tecelaos
 tecelas
-teceloa
-teceloas
 teceloes
 tecem
 tecemos
@@ -34787,8 +34769,6 @@ vilarejos
 vilares
 vilela
 vilelas
-viloa
-viloas
 viloes
 vime
 vimes
