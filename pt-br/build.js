@@ -87,7 +87,10 @@ function loadCuratedDefinitions() {
 
 // curated/definition-redirects.tsv: words that are pure spelling variants of
 // another, already-defined word (e.g. "lage", the pre-orthographic-reform
-// spelling of "laje") rather than a distinct sense worth its own gloss.
+// spelling of "laje") rather than a distinct sense worth its own gloss, or a
+// grammatical form MorphoBr failed to link to its own lemma. Either way this
+// only ever lends `word` the target's definition text - see build()'s use of
+// this map for why it never overrides `word`'s own display spelling.
 // Columns: word  target  reason.
 function loadDefinitionRedirects() {
   const map = new Map();
@@ -162,16 +165,21 @@ export async function build() {
     const ownRows = (rows, curated) => (rows || curated ? [...(rows ?? []), ...(curated ?? [])] : null);
     let own = resolveOwnDefs(w, ownRows(wiktionary.get(w), curatedDefs.get(w)));
     if (!own && redirects.has(w)) {
-      // Another word whose definition also applies here, either a pure
-      // spelling variant (e.g. "lage", the pre-orthographic-reform spelling
-      // of "laje") or a form MorphoBr doesn't link to its own lemma (e.g.
-      // "zere", imperative of "zerar"; "pets", plural of "pet"): reuse the
-      // target's own definitions. If the target itself has no single
-      // converged spelling, promote the target word as `dw` anyway — it's
-      // still the one accurate spelling/lemma to show for `w`.
+      // Another word whose definition also applies here: either a spelling
+      // variant (e.g. "lage", the pre-orthographic-reform spelling of "laje")
+      // or a form MorphoBr doesn't link to its own lemma (e.g. "zere",
+      // imperative of "zerar"; "pets", plural of "pet"). Either way `w` is
+      // already a complete, correctly-spelled word on its own - a consonant
+      // variant like "lage" is a real, different letter sequence from
+      // "laje", not an accent the board just can't render (contrast
+      // resolveOwnDefs's own `dw`, whose sources only ever differ from `w` by
+      // accent/case, since normalizeWord() already collapsed them onto the
+      // same key upstream). So this only ever borrows the target's
+      // definition text (`d`), never a display override (`dw`): the game
+      // shows the word actually found, not a different-but-related one.
       const target = redirects.get(w);
       const targetOwn = resolveOwnDefs(target, ownRows(wiktionary.get(target), curatedDefs.get(target)));
-      if (targetOwn) own = { dw: targetOwn.dw ?? target, d: targetOwn.d };
+      if (targetOwn) own = { d: targetOwn.d };
     }
     if (own) {
       entry.d = own.d;

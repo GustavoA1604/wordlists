@@ -2,6 +2,11 @@
 # word's: a pure spelling variant (word<TAB>target both stand alone), or a
 # form MorphoBr doesn't morphologically link to its own lemma so the normal
 # lemma-fallback (build.js) never fires. Columns: word<TAB>target<TAB>reason.
+# Either way, word only borrows target's definition text - it's already a
+# complete, correctly-spelled word on its own (a full letter-for-letter
+# variant like "lage"/"laje", or a form like "reuso"/"reusar" that just isn't
+# separately defined), never a misspelling of target, so build.js never
+# overrides word's own display spelling with target's.
 lage	laje	pre-orthographic-reform spelling
 zere	zerar	imperative of zerar, not linked by MorphoBr
 pets	pet	plural of pet, not linked by MorphoBr
