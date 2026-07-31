@@ -41947,7 +41947,6 @@ arrivista
 arrivistas
 arroba
 arrobas
-arrobo
 arrobustada
 arrobustadas
 arrobustado
@@ -61577,7 +61576,6 @@ borbulhes
 borbulho
 borbulhou
 borco
-borcos
 borda
 bordada
 bordadas
@@ -93623,7 +93621,6 @@ cookie
 cookies
 cooktop
 cool
-cooper
 coopera
 cooperacao
 cooperacoes
@@ -97763,7 +97760,6 @@ cro
 croacia
 croata
 croatas
-croato
 croca
 crocante
 crocantes
@@ -100003,7 +99999,6 @@ dadora
 dadoras
 dadores
 dados
-daguar
 daguerreotipo
 daguerreotipos
 dai
@@ -102465,7 +102460,6 @@ dedal
 dedaleira
 dedaleiras
 dedao
-dedaos
 dedetiza
 dedetizacao
 dedetizacoes
@@ -181494,7 +181488,6 @@ ferravam
 ferravamos
 ferravas
 ferraveis
-ferraz
 ferre
 ferrea
 ferreas
@@ -192084,7 +192077,6 @@ gastalhos
 gastam
 gastamos
 gastando
-gastao
 gastar
 gastara
 gastaram
@@ -192124,9 +192116,6 @@ gastemo
 gastemos
 gastes
 gasto
-gastoes
-gastona
-gastonas
 gastos
 gastou
 gastrectomia
@@ -197335,7 +197324,6 @@ gudes
 guebo
 guedelha
 guedelhas
-guedes
 guegue
 guegues
 guei
@@ -219422,7 +219410,6 @@ jungisses
 jungiste
 jungistes
 jungiu
-jungle
 jungo
 jungos
 junguiano
@@ -225713,7 +225700,6 @@ lobatas
 lobatiano
 lobato
 lobatos
-lobbie
 lobbies
 lobby
 lobe
@@ -228431,7 +228417,6 @@ mais
 maisena
 maisenas
 maises
-maison
 maitaca
 maitacas
 maitre
@@ -229523,8 +229508,6 @@ manassemos
 manasses
 manaste
 manastes
-manata
-manatas
 manauara
 manauaras
 manauense
@@ -232018,8 +232001,6 @@ marina
 marinada
 marinadas
 marinas
-marine
-marines
 marinete
 marinetes
 maringa
@@ -243998,7 +243979,6 @@ negam
 negamos
 negando
 negao
-negaos
 negar
 negara
 negaram
@@ -246645,7 +246625,6 @@ nuncupativas
 nuncupativo
 nuncupativos
 nuns
-nupcia
 nupciais
 nupcial
 nupcias
@@ -255353,7 +255332,6 @@ paratis
 paratleta
 paratormonio
 paratormonios
-paraty
 parau
 parauapebas
 parauna
@@ -272246,7 +272224,6 @@ primeis
 primem
 primemo
 primemos
-primer
 primes
 primeva
 primevas
@@ -283894,7 +283871,6 @@ recalcitro
 recalcitrou
 recalco
 recalcou
-recall
 recalque
 recalquei
 recalqueis
@@ -319349,7 +319325,6 @@ surfeis
 surfem
 surfemo
 surfemos
-surfer
 surfes
 surfista
 surfistas
@@ -322917,7 +322892,6 @@ tejupa
 tel
 tela
 telao
-telaos
 telar
 telaria
 telas
@@ -323526,7 +323500,6 @@ templarias
 templario
 templarios
 template
-temple
 templo
 templos
 tempo
@@ -344536,9 +344509,7 @@ wagneriano
 wagnerianos
 wagnerismo
 wagnerismos
-walker
 walkover
-walter
 wanderlandia
 warfarina
 warrant

@@ -201973,6 +201973,7 @@ lob
 lobais
 lobal
 lobatiano
+lobbies
 lobby
 lobe
 lobeira
@@ -219593,6 +219594,7 @@ nuncupativa
 nuncupativas
 nuncupativo
 nuncupativos
+nupcias
 nuporanga
 nutacao
 nutacoes
@@ -222235,6 +222237,7 @@ ondeamos
 ondeando
 ondeante
 ondeantes
+ondear
 ondeara
 ondearam
 ondearamos
@@ -239376,6 +239379,7 @@ premieres
 premimos
 premindo
 premiou
+premir
 premira
 premiram
 premiramos

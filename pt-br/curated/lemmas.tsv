@@ -465,7 +465,7 @@ debil	A	2
 deck	-	x	english
 decor	N	x	english
 decorrido	A	3
-dedaos	-	2
+dedaos	-	x
 default	-	3	english
 deita	N	3
 del	-	3
@@ -1018,7 +1018,7 @@ nava	-	3
 ne	N	3
 nebuloso	-	3
 nega	N	3
-negaos	-	2
+negaos	-	x
 neo	A	3
 neon	N	3
 nepal	-	2	country
@@ -1049,6 +1049,7 @@ ohm	N	3
 olheiro	N	2
 olimpio	A	2	firstname
 omega	N	2
+ondear	-	3
 ondulado	A	3
 opera	N	3
 oprimido	-	3
@@ -1189,6 +1190,7 @@ povoa	N	3
 poxa	INTJ	3	interj
 pregado	-	3
 premier	N	3
+premir	-	3	
 prenda	N	3
 preservado	A	3
 prestigiado	A	3
@@ -1554,7 +1556,7 @@ teaser	-	3	english
 tech	-	3	english
 teima	N	3
 tel	ABBR	3	abbrev
-telaos	-	2
+telaos	-	x
 temia	N	3
 tempera	N	3
 tempero	N	3

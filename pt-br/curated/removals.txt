@@ -126,6 +126,7 @@ aricia
 arlindo
 armando
 arquitecto
+arrobo
 arruda
 artur
 ascensa
@@ -194,6 +195,7 @@ bon
 book
 books
 borba
+borcos
 braga
 break
 brendo
@@ -302,6 +304,7 @@ comp
 cond
 conj
 constantino
+cooper
 copy
 correccao
 correctamente
@@ -315,6 +318,7 @@ cris
 cristiano
 cristina
 cristino
+croato
 csi
 ctg
 ctn
@@ -323,6 +327,7 @@ cum
 custodio
 dacia
 dafne
+daguar
 dal
 damasceno
 damiana
@@ -439,6 +444,7 @@ ferdinanda
 fernandina
 fernandino
 fernao
+ferraz
 ferry
 ff
 fg
@@ -484,6 +490,7 @@ garage
 garrincha
 gaspar
 gasparino
+gastao
 ge
 geamo
 gem
@@ -512,6 +519,7 @@ gray
 green
 gregorio
 gt
+guedes
 gui
 guilherme
 guto
@@ -601,6 +609,7 @@ julia
 juliano
 juliao
 julio
+jungle
 junqueira
 juvenais
 juvenal
@@ -667,6 +676,7 @@ lite
 live
 livia
 lm
+lobbie
 loc
 lock
 loica
@@ -692,6 +702,7 @@ madison
 magda
 magnolio
 maira
+maison
 malafaia
 malba
 mall
@@ -702,6 +713,7 @@ malsonazinhas
 malsoninha
 malsoninhas
 malvo
+manata
 mante
 manuel
 manuelina
@@ -713,6 +725,7 @@ marciano
 mari
 maria
 mariano
+marine
 mario
 marisa
 marshall
@@ -781,6 +794,7 @@ non
 novais
 novel
 nunes
+nupcia
 oa
 ob
 objectiva
@@ -814,6 +828,7 @@ paloma
 pancracia
 pancracio
 paranhos
+paraty
 part
 pascalina
 patricia
@@ -843,6 +858,7 @@ pompeu
 pot
 pp
 pr
+primer
 prior
 projeccao
 protector
@@ -882,6 +898,7 @@ reavejo
 reaves
 rebeca
 rec
+recall
 rececao
 recta
 redaccao
@@ -1000,6 +1017,7 @@ still
 suamo
 sum
 sup
+surfer
 susana
 susti
 tabelioa
@@ -1025,6 +1043,7 @@ tecto
 teixeira
 teles
 temp
+temple
 tenorio
 teresa
 terezinha
@@ -1097,6 +1116,8 @@ voc
 vox
 vu
 wagner
+walker
+walter
 wanderley
 web
 weber

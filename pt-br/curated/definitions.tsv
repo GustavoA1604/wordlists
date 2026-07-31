@@ -12,6 +12,7 @@
 abr	abbrev	abreviatura de "abril", quarto mês do ano
 ace	adj	relativo a ou que não sente atração sexual; assexual (abreviação do inglês "asexual", usada sobretudo na comunidade LGBTQIA+)
 aedes	noun	gênero de mosquitos que inclui espécies transmissoras da dengue, zika e chikungunya
+aftoso	adj	relativo às aftas; caracterizado pela presença de aftas
 ago	abbrev	abreviatura de "agosto", oitavo mês do ano
 agrar	verb	converter em agro
 agrar	verb	aplanar (terras) para semeadura ou cultivo
@@ -21,10 +22,14 @@ alhea	verb	forma do infinitivo de "alhear" (tornar alheio, afastar) combinada a 
 altea	verb	forma do infinitivo de "altear" (tornar mais alto, elevar) combinada a um pronome oblíquo (ex.: "alteá-lo")
 amina	noun	composto orgânico derivado da amônia pela substituição de átomos de hidrogênio por radicais orgânicos
 angra	noun	pequena baía ou enseada; recorte da costa onde o mar penetra
+antraz	noun	(medicina) grave infecção de pele e tecidos subcutâneos causada pela bactéria Bacillus anthracis (carbúnculo), com lesões bolhosas, furúnculos e escara negra, podendo ser fatal se inalada ou ingerida; também infecção estafilocócica profunda, geralmente na nuca ou nas costas, que forma abscessos ou furúnculos múltiplos
+antraz	noun	(zoologia) nome comum de insetos dípteros da família Bombyliidae (gênero Anthrax), moscas parasitas
 apto	adj	que tem aptidão ou capacidade para algo; capaz, apropriado
+aridez	noun	qualidade do que é árido; falta de umidade ou de vegetação; secura extrema
 arrea	verb	forma do infinitivo de "arrear" (colocar arreios em um animal) combinada a um pronome oblíquo (ex.: "arreá-lo")
 assea	verb	forma do infinitivo de "assear" (tornar limpo, arrumar) combinada a um pronome oblíquo (ex.: "asseá-lo")
 astra	noun	(latim) estrelas, astros (plural de astrum, como em "ad astra")
+atritar	verb	causar atrito ou fricção entre superfícies; friccionar; (fig.) entrar em conflito ou desentendimento
 aulo	noun	instrumento musical de sopro da Grécia Antiga, semelhante a uma flauta dupla
 aure	verb	3ª pessoa do singular do presente do indicativo (e 2ª do imperativo) de "aurir"; foge de maneira alucinada
 aures	noun	(latim) orelhas, ouvidos (plural de auris)
@@ -33,7 +38,9 @@ avila	noun	cidade e província da Espanha (Ávila), na região de Castela e Leã
 axial	adj	relativo a um eixo; que está situado ao longo de um eixo
 bagda	noun	forma sem acento de "Bagdá", capital do Iraque
 balea	verb	forma do infinitivo de "balear" (atingir com tiro de arma de fogo) combinada a um pronome oblíquo (ex.: "baleá-lo")
+banner	noun	imagem ou faixa, geralmente retangular, usada para divulgação ou propaganda, sobretudo em sites e redes sociais; termo inglês
 baque	noun	som seco e forte produzido por uma queda ou pancada; abalo, choque emocional repentino
+barbie	noun	boneca fabricada pela empresa americana Mattel, um dos brinquedos mais populares e reconhecidos do mundo desde 1959
 baroa	noun	feminino de "barão"
 basea	verb	forma do infinitivo de "basear" (fundamentar, dar base a) combinada a um pronome oblíquo (ex.: "baseá-lo")
 basti	verb	2ª pessoa do plural do imperativo, e 1ª pessoa do singular do pretérito perfeito do indicativo de "bastir"
@@ -41,6 +48,7 @@ bastir	verb	(arcaico) construir, armar, preparar, equipar
 baza	noun	cidade da Espanha, na província de Granada
 belgo	adj	relativo à Bélgica (usado sobretudo como prefixo, ex.: belgo-brasileiro)
 bios	abbrev	sigla do inglês "basic input/output system", firmware responsável por inicializar o hardware de um computador
+bivolt	adj	que funciona tanto em voltagem de 110V quanto de 220V, sem necessidade de ajuste; diz-se de aparelho elétrico compatível com duas tensões
 blush	noun	produto de maquiagem usado para dar cor às bochechas
 bmx	abbrev	sigla do inglês "bicycle motocross", modalidade de ciclismo praticada em pistas de terra com obstáculos
 bobea	verb	forma do infinitivo de "bobear" (agir de forma tola ou descuidada) combinada a um pronome oblíquo
@@ -55,11 +63,14 @@ cariar	verb	apodrecer, ser atingido por cárie (dente)
 cario	verb	1ª pessoa do singular do presente do indicativo de "cariar"
 carre	noun	conjunto das costelas de animais de corte, como porco, boi etc.	carré
 carre	noun	prato feito com essa carne, geralmente partida em bifes com osso	carré
+cerejo	noun	cor da cereja; (regionalismo, como em Trás-os-Montes) tempo das cerejas
+chakra	noun	cada um dos centros de energia do corpo, segundo tradições do hinduísmo e do yoga
 chefs	noun	plural de "chef"; cozinheiros profissionais, geralmente responsáveis por uma cozinha ou restaurante
 cicia	verb	2ª pessoa do singular do imperativo (e 3ª do presente do indicativo) de "ciciar"
 ciciar	verb	segredar, cochichar, mussitar; (do vento, da folhagem) rumorejar, ramalhar
 cicie	verb	1ª/3ª pessoa do singular do presente do subjuntivo (e imperativo) de "ciciar"
 cicio	verb	1ª pessoa do singular do presente do indicativo de "ciciar"
+ciliar	adj	relativo aos cílios; também usado para designar a vegetação às margens de rios e lagos (mata ciliar)
 cine	noun	forma reduzida e informal de cinema
 clips	noun	plural de "clipe"; pequenos objetos usados para prender folhas de papel, ou vídeos musicais curtos
 coach	noun	técnico ou treinador; pessoa que orienta e prepara outra para uma atividade, geralmente profissional ou pessoal
@@ -76,6 +87,8 @@ cuspe	noun	saliva expelida pela boca
 dalai	noun	parte inicial do título honorífico Dalai-Lama, líder espiritual do budismo tibetano
 damo	noun	namorado
 damo	noun	moeda antiga; o mesmo que dama
+design	noun	termo inglês para o planejamento e criação de objetos, ambientes ou interfaces que aliam função e estética
+dipolo	noun	sistema formado por duas cargas ou polos de sinais opostos separados por uma pequena distância (ex.: dipolo elétrico, dipolo magnético)
 down	adj	termo inglês usado informalmente para descrever alguém triste, deprimido ou sem energia
 drag	noun	arte de se apresentar com roupas, maquiagem e comportamento exagerados de outro gênero, geralmente em espetáculos (drag queen/drag king)
 drear	adj	sombrio, triste, lúgubre ou monótono (termo poético)
@@ -83,6 +96,7 @@ drink	noun	bebida, geralmente alcoólica; termo inglês usado sobretudo em bares
 duela	verb	2ª pessoa do singular do imperativo (e 3ª do presente do indicativo) de "duelar"; travar duelo
 duele	verb	1ª/3ª pessoa do singular do presente do subjuntivo (e imperativo) de "duelar"
 dunga	noun	no filme Branca de Neve e os Sete Anões, o anão que não fala; apelido do ex-jogador e técnico de futebol Carlos Caetano Bledorn Verri
+durao	adj	latagão, valentão; que resiste ao esforço, à emoção ou ao sofrimento; rígido, severo	durão
 ebook	noun	livro em formato digital, lido em computadores, tablets ou leitores eletrônicos
 emaus	noun	cidade bíblica onde, segundo o Evangelho, Jesus ressuscitado apareceu a dois discípulos
 etilo	noun	radical químico derivado do etano (-C2H5); etila
@@ -91,12 +105,22 @@ fast	adj	termo inglês que significa "rápido", usado em expressões como "fast 
 fev	abbrev	abreviatura de "fevereiro", segundo mês do ano
 filar	verb	obter algo de graça, aproveitando-se de outra pessoa (coloquial: filar carona, filar um cigarro)
 focal	adj	relativo ao foco; que constitui o ponto central de atenção
+fofura	noun	qualidade do que é fofo; ternura ou encanto provocado por algo ou alguém fofo
 folk	noun	gênero musical de raízes tradicionais e populares, geralmente com instrumentação acústica
 food	noun	termo inglês para "comida", usado em expressões como "food truck" e "junk food"
+fraque	noun	traje de cerimônia masculino, composto por um casaco bem ajustado ao tronco, curto na frente e com longas abas na parte traseira
 gabo	noun	elogio, louvor, gabação
 gabo	noun	vaidade, exaltação de si próprio; jactância
+galpao	noun	grande construção coberta, geralmente sem paredes internas, usada para abrigar veículos, mercadorias ou atividades industriais	galpão
+gamboa	noun	pequeno esteiro ou braço de mar que se enche na maré alta e seca na vazante; pequeno lago temporário formado pela preamar
+gamboa	noun	(regionalismo, São Paulo) trecho de rio onde as águas remansam, dando aparência de lago calmo (camboa ou igarapé)
+gamboa	noun	pesqueira à beira-mar ou em rios, cercada de estacas ou pedras, usada para capturar peixes na maré baixa
+gamboa	noun	fruto do gamboeiro, variedade de marmeleiro enxertado, também chamado marmelo-molar
+ganapo	noun	(Portugal) criança que está começando a aprender as coisas e a percebê-las
 garco	adj	diz-se de olho verde-azulado ou esverdeado	garço
 garfe	verb	1ª/3ª pessoa do singular do presente do subjuntivo (e imperativo) de "garfar"; fisgar com garfo, ou (gíria) agarrar à força
+garrar	verb	(náutica) não se fixar bem no fundo do mar, arrastando-se; diz-se da âncora que solta a embarcação, fazendo-a derivar
+garrar	verb	soltar as amarras de uma embarcação
 gauss	noun	unidade de medida de densidade de fluxo magnético; também sobrenome do matemático Carl Friedrich Gauss
 geek	noun	pessoa com grande interesse ou conhecimento aprofundado em tecnologia, cultura pop, jogos etc.; nerd
 gizar	verb	riscar ou desenhar com giz
@@ -114,6 +138,7 @@ guiao	noun	estandarte conduzido à frente de procissões, irmandades ou tropas; 
 guiao	noun	cavaleiro que carregava esse estandarte	guião
 guiao	noun	sinal gráfico posto no fim de um pentagrama para indicar a altura da primeira nota da pauta seguinte	guião
 guiao	noun	barra de direção de bicicletas e veículos semelhantes; guidom	guião
+habeas	noun	usado na expressão jurídica "habeas corpus", que assegura o direito de ir e vir e protege contra prisão ou detenção ilegal
 happy	adj	feliz (empréstimo do inglês)
 hegel	noun	Georg Wilhelm Friedrich Hegel, filósofo alemão do idealismo
 hot	adj	termo inglês que significa "quente"; usado no português para descrever algo ou alguém atraente, popular ou na moda
@@ -123,6 +148,7 @@ hutu	noun	pessoa pertencente ao povo hutu, etnia da região dos Grandes Lagos, n
 hutu	adj	relativo aos hutus
 idem	adj	o mesmo; a mesma coisa (usado para evitar repetir uma referência já citada)
 igapo	noun	floresta amazônica alagada, característica das margens de rios
+impune	adj	que fica sem punição ou castigo
 input	noun	entrada de dados; contribuição, insumo
 intel	noun	termo usado como abreviação de "inteligência", no jargão militar ou de jogos, para se referir a informações estratégicas
 jan	abbrev	abreviatura de "janeiro", primeiro mês do ano
@@ -130,15 +156,22 @@ jeans	noun	tecido de algodão resistente, geralmente azul, usado para fazer cal�
 jet	noun	termo inglês para avião a jato; jato
 jul	abbrev	abreviatura de "julho", sétimo mês do ano
 jun	abbrev	abreviatura de "junho", sexto mês do ano
+juncal	noun	terreno onde crescem muitos juncos; agrupamento de juncos (junqueira); habitat como pântanos, várzeas ou estuários colonizados por plantas aquáticas como canas e juncos
 kcal	abbrev	abreviação de "quilocalorias", unidade de medida de energia dos alimentos
 kioto	noun	cidade do Japão, antiga capital imperial, conhecida por seus templos e jardins tradicionais
 kit	noun	conjunto de peças, objetos ou acessórios reunidos para um fim específico
 klein	noun	sobrenome associado a figuras notáveis, como o matemático Felix Klein (garrafa de Klein) e o artista Yves Klein
 lady	noun	termo inglês para "senhora" ou "dama"
+lanchar	verb	comer um lanche; fazer uma refeição leve entre as refeições principais do dia
+larvar	adj	relativo à larva ou ao seu estado; diz-se da fase de vida de um organismo anterior à maturação sexual, na qual difere do adulto em forma e modo de vida
+latada	noun	grade de ripas, varas ou canas usada para sustentar o crescimento de plantas trepadeiras, como videiras (parreiras) ou outras espécies ornamentais
 led	abbrev	sigla do inglês "light emitting diode" (diodo emissor de luz), componente eletrônico que emite luz ao ser percorrido por corrente elétrica
 lena	noun	mulher que arranja encontros amorosos ilícitos; alcoviteira
 lenin	noun	Vladimir Lenin, líder revolucionário russo e fundador da União Soviética
+liceal	adj	relativo a liceu; que estuda ou leciona em liceu, estabelecimento de ensino de segundo grau ou técnico
 like	noun	marcação de aprovação ou curtida em uma publicação de rede social (do inglês "to like")
+lipido	noun	biomolécula orgânica, vulgarmente conhecida como gordura, insolúvel em água e solúvel em solventes orgânicos como éter, benzina e clorofórmio (também grafado lipídio ou lipídeo)
+lobao	noun	tumor que se forma no peito de cavalos e éguas	lobão
 locos	noun	plural de "loco"; loucos (empréstimo do espanhol)
 loft	noun	tipo de apartamento amplo e aberto, geralmente resultante da conversão de um espaço industrial ou comercial
 log	noun	termo inglês para registro cronológico de eventos (ex.: arquivo de log de um sistema)
@@ -146,10 +179,16 @@ lotea	verb	forma do infinitivo de "lotear" (dividir um terreno em lotes) combina
 luna	noun	espécie de arrecada em forma de argola (termo antigo)
 lunda	noun	região histórica do nordeste de Angola, habitada pelo povo lunda
 mail	noun	mensagem eletrônica; e-mail
+malhao	noun	grande malho de madeira rija; martelo sem unhas nem orelhas, usado por ferreiros ou calceteiros
+malhao	noun	tiro de bola jogada por alto, a bola usada nesse tiro, ou espécie de jogo de pinhões
+malhao	noun	espécie de música e dança popular portuguesa, especialmente do Minho e da Beira
+malhao	noun	marco, divisa, baliza ou padrão de terra; (Trás-os-Montes) malha de pedra de cerca de 12 kg usada em jogos de lançamento de força
 manea	verb	forma do infinitivo de "manear" (manejar; amarrar as pernas de um animal) combinada a um pronome oblíquo
 mapea	verb	forma do infinitivo de "mapear" (fazer o mapa de, traçar) combinada a um pronome oblíquo (ex.: "mapeá-lo")
+mapear	verb	reconhecer, registrar e representar graficamente as características de um terreno ou área; fazer o mapeamento de algo
 mater	noun	palavra latina que significa "mãe"; usada em expressões como "alma mater" e "mater dolorosa"
 maxim	noun	revista masculina internacional, com edições em vários países, incluindo o Brasil
+medial	adj	relativo ao meio; que ocupa uma posição intermediária entre dois extremos
 meiao	noun	meia comprida que faz parte de uniforme de futebol	meião
 meiao	noun	tambor de percussão direta e membrana única, de tamanho médio, usado em festas populares como as de São Benedito	meião
 menea	verb	forma do infinitivo de "menear" (balançar, sacudir) combinada a um pronome oblíquo (ex.: "meneá-lo")
@@ -164,17 +203,27 @@ nauta	noun	marinheiro, navegador (literário/arcaico)
 nava	noun	planície cercada de montanhas; planície vasta e chã
 nemo	noun	personagem principal do filme de animação "Procurando Nemo"; peixe-palhaço protagonista da história
 nerd	noun	pessoa muito dedicada a assuntos intelectuais, técnicos ou de nicho (como tecnologia ou ficção científica), por vezes com pouca habilidade social
+newton	noun	unidade de medida de força no Sistema Internacional; também sobrenome do físico e matemático Isaac Newton
 nini	noun	jovem que não estuda nem trabalha
 nodal	adj	relativo a um nó (ex.: ponto nodal)
+nodoso	adj	que tem nós; que possui saliências arredondadas na superfície
 nomea	verb	forma do infinitivo de "nomear" (dar nome a, designar) combinada a um pronome oblíquo (ex.: "nomeá-lo")
+nonato	adj	que não nasceu (do latim "non natus"); diz-se sobretudo da criança nascida por operação cesariana ou do animal retirado do ventre da mãe após a morte desta
 notre	noun	parte do nome próprio francês Notre-Dame ("Nossa Senhora"), especialmente a catedral de Paris
 nov	abbrev	abreviatura de "novembro", décimo primeiro mês do ano
 noval	noun	terra desbravada recentemente para ser cultivada; arroteia
 ohm	noun	unidade de medida de resistência elétrica
 ondea	verb	forma do infinitivo de "ondear" (ondular, mover-se como onda) combinada a um pronome oblíquo (ex.: "ondeá-lo")
+ondear	verb	elevar-se e abaixar-se alternadamente como as ondas; fazer ondulações ou ondas
+ondear	verb	fazer curvas; serpear
+ondear	verb	tremular, como uma bandeira
+ondear	verb	propagar sinais em ondas
+ossudo	adj	que tem ossos grandes ou muito salientes, especialmente visíveis sob a pele; que tem muitos ossos; por analogia, extremamente magro ou franzino
 out	abbrev	abreviatura de "outubro", décimo mês do ano
 paete	noun	pequena lâmina brilhante e reflexiva costurada em tecidos como enfeite; paetê
 pajea	verb	forma do infinitivo de "pajear" (cuidar de, tomar conta de uma criança) combinada a um pronome oblíquo (ex.: "pajeá-lo")
+palitar	verb	limpar (os dentes) com palito; mexer ou cutucar com um palito
+papila	noun	pequena saliência cônica ou protuberância formada na superfície da pele, das membranas mucosas (como na língua) ou de órgãos vegetais
 pedrar	verb	apedrejar, atirar pedras em
 pedre	verb	1ª/3ª pessoa do singular do presente do subjuntivo (e imperativo) de "pedrar"
 pelve	noun	estrutura óssea que liga o tronco aos membros inferiores, alojando órgãos como bexiga e intestino
@@ -189,18 +238,28 @@ pina	noun	barbatana, nadadeira
 pina	noun	cada uma das partes em que se divide uma folha de pteridófita
 pinco	verb	1ª pessoa do singular do presente do indicativo de "pinçar"; seguro, prendo ou aperto com pinça, ou tomando algo entre os dedos
 pitar	verb	fumar ou cachimbar; aspirar fumo
+pleura	noun	membrana serosa que reveste a superfície interna do tórax e envolve externamente os pulmões
 plexo	noun	rede de nervos ou vasos sanguíneos entrelaçados
 poker	noun	jogo de cartas em que os jogadores apostam com base na força de suas mãos
+polipo	noun	(medicina) excrescência carnosa ou tumor pediculado que surge na mucosa de órgãos ocos, como intestino, nariz, útero ou laringe; pode ser pediculado (fixado por um pedúnculo) ou séssil (fixado diretamente à parede)	pólipo
 pool	noun	piscina; ou conjunto de recursos, jogadores ou participantes reunidos para uso ou sorteio comum
 pospo	verb	forma do infinitivo de "pospor" (colocar depois, subordinar) combinada a um pronome oblíquo (ex.: "pospô-lo")
 posts	noun	plural de "post"; publicações feitas em redes sociais ou blogs
+premir	verb	apertar, pressionar ou comprimir algo
+prensar	verb	comprimir com força, geralmente usando uma prensa; espremer, apertar
 prepo	verb	forma do infinitivo de "prepor" (colocar antes, dar prioridade a) combinada a um pronome oblíquo (ex.: "prepô-lo")
+priori	adv	usado na expressão latina "a priori", que designa algo deduzido antes da observação dos fatos, por dedução lógica
 prof	noun	forma abreviada e informal de professor ou professora
 propo	verb	forma do infinitivo de "propor" (sugerir, apresentar uma proposta) combinada a um pronome oblíquo (ex.: "propô-lo")
 pub	noun	bar ao estilo britânico ou irlandês
+rabelo	noun	(náutica) barco tradicional do rio Douro, de fundo chato, sem quilha, com vela quadrangular e leme comprido em forma de pá, usado historicamente no transporte de pipas de vinho para Vila Nova de Gaia
+rabelo	noun	(agricultura) rabiça; corda com que o lavrador segura o arado para conduzir a lavra da terra
+rabelo	noun	homem que dirige ou tripula o barco rabelo
 rafia	noun	fibra vegetal extraída das folhas de certas palmeiras, usada em artesanato e amarrios
 ragu	noun	guisado de carne ou vegetais em molho encorpado, geralmente servido sobre massa
+ramado	adj	que possui ramos ou galhos; ramoso, ramudo
 rarea	verb	forma do infinitivo de "rarear" (tornar raro, rarefazer) combinada a um pronome oblíquo (ex.: "rareá-lo")
+raspao	noun	ferimento leve causado por atrito ou roçadura; usado sobretudo na expressão "de raspão" (pegar de raspão: atingir de leve, superficialmente)	raspão
 ratea	verb	forma do infinitivo de "ratear" (dividir proporcionalmente um custo; ou, de um motor, falhar) combinada a um pronome oblíquo (ex.: "rateá-lo")
 rave	noun	festa dançante noturna, geralmente ao ar livre ou em local amplo, com música eletrônica e efeitos visuais
 reboa	verb	2ª pessoa do singular do imperativo (e 3ª do presente do indicativo) de "reboar"
@@ -208,7 +267,9 @@ reboar	verb	ressoar, ecoar com estrondo (ex.: o trovão reboou)
 reboe	verb	1ª/3ª pessoa do singular do presente do subjuntivo (e imperativo) de "reboar"
 recea	verb	forma do infinitivo de "recear" (temer, ter medo de) combinada a um pronome oblíquo (ex.: "receá-lo")
 red	adj	termo inglês que significa "vermelho", usado em expressões e nomes emprestados (ex.: red carpet, code red)
+regerar	verb	gerar novamente; regenerar
 relax	noun	momento ou estado de descanso e tranquilidade; ato de relaxar
+repuxar	verb	puxar novamente ou com força; esticar; (intransitivo) jorrar ou esguichar com força, como um jato de água
 reusar	verb	usar novamente; utilizar algo mais de uma vez em vez de descartar
 revem	verb	2ª pessoa do singular do imperativo, e 3ª pessoa do singular e do plural do presente do indicativo de "revir"
 revim	verb	1ª pessoa do singular do pretérito perfeito do indicativo de "revir"
@@ -251,7 +312,13 @@ strip	noun	estrangeirismo do inglês; casa noturna ou apresentação de striptea
 suao	adj	diz-se de vento quente que sopra do sul
 suao	noun	vento quente que sopra do sul
 suao	noun	o que é do sul
+sueste	noun	ponto do horizonte situado a igual distância do sul e do leste; vento que sopra nessa direção
 sulfa	noun	droga ou antibiótico da classe das sulfonamidas
+surrao	noun	bolsa, bornal ou saco de couro usado por pastores para transportar alimentos (farnel) e objetos de uso pessoal
+surrao	noun	indivíduo muito sujo, imundo; também roupas gastas e sujas
+surrao	noun	(sentido figurado) barriga ou papo grande
+surrao	noun	(gíria) prostituta reles; alguém que age de maneira desonesta ou traiçoeira
+suturar	verb	costurar os bordos de um ferimento ou incisão cirúrgica para uni-los
 tab	noun	termo inglês para aba ou guia (ex.: aba de navegador, de planilha ou de teclado)
 tacao	noun	parte saliente sob o calcanhar de um calçado; salto; tacão
 tan	adj	termo inglês para "bronzeado"; cor entre o bege e o marrom claro
@@ -263,12 +330,19 @@ tava	verb	contração coloquial de "estava" (pretérito imperfeito do indicativo
 tchan	noun	gênero musical brasileiro que mistura axé e pagode; (coloquial) toque especial, charme, algo a mais (ex.: "com tchan")
 tech	abbrev	abreviação do inglês "technology"; tecnologia, ou relativo a tecnologia
 tel	abbrev	abreviatura de "telefone"
+terem	noun	(gíria nordestina) móveis, objetos de uso doméstico, trastes ou tarecos; os pertences pessoais de alguém, sobretudo no contexto de quem vive no campo	terém
 test	noun	forma aportuguesada do inglês "test"; teste, exame ou experimento
 timor	noun	ilha do Sudeste Asiático, dividida entre o Timor-Leste (país independente) e o Timor Ocidental (parte da Indonésia)
 totem	noun	objeto ou figura, geralmente esculpida em madeira, que representa um símbolo sagrado ou emblema de um grupo ou clã
 touch	noun	toque (empréstimo do inglês)
 tour	noun	viagem turística; excursão
+tramo	noun	segmento, trecho ou parte de um todo linear ou estrutural
+travao	noun	barra ou alavanca usada para frear um veículo; dispositivo mecânico ou hidráulico que reduz a velocidade ou para máquinas
 trip	noun	viagem; no uso informal, também designa uma experiência intensa, estranha ou alucinógena
+trunfo	noun	naipe escolhido em jogos de cartas que tem superioridade sobre os outros naipes durante a partida
+tubara	noun	variante de túbera, cogumelo subterrâneo da família das tuberáceas; termo arcaico para alguém sem bom senso
+tubara	noun	(botânica) designação comum de plantas herbáceas do gênero Scirpus, da família das ciperáceas, como o bunho
+tunica	noun	peça de vestuário comprida e solta, geralmente sem mangas ou com mangas curtas, usada sobre outra roupa ou como vestido único	túnica
 ufo	noun	expressão emprestada do inglês (unidentified flying object) que significa objeto voador não identificado
 ulna	noun	um dos dois ossos do antebraço, situado ao lado do dedo mínimo, entre o cotovelo e o punho
 user	noun	termo inglês para "usuário", pessoa que utiliza um sistema, aplicativo ou serviço
@@ -280,7 +354,9 @@ vernar	verb	(botânica) ter vernação; despontar, nascer (referindo-se a folhas
 verne	verb	1ª/3ª pessoa do singular do presente do subjuntivo (e imperativo) de "vernar"
 verno	verb	1ª pessoa do singular do presente do indicativo de "vernar"
 vhs	abbrev	abreviatura de "video home system", formato de fita magnética usado para gravar e reproduzir vídeo
+viagra	noun	marca comercial mundialmente conhecida do medicamento citrato de sildenafila, usado no tratamento da disfunção erétil
 vitro	adv	parte da expressão "in vitro"; refere-se a fenômenos observados fora de um organismo, em laboratório
+viuvez	noun	estado ou condição de quem é viúvo(a); período posterior à morte do cônjuge
 vol	abbrev	abreviatura de "volume"
 volva	noun	membrana espessa que envolve certos cogumelos jovens, rompendo-se de forma irregular à medida que o chapéu se desenvolve
 volva	verb	1ª/3ª pessoa do singular do presente do subjuntivo e 3ª do imperativo de "volver"

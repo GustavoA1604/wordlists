@@ -3042,7 +3042,6 @@ arriscados
 arriscar
 arroba
 arrobas
-arrobo
 arrocha
 arrochas
 arrocho
@@ -4941,7 +4940,6 @@ booms
 borboleta
 borboletas
 borco
-borcos
 bordadas
 bordado
 bordados
@@ -8973,7 +8971,6 @@ convocados
 convocar
 convocou
 convosco
-cooper
 cooperacoes
 cooperativa
 cooperativas
@@ -9584,7 +9581,6 @@ crivos
 croacia
 croata
 croatas
-croato
 crocante
 crocantes
 croche
@@ -9886,7 +9882,6 @@ dador
 dadora
 dadoras
 dadores
-daguar
 dali
 dalia
 dalias
@@ -10115,7 +10110,6 @@ decursas
 decurso
 decursos
 dedais
-dedaos
 dedica
 dedicacoes
 dedicada
@@ -14981,7 +14975,6 @@ ferrado
 ferrados
 ferrao
 ferrar
-ferraz
 ferrea
 ferreas
 ferreiras
@@ -16306,7 +16299,6 @@ gastados
 gastam
 gastamos
 gastando
-gastao
 gastara
 gastaram
 gastaramos
@@ -16323,9 +16315,6 @@ gastava
 gastavam
 gastavamos
 gastei
-gastoes
-gastona
-gastonas
 gastou
 gastronomias
 gatas
@@ -17029,7 +17018,6 @@ guarnicoes
 guaruja
 gude
 gudes
-guedes
 guelra
 guelras
 guerras
@@ -19311,7 +19299,6 @@ juncao
 juncoes
 juncos
 jundiai
-jungle
 junhos
 juniores
 juntadas
@@ -20316,8 +20303,6 @@ lobata
 lobatas
 lobato
 lobatos
-lobbie
-lobbies
 loboes
 lobona
 lobonas
@@ -20782,7 +20767,6 @@ maiorias
 maioridade
 maioridades
 maises
-maison
 majestade
 majestades
 majora
@@ -20901,8 +20885,6 @@ manager
 managers
 manar
 manas
-manata
-manatas
 manca
 mancar
 mancas
@@ -21139,8 +21121,6 @@ maridos
 marieta
 marilia
 marinas
-marine
-marines
 maringa
 marinhas
 marinheira
@@ -22720,7 +22700,6 @@ negam
 negamos
 negando
 negao
-negaos
 negara
 negaram
 negaramos
@@ -23088,10 +23067,8 @@ numerais
 numeral
 numeras
 nuns
-nupcia
 nupciais
 nupcial
-nupcias
 nus
 nutricionais
 nutricional
@@ -23504,7 +23481,6 @@ ondeada
 ondeadas
 ondeado
 ondeados
-ondear
 ondular
 onerar
 onerosa
@@ -24204,7 +24180,6 @@ pararmos
 paras
 parati
 paratis
-paraty
 parava
 paravam
 paravamos
@@ -26300,7 +26275,6 @@ premiar
 premie
 premies
 premios
-premir
 premissa
 premissas
 prendar
@@ -26556,7 +26530,6 @@ primatas
 primaveras
 prime
 primeiros
-primer
 primitiva
 primitivas
 primitivo
@@ -27775,7 +27748,6 @@ recados
 recaida
 recaidas
 recair
-recall
 recanto
 recantos
 recarga
@@ -31906,7 +31878,6 @@ surdina
 surdinas
 surdir
 surdos
-surfer
 surfes
 surgi
 surgia
@@ -32289,7 +32260,6 @@ teimoso
 teimosos
 tejo
 tejos
-telaos
 tele
 telefonema
 telefonemas
@@ -32358,7 +32328,6 @@ tempestade
 tempestades
 tempinho
 tempinhos
-temple
 templos
 tempora
 temporadas
@@ -35139,8 +35108,6 @@ vulnerabilidades
 vulneraveis
 vulneravel
 vultos
-walker
-walter
 xadrez
 xadrezes
 xaile
