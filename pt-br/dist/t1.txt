@@ -199,7 +199,6 @@ alemanha
 alemao
 alerta
 aleta
-alexandre
 algas
 algo
 algodao
@@ -2911,7 +2910,6 @@ havera
 havia
 haviam
 helio
-henrique
 hepta
 heranca
 heroi
@@ -3461,7 +3459,6 @@ lua
 luas
 lucro
 lugar
-luis
 lula
 lulas
 lunar
@@ -3559,7 +3556,6 @@ marca
 marcado
 marcar
 marcas
-marcelo
 marcha
 marco
 marcos
@@ -5049,7 +5045,6 @@ rezas
 ribeirao
 ribeiro
 rica
-ricardo
 rico
 ricos
 rifar
@@ -5073,7 +5068,6 @@ ritmo
 ritos
 rival
 rixas
-roberto
 robos
 rocar
 rocas
@@ -5213,7 +5207,6 @@ saude
 sauna
 sauva
 se
-sebastiao
 sebos
 seca
 secao

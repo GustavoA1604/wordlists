@@ -992,8 +992,8 @@ moema	-	3	place
 mofa	N	3
 molha	N	3
 mona	-	3
-monico	-	2
-monicos	-	2
+monico	-	x	firstname
+monicos	-	x	firstname
 monta	N	3
 moscado	A	3
 mostras	N	3
@@ -1335,7 +1335,7 @@ revenda	N	3
 revir	V	3
 revirao	N	2
 ribamar	N	3
-ricarda	-	2
+ricarda	-	x	firstname
 rifa	N	3
 rip	-	3	english
 ritmica	N	3
@@ -1370,7 +1370,7 @@ samurai	N	3
 sapata	N	2
 sara	N	3
 satiro	N	2
-savia	-	3
+savia	-	x	firstname
 scanner	N	3	english
 screen	-	3	english
 script	N	3	english
@@ -1527,7 +1527,7 @@ suportado	A	3
 surf	N	3
 suruba	A	3
 sus	-	3
-suzana	-	3
+suzana	-	x	firstname
 suzano	-	3	place
 swing	N	3	english
 switch	-	3	english

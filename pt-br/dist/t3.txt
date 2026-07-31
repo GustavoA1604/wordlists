@@ -4250,7 +4250,6 @@ acaciana
 acacianas
 acaciano
 acacianos
-acacio
 academismo
 academismos
 academista
@@ -10092,8 +10091,6 @@ adelgacemos
 adelgaces
 adelgaco
 adelgacou
-adelia
-adelio
 adem
 ademane
 adenda
@@ -14511,10 +14508,6 @@ afonica
 afonicas
 afonico
 afonicos
-afonsina
-afonsinas
-afonsino
-afonsinos
 aforada
 aforadas
 aforado
@@ -15959,7 +15952,6 @@ agnada
 agnadas
 agnado
 agnados
-agnelo
 agnosia
 agnosias
 agnostica
@@ -18168,8 +18160,6 @@ alambre
 alambres
 alamo
 alamos
-alana
-alanas
 alanca
 alancada
 alancadas
@@ -18267,8 +18257,6 @@ alando
 alandroais
 alandroal
 alandroalense
-alano
-alanos
 alanque
 alanquei
 alanqueis
@@ -18731,14 +18719,12 @@ alberguemo
 alberguemos
 alberta
 albertina
-albertino
 albicastrense
 albicastrenses
 albigense
 albigenses
 albinismo
 albinismos
-albo
 albornoz
 albornozes
 alboroque
@@ -21177,7 +21163,6 @@ almiscareiras
 almiscareiro
 almiscareiros
 almiscares
-almo
 almoca
 almocada
 almocadas
@@ -21293,7 +21278,6 @@ almondega
 almondegas
 almorroida
 almorroidas
-almos
 almotacaria
 almotacarias
 almotace
@@ -22666,12 +22650,8 @@ alvidremos
 alvidres
 alvidro
 alvidrou
-alvina
-alvinas
 alvinlandia
-alvino
 alvinopolis
-alvinos
 alvioes
 alvirrubra
 alvirrubras
@@ -23557,7 +23537,6 @@ amancebemos
 amancebes
 amancebo
 amancebou
-amandina
 amaneira
 amaneirada
 amaneiradas
@@ -24121,8 +24100,6 @@ amaricados
 amarico
 amarieis
 amarilho
-amarina
-amarinas
 amarissimo
 amarou
 amarra
@@ -24720,7 +24697,6 @@ ameio
 ameis
 ameixeira
 ameixeiras
-amelio
 amemo
 amemos
 amen
@@ -27699,7 +27675,6 @@ anidrico
 anidricos
 anidrose
 anidroses
-aniele
 anila
 anilada
 aniladas
@@ -27799,8 +27774,6 @@ anilhes
 anilho
 anilhos
 anilhou
-anilina
-anilinas
 anilo
 anilou
 animadamente
@@ -29038,10 +29011,6 @@ antologicamente
 antologicas
 antologico
 antologicos
-antoniana
-antonianas
-antoniano
-antonianos
 antonima
 antonimas
 antonimia
@@ -29049,11 +29018,8 @@ antonimias
 antonimo
 antonimos
 antonina
-antoninas
 antoninense
 antoninenses
-antonino
-antoninos
 antonomasia
 antonomasias
 antou
@@ -35422,13 +35388,11 @@ argumentes
 argumentista
 argumentistas
 arguo
-ariadna
 ariadne
 arianismo
 arianismos
 ariaxe
 aricanduva
-aricia
 aries
 ariete
 arietes
@@ -39636,8 +39600,6 @@ ascendido
 ascendidos
 ascendieis
 ascendo
-ascensa
-ascensas
 ascensionais
 ascensional
 ascenso
@@ -42483,8 +42445,6 @@ atamentos
 atamos
 atanado
 atanados
-atanasia
-atanasias
 atanaza
 atanazada
 atanazadas
@@ -43659,7 +43619,6 @@ atilemos
 atiles
 atilho
 atilhos
-atiliano
 atilo
 atilou
 atina
@@ -45474,8 +45433,6 @@ aumentes
 aurais
 auramos
 aure
-aurelia
-aurelias
 aurem
 aureolada
 aureoladas
@@ -52198,7 +52155,6 @@ beladonas
 belagua
 belamente
 belao
-belarmino
 belbute
 belbutes
 beldade
@@ -52386,7 +52342,6 @@ bendiziam
 bendiziamos
 bendizias
 bendizieis
-benedita
 beneditense
 beneditinos
 beneficamente
@@ -52599,10 +52554,7 @@ berloque
 berloques
 bermudense
 bermudenses
-bermudo
 berna
-bernarda
-bernardas
 bernardense
 bernardenses
 berquelio
@@ -57071,7 +57023,6 @@ brejetuba
 brejinho
 brejoes
 brejolandia
-brendo
 brenha
 brenhas
 breque
@@ -57247,7 +57198,6 @@ brigavam
 brigavamos
 brigavas
 brigaveis
-brigida
 brigo
 brigoes
 brigona
@@ -60274,8 +60224,6 @@ caipora
 caiporas
 caiporismo
 caiporismos
-caique
-caiques
 cairas
 cairdes
 caireis
@@ -64008,7 +63956,6 @@ carmelitanas
 carmelitano
 carmelitanos
 carmelitas
-carmelito
 carmense
 carmenses
 carmes
@@ -64117,15 +64064,12 @@ caroebe
 caroes
 carola
 carolas
-carolinas
 carolinense
 carolinenses
 carolingia
 carolingias
 carolingio
 carolingios
-carolino
-carolinos
 carolo
 carolos
 caroteno
@@ -65447,8 +65391,6 @@ caturros
 caturrou
 catuti
 catuto
-cauana
-cauanas
 cauboi
 caubois
 caucaia
@@ -65962,7 +65904,6 @@ ceceies
 ceceio
 ceceios
 ceceou
-ceciliano
 ceco
 cecos
 ceda
@@ -66263,8 +66204,6 @@ celeridades
 celesta
 celestina
 celestinas
-celestino
-celestinos
 celeuma
 celeumas
 celga
@@ -68085,8 +68024,6 @@ charlemo
 charlemos
 charleston
 charlo
-charlote
-charlotes
 charlou
 charneca
 charnecas
@@ -70095,8 +70032,6 @@ cinabrio
 cinabrios
 cinamomo
 cinamomos
-cinara
-cinaras
 cincerro
 cincerros
 cincha
@@ -70445,7 +70380,6 @@ cipreste
 ciprestes
 cipriota
 cipriotas
-cira
 cirandada
 cirandadas
 cirandado
@@ -71364,7 +71298,6 @@ clemencia
 clemencias
 clementina
 clementinas
-clementino
 clepsidra
 clepsidras
 cleptocracia
@@ -85230,7 +85163,6 @@ cotoveles
 cotovelou
 cotra
 cotriguacu
-cotrim
 cotrofe
 cottage
 cottages
@@ -86607,7 +86539,6 @@ cristifiques
 cristinapolis
 cristinense
 cristinenses
-cristino
 cristologia
 cristologias
 cristologica
@@ -88625,7 +88556,6 @@ damao
 damasqueiro
 damasqueiros
 damba
-damiana
 damianopolis
 damo
 damolandia
@@ -118888,6 +118818,7 @@ dominem
 dominemo
 dominemos
 domines
+domingas
 domingueira
 domingueiras
 domingueiro
@@ -118991,6 +118922,7 @@ dorama
 doramectina
 doras
 doresopolis
+dorios
 doris
 dormente
 dormentes
@@ -119067,8 +118999,6 @@ dormitemos
 dormites
 dormito
 dormitou
-doroteia
-doroteias
 dorsalgia
 dorsalgias
 dosa
@@ -121979,7 +121909,6 @@ elevo
 elevou
 elfa
 elfo
-eliano
 elicia
 eliciada
 eliciadas
@@ -152736,9 +152665,6 @@ esteei
 esteeis
 esteemo
 esteemos
-estefania
-estefanias
-estefanio
 esteganografia
 esteganografias
 estegossauro
@@ -156458,8 +156384,6 @@ euforicamente
 euforicas
 euforico
 euforicos
-eufrasia
-eufrasias
 eugenia
 eugenias
 eugenica
@@ -161258,7 +161182,6 @@ fabricavam
 fabricavamos
 fabricavas
 fabricaveis
-fabricia
 fabricianense
 fabricianenses
 fabricou
@@ -163238,7 +163161,6 @@ faustiana
 faustianas
 faustiano
 faustianos
-faustiniano
 faustosa
 faustosamente
 faustosas
@@ -163924,7 +163846,6 @@ ferais
 feral
 feraz
 ferazes
-ferdinanda
 feres
 feria
 feriadao
@@ -164045,10 +163966,6 @@ fermions
 fermios
 fermis
 fermoso
-fernandina
-fernandinas
-fernandino
-fernandinos
 fernandopolis
 fero
 ferocidade
@@ -165995,10 +165912,8 @@ flautista
 flautistas
 flava
 flavas
-flaviano
 flaviense
 flavienses
-flavina
 flavo
 flavor
 flavores
@@ -166453,8 +166368,6 @@ floreis
 florem
 floremo
 floremos
-florencia
-florencias
 florense
 florentina
 florentinas
@@ -168786,8 +168699,6 @@ framboeseira
 framboeseiras
 framengo
 francano
-francela
-francelas
 francelho
 francelhos
 francesia
@@ -173099,7 +173010,6 @@ gasoleos
 gaspacho
 gaspachos
 gasparense
-gasparino
 gaspea
 gaspeas
 gasping
@@ -174205,10 +174115,6 @@ geotectonica
 geotectonicas
 geou
 gerai
-geraldina
-geraldinas
-geraldino
-geraldinos
 geralista
 geralistas
 geranio
@@ -174864,12 +174770,9 @@ glasnost
 glaucia
 glaucias
 glaucilandia
-glaucio
 glaucoma
 glaucomas
 glena
-gliceria
-glicerias
 glicerina
 glicerinado
 glicerinas
@@ -175832,10 +175735,7 @@ gracejemo
 gracejemos
 gracejes
 gracejou
-graciana
-graciano
 gracil
-gracinda
 graciosa
 graciosamente
 graciosas
@@ -178571,7 +178471,6 @@ helenizo
 helenizou
 heleno
 helenos
-helia
 heliaca
 heliacas
 heliaco
@@ -178591,7 +178490,6 @@ heliocentricos
 heliocentrismo
 heliocentrismos
 heliodora
-heliodoro
 heliografia
 heliografias
 heliografica
@@ -181595,8 +181493,6 @@ iacri
 iacu
 iacus
 iacuto
-iago
-iagos
 iaia
 ialorixa
 iama
@@ -185400,9 +185296,6 @@ inacessibilidade
 inacessibilidades
 inacessiveis
 inacessivel
-inacia
-inaciana
-inacianas
 inaciano
 inacianos
 inaciolandia
@@ -195490,10 +195383,7 @@ jacente
 jacentes
 jaci
 jaciara
-jacinta
-jacintas
 jacis
-jaco
 jacobina
 jacobinas
 jacobinense
@@ -196220,8 +196110,6 @@ joanense
 joanesia
 joanete
 joanetes
-joanina
-joaninas
 joaninha
 joaninhas
 joanino
@@ -196443,10 +196331,6 @@ jorremos
 jorres
 jorrou
 joseense
-josefina
-josefinas
-josefino
-josefinos
 joselandia
 josenopolis
 jovializa
@@ -197337,9 +197221,6 @@ justou
 jutai
 jutais
 juti
-juvenais
-juvenal
-juvencio
 juvenilia
 juvenilias
 juvenilidade
@@ -198217,8 +198098,6 @@ laicizes
 laicizo
 laicizou
 laicra
-lais
-laises
 laja
 lajas
 lajedao
@@ -199429,12 +199308,9 @@ laurencia
 laurencias
 laurencio
 laurencios
-laurentina
-laurentinas
 laurentino
 laurentinos
 laureou
-laurita
 lausperene
 lausperenes
 lauta
@@ -199573,7 +199449,6 @@ lazulitas
 le
 lead
 lealmente
-leandra
 lebreira
 lebreiras
 lebreiro
@@ -200912,7 +200787,6 @@ licenciosos
 licenciou
 lichia
 lichias
-licinia
 licitada
 licitadas
 licitado
@@ -201094,7 +200968,6 @@ ligues
 liguriano
 like
 lila
-lilio
 lima
 limai
 limais
@@ -201297,7 +201170,6 @@ linearmente
 linem
 linense
 lines
-linete
 linfatica
 linfaticas
 linfatico
@@ -201651,8 +201523,6 @@ liquidifiquemo
 liquidifiquemos
 liquidifiques
 liquidou
-liria
-lirias
 liricamente
 lisboano
 lisboeta
@@ -202964,10 +202834,6 @@ lucubremos
 lucubres
 lucubro
 lucubrou
-lucula
-luculas
-luculo
-luculos
 luddista
 luddita
 ludibria
@@ -203377,8 +203243,6 @@ luzieis
 luziense
 luzilandia
 luzinopolis
-luzio
-luzios
 luziras
 luzirdes
 luzireis
@@ -204194,8 +204058,6 @@ magnifiquemos
 magnifiques
 magnolia
 magnolias
-magnolio
-magnolios
 magnum
 magoai
 magoais
@@ -204274,7 +204136,6 @@ maioritario
 maioritarios
 maiormente
 maiquinique
-maira
 mairi
 mairiense
 mairinque
@@ -205127,8 +204988,6 @@ malvestidos
 malvinense
 malvinenses
 malvino
-malvo
-malvos
 malware
 mamadeira
 mamadeiras
@@ -206320,10 +206179,6 @@ mantuana
 mantuanas
 mantuano
 mantuanos
-manuelina
-manuelinas
-manuelino
-manuelinos
 manufactura
 manufacturada
 manufacturadas
@@ -206929,7 +206784,6 @@ marcastes
 marcavas
 marcaveis
 marcelandia
-marcelina
 marcelinense
 marcenaria
 marcenarias
@@ -211244,10 +211098,6 @@ micelio
 micelios
 micha
 michas
-michela
-michelas
-michelo
-michelos
 micho
 michos
 micologia
@@ -211504,7 +211354,6 @@ migue
 miguei
 migueis
 miguelense
-miguelino
 miguelopolis
 miguem
 miguemo
@@ -212344,7 +212193,6 @@ miou
 mique
 miquei
 miqueis
-miquelino
 miquem
 miquemo
 miquemos
@@ -214162,15 +214010,11 @@ morassemos
 morasses
 moraste
 morastes
-morata
-moratas
 moratense
-morato
 moratoria
 moratorias
 moratorio
 moratorios
-moratos
 moraujo
 moravas
 moraveis
@@ -221649,7 +221493,6 @@ ofeguem
 ofeguemo
 ofeguemos
 ofegues
-ofelia
 ofenda
 ofendais
 ofendam
@@ -222212,10 +222055,6 @@ oligopolio
 oligopolios
 oligossacarideo
 oligossacarideos
-olimpiana
-olimpianas
-olimpiano
-olimpianos
 olimpicamente
 olimpiense
 olindense
@@ -224249,10 +224088,6 @@ otaria
 otarias
 otario
 otarios
-otaviana
-otavianas
-otaviano
-otavianos
 oticamente
 otim
 otimamente
@@ -226056,7 +225891,6 @@ palminhas
 palminopolis
 palmipede
 palmipedes
-palmira
 palmitais
 palmital
 palmitica
@@ -226292,10 +226126,6 @@ pancao
 pancoes
 pancona
 panconas
-pancracia
-pancracias
-pancracio
-pancracios
 pancreas
 pancreatite
 pancreatites
@@ -227818,8 +227648,6 @@ pascacia
 pascacias
 pascacio
 pascacios
-pascalina
-pascalinas
 pascam
 pascamo
 pascamos
@@ -233020,7 +232848,6 @@ petizadas
 peto
 petos
 petou
-petra
 petrifica
 petrificada
 petrificadas
@@ -247243,12 +247070,6 @@ quintetos
 quintilha
 quintilhao
 quintilhas
-quintiliana
-quintilianas
-quintiliano
-quintilianos
-quintilio
-quintina
 quintou
 quintuplica
 quintuplicada
@@ -248392,7 +248213,6 @@ ragu
 raguebi
 raguebis
 ragus
-rai
 raiai
 raiais
 raial
@@ -248676,7 +248496,6 @@ ramifiquemo
 ramifiquemos
 ramifiques
 ramilandia
-ramona
 ranario
 ranarios
 rancada
@@ -256551,7 +256370,6 @@ regeste
 regestes
 reggae
 reggaes
-regiano
 regibo
 regicida
 regicidas
@@ -268358,9 +268176,6 @@ rosaceos
 rosai
 rosais
 rosal
-rosalia
-rosalias
-rosalina
 rosam
 rosamos
 rosando
@@ -268412,7 +268227,6 @@ rosicler
 rosiclera
 rosicleras
 rosicleres
-rosina
 rosmaninho
 rosmaninhos
 rosmarinho
@@ -270740,12 +270554,8 @@ salvemos
 salves
 salvia
 salvias
-salvina
 samambaia
 samambaias
-samanta
-samara
-samaras
 samarines
 samario
 samarios
@@ -272024,7 +271834,6 @@ saussuriano
 saussurianos
 saveis
 savel
-savia
 saxhorn
 saxofone
 saxofones
@@ -273588,8 +273397,6 @@ sequoia
 sequoias
 seraficamente
 serafim
-serafina
-serafinas
 serafins
 serapilheira
 serapilheiras
@@ -273655,7 +273462,6 @@ seresteira
 seresteiras
 seresteiro
 seresteiros
-sergia
 sergipana
 sergipanas
 sergipano
@@ -274176,8 +273982,6 @@ sevemos
 severamente
 severense
 severianense
-severiano
-severianos
 severidade
 severidades
 severinia
@@ -274624,7 +274428,6 @@ signifiquemos
 signifiques
 sikh
 sikhismo
-sila
 silabacao
 silabacoes
 silabada
@@ -274829,11 +274632,7 @@ silvemos
 silvense
 silvenses
 silves
-silviana
-silvianas
-silviano
 silvianopolis
-silvianos
 silvicola
 silvicolas
 silvicultura
@@ -277319,7 +277118,6 @@ soestes
 soeu
 soez
 soezes
-sofio
 sofisma
 sofismada
 sofismadas
@@ -282939,7 +282737,6 @@ suvenir
 suvenires
 suvenirs
 suxo
-suzana
 suzanapolis
 suzanense
 suzano
@@ -283346,7 +283143,6 @@ tainais
 tainam
 tainamos
 tainando
-tainara
 tainaram
 tainaramos
 tainarao
@@ -283516,9 +283312,7 @@ talhem
 talhemo
 talhemos
 talhou
-talia
 taliao
-talias
 talidomida
 talidomidas
 talim
@@ -297212,8 +297006,6 @@ urremos
 urres
 ursada
 ursadas
-ursulina
-ursulinas
 urticante
 urticantes
 urticaria
@@ -298148,8 +297940,6 @@ valavamos
 valavas
 valaveis
 valboense
-valda
-valdas
 valdense
 valdenses
 valdevinos
@@ -298172,7 +297962,6 @@ valentao
 valentense
 valentia
 valentias
-valentiniano
 valentoes
 valentona
 valentonas
@@ -298188,7 +297977,6 @@ valerianica
 valerianicas
 valerianico
 valerianicos
-valeriano
 valerias
 valerica
 valericas
@@ -298449,7 +298237,6 @@ vampirismos
 van
 vanadio
 vanadios
-vanda
 vandalica
 vandalicas
 vandalico
@@ -299572,7 +299359,6 @@ venceres
 vencerias
 vencerieis
 vences
-venceslau
 vencesse
 vencesseis
 vencessem
@@ -304012,8 +303798,6 @@ zaina
 zainas
 zaino
 zainos
-zaira
-zairas
 zamba
 zambas
 zambeta
@@ -304342,7 +304126,6 @@ zeteticos
 zeugma
 zeugmas
 zeus
-zeze
 zezinha
 zibelina
 zibelinas

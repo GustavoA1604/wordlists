@@ -1405,18 +1405,14 @@ alazaes
 alazao
 alazas
 alazoes
-alba
 albanes
 albanesa
 albanesas
 albaneses
 albarda
 albardas
-albas
 albergue
 albergues
-albina
-albinas
 albino
 albinos
 albufeira
@@ -1904,7 +1900,6 @@ amenos
 amens
 americanas
 americas
-americo
 amianto
 amiantos
 amidos
@@ -2126,7 +2121,6 @@ anfitria
 anfitriao
 anfitrias
 anfitrioes
-angela
 angelica
 angelicas
 angelico
@@ -5681,7 +5675,6 @@ camisetas
 camisinha
 camisola
 camisolas
-camoes
 campa
 campainha
 campainhas
@@ -11861,8 +11854,6 @@ dominam
 dominante
 dominantes
 dominar
-dominga
-domingas
 dominicais
 dominical
 dominios
@@ -11882,8 +11873,6 @@ dope
 dopes
 doping
 doravante
-doria
-dorias
 dorica
 doricas
 dorico
@@ -11892,8 +11881,6 @@ dorida
 doridas
 dorido
 doridos
-dorio
-dorios
 dorme
 dormem
 dormi
@@ -12420,11 +12407,6 @@ elimino
 eliminou
 elipse
 elipses
-eliseu
-elisia
-elisias
-elisio
-elisios
 elites
 elixir
 elixires
@@ -14916,8 +14898,6 @@ feituras
 feixes
 fel
 feles
-felicia
-felicias
 felicidades
 felina
 felinas
@@ -15114,7 +15094,6 @@ figados
 figo
 figueira
 figueiras
-figueiredo
 figueirense
 figueirenses
 figurao
@@ -15718,7 +15697,6 @@ francamente
 francas
 francesas
 franceses
-francisca
 francos
 franga
 frangas
@@ -19552,7 +19530,6 @@ lampejo
 lampejos
 lamuria
 lamurias
-lana
 lancadas
 lancados
 lancam
@@ -20294,8 +20271,6 @@ lituano
 lituanos
 liturgia
 liturgias
-livia
-livias
 livida
 lividas
 livido
@@ -20548,7 +20523,6 @@ lufadas
 lugares
 lugubre
 lugubres
-luises
 lume
 lumes
 lumiar
@@ -20687,7 +20661,6 @@ macapa
 macar
 macarrao
 macarroes
-macedo
 maceio
 macha
 machados
@@ -21209,7 +21182,6 @@ martelas
 martelo
 martelos
 martes
-martim
 martini
 martinis
 martir
@@ -22135,8 +22107,6 @@ mongois
 mongol
 monica
 monicas
-monico
-monicos
 monitora
 monitoramentos
 monitorar
@@ -29376,8 +29346,6 @@ ricaca
 ricacas
 ricaco
 ricacos
-ricarda
-ricardos
 ricas
 rida
 ridas
@@ -29521,8 +29489,6 @@ rizomas
 robalo
 robalos
 robe
-robertas
-robertos
 robes
 robo
 robotica
@@ -30307,8 +30273,6 @@ satisfeitas
 satisfeito
 satisfeitos
 saturar
-saturna
-saturnas
 saturno
 saturnos
 saudacao
@@ -30338,7 +30302,6 @@ sazonais
 sazonal
 seara
 searas
-sebastioes
 sebe
 sebenta
 sebentas
