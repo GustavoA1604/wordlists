@@ -44794,7 +44794,6 @@ atributiva
 atributivas
 atributivo
 atributivos
-atriis
 atril
 atro
 atroa
@@ -84001,7 +84000,6 @@ coronhas
 coronis
 coroo
 coroou
-corpanziis
 corpanzil
 corpinho
 corpinhos
@@ -90215,7 +90213,6 @@ decoladas
 decolado
 decolados
 decolagem
-decolagems
 decolagens
 decolai
 decolais
@@ -195471,7 +195468,6 @@ jaezes
 jaga
 jagas
 jagodes
-jagodess
 jagra
 jagras
 jaguapita
@@ -196020,7 +196016,6 @@ jesuitismo
 jesuitismos
 jesupolis
 jesus
-jesuss
 jet
 jetom
 jeton
@@ -202255,7 +202250,6 @@ loes
 loess
 loesse
 loesses
-loesss
 loeste
 loestes
 loft
@@ -203605,7 +203599,6 @@ maciez
 maciezes
 macoes
 macom
-macoms
 maconha
 maconhada
 maconhadas
@@ -218331,6 +218324,8 @@ ninhemo
 ninhemos
 ninhes
 ninhou
+nini
+ninis
 ninivita
 ninivitas
 ninos
@@ -234065,7 +234060,6 @@ pirex
 pirexes
 pirexia
 pirexias
-pirexs
 piridina
 piridinas
 piriguete
@@ -239733,6 +239727,7 @@ prepotentes
 prepucio
 prepucios
 prequela
+pres
 presada
 presadas
 presado
@@ -241152,7 +241147,46 @@ principiemos
 principies
 principiologico
 principiou
+print
+printa
+printada
+printadas
+printado
+printados
+printam
+printamos
+printando
 printar
+printara
+printaram
+printarao
+printaras
+printarei
+printarem
+printaremos
+printaria
+printariam
+printariamos
+printarias
+printarmos
+printas
+printasse
+printassem
+printassemos
+printasses
+printaste
+printava
+printavam
+printavamos
+printavas
+printe
+printei
+printem
+printemos
+printes
+printo
+printou
+prints
 prion
 priorado
 priorados
@@ -262063,6 +262097,7 @@ reservem
 reservemo
 reservemos
 reserves
+reses
 resetar
 resfolega
 resfolegada
@@ -271522,6 +271557,8 @@ sartas
 sartriano
 sartrianos
 saru
+sarue
+sarues
 saruga
 sarugas
 sarutaia
@@ -274368,7 +274405,6 @@ siemo
 siemos
 sies
 sifilis
-sifiliss
 sigais
 sigamo
 sigamos
@@ -275419,6 +275455,7 @@ sinoticos
 sinou
 sinquise
 sinquises
+sins
 sintactica
 sintacticas
 sintactico
@@ -276974,6 +277011,7 @@ socobres
 socobro
 socobros
 socobrou
+socol
 socope
 socorra
 socorrais
@@ -285427,7 +285465,6 @@ televizinho
 televizinhos
 telex
 telexes
-telexs
 telhai
 telhais
 telham
@@ -294142,7 +294179,6 @@ trole
 trolebus
 trolei
 troleibus
-troleibuss
 troleis
 troles
 trolha
@@ -295927,7 +295963,6 @@ ultravioleta
 ultravioletas
 ultriz
 ultrizes
-ultrizs
 ulula
 ululada
 ululadas
@@ -298715,7 +298750,6 @@ varjao
 varjas
 varjoes
 varjota
-varoniis
 varonil
 varonilmente
 varonis
@@ -303505,7 +303539,6 @@ xeroquemo
 xeroquemos
 xeroques
 xerox
-xeroxs
 xerpa
 xeta
 xetas

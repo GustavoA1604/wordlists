@@ -1990,6 +1990,7 @@ amuo
 amuos
 amurada
 amuradas
+ana
 analisa
 analisada
 analisadas
@@ -2159,7 +2160,6 @@ anidra
 anidras
 anidro
 anidros
-aniis
 anil
 anima
 animacoes
@@ -4572,6 +4572,7 @@ benigna
 benignas
 benigno
 benignos
+benta
 bentas
 bentos
 benzeno
@@ -11766,7 +11767,6 @@ doceis
 docencia
 docencias
 docentes
-docils
 documentacoes
 documentais
 documental
@@ -12040,7 +12040,6 @@ duodenos
 duplas
 duplex
 duplexes
-duplexs
 duplicacao
 duplicacoes
 duplices
@@ -17114,7 +17113,6 @@ handebois
 handebol
 hao
 haras
-harass
 harens
 harmonias
 harmonizacao
@@ -17699,7 +17697,6 @@ imobiliarios
 imolar
 imorais
 imoral
-imorals
 imortal
 imortalidade
 imortalidades
@@ -18448,7 +18445,6 @@ inovar
 inoxes
 inoxidaveis
 inoxidavel
-inoxs
 inqueritos
 inquietacao
 inquietacoes
@@ -18876,7 +18872,6 @@ inverso
 inversoes
 inversos
 inverter
-invess
 investe
 investem
 investi
@@ -22839,8 +22834,6 @@ ninfas
 ninhada
 ninhadas
 ninhos
-nini
-ninis
 ninjas
 nino
 ninou
@@ -26348,7 +26341,6 @@ preparos
 preparou
 prerrogativa
 prerrogativas
-pres
 presas
 prescricao
 prescricoes
@@ -28777,7 +28769,6 @@ reservavamos
 reservei
 reservo
 reservou
-reses
 resfriamento
 resfriamentos
 resgata
@@ -30227,7 +30218,6 @@ sarros
 sas
 satanas
 satanases
-satanass
 satelites
 satira
 satiras
@@ -30934,7 +30924,6 @@ sinonimas
 sinonimo
 sinonimos
 sinopses
-sins
 sintam
 sintaxe
 sintaxes

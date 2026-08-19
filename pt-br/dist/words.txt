@@ -29018,6 +29018,7 @@ amuremos
 amures
 amuro
 amurou
+ana
 anabaptista
 anabaptistas
 anabase
@@ -30140,7 +30141,6 @@ anidro
 anidros
 anidrose
 anidroses
-aniis
 anil
 anila
 anilada
@@ -48941,7 +48941,6 @@ atributivo
 atributivos
 atributo
 atributos
-atriis
 atril
 atrio
 atrios
@@ -57705,6 +57704,7 @@ benquistas
 benquisto
 benquistos
 bens
+benta
 bentas
 bentinhos
 bento
@@ -94548,7 +94548,6 @@ coroo
 coroou
 coros
 corou
-corpanziis
 corpanzil
 corpete
 corpetes
@@ -101897,7 +101896,6 @@ decoladas
 decolado
 decolados
 decolagem
-decolagems
 decolagens
 decolai
 decolais
@@ -132101,7 +132099,6 @@ docil
 docilidade
 docilidades
 docilmente
-docils
 docimasia
 docimasias
 docinho
@@ -133769,7 +133766,6 @@ duplamente
 duplas
 duplex
 duplexes
-duplexs
 duplica
 duplicacao
 duplicacoes
@@ -198111,7 +198107,6 @@ haptico
 haraquiri
 haraquiris
 haras
-harass
 hard
 hardcore
 hardcores
@@ -204200,7 +204195,6 @@ imoralismos
 imoralista
 imoralistas
 imoralmente
-imorals
 imorredoura
 imorredouras
 imorredouro
@@ -211320,7 +211314,6 @@ inox
 inoxes
 inoxidaveis
 inoxidavel
-inoxs
 input
 inputes
 inputs
@@ -215908,7 +215901,6 @@ invertidos
 invertieis
 inverto
 inves
-invess
 investe
 investem
 investes
@@ -217719,7 +217711,6 @@ jaezes
 jaga
 jagas
 jagodes
-jagodess
 jagra
 jagras
 jaguapita
@@ -218378,7 +218369,6 @@ jesuitismo
 jesuitismos
 jesupolis
 jesus
-jesuss
 jet
 jetom
 jeton
@@ -226045,7 +226035,6 @@ loes
 loess
 loesse
 loesses
-loesss
 loeste
 loestes
 loft
@@ -227757,7 +227746,6 @@ macios
 maco
 macoes
 macom
-macoms
 maconaria
 maconarias
 maconha
@@ -263946,7 +263934,6 @@ pirex
 pirexes
 pirexia
 pirexias
-pirexs
 piridina
 piridinas
 piriguete
@@ -272327,7 +272314,46 @@ principio
 principiologico
 principios
 principiou
+print
+printa
+printada
+printadas
+printado
+printados
+printam
+printamos
+printando
 printar
+printara
+printaram
+printarao
+printaras
+printarei
+printarem
+printaremos
+printaria
+printariam
+printariamos
+printarias
+printarmos
+printas
+printasse
+printassem
+printassemos
+printasses
+printaste
+printava
+printavam
+printavamos
+printavas
+printe
+printei
+printem
+printemos
+printes
+printo
+printou
+prints
 prion
 priora
 priorado
@@ -306947,6 +306973,8 @@ sartas
 sartriano
 sartrianos
 saru
+sarue
+sarues
 saruga
 sarugas
 sarutaia
@@ -306958,7 +306986,6 @@ sastre
 sata
 satanas
 satanases
-satanass
 satanica
 satanicamente
 satanicas
@@ -310506,7 +310533,6 @@ siena
 sies
 sifao
 sifilis
-sifiliss
 sifoes
 siga
 sigais
@@ -313482,6 +313508,7 @@ socobres
 socobro
 socobros
 socobrou
+socol
 socope
 socorra
 socorrais
@@ -323264,7 +323291,6 @@ televizinho
 televizinhos
 telex
 telexes
-telexs
 telha
 telhada
 telhadas
@@ -333424,7 +333450,6 @@ trole
 trolebus
 trolei
 troleibus
-troleibuss
 troleis
 troles
 trolha
@@ -335423,7 +335448,6 @@ ultravioleta
 ultravioletas
 ultriz
 ultrizes
-ultrizs
 ulula
 ululada
 ululadas
@@ -338809,7 +338833,6 @@ varo
 varoa
 varoas
 varoes
-varoniis
 varonil
 varonilmente
 varonis
@@ -344798,7 +344821,6 @@ xeroquemo
 xeroquemos
 xeroques
 xerox
-xeroxs
 xerpa
 xeta
 xetas

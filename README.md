@@ -47,7 +47,9 @@ Facts and decisions are kept apart:
 - **Facts** (morphology) come from [MorphoBr](https://github.com/LR-POR/MorphoBr),
   compiled into `sources/morphobr.tsv.gz`: for each form, its lemma, word class
   (N/V/A/ADV) and features (gender/number, tense/person, degree). Never edited
-  by hand.
+  by hand. Its paradigms are generated mechanically, so the loader drops the
+  few plural rows whose shape Portuguese cannot produce ("invess" for
+  "inveses", "aniis" for "anis"): see `badPlural` in `lib/sources.js`.
 - **Decisions** live in `curated/` and are recorded at the highest level they
   fit. A row in `lemmas.tsv` covers the whole paradigm: decide the lemma once
   and every conjugation / plural / feminine form follows on the next build.

@@ -143,3 +143,40 @@ test("curated removals are absent from all tiers", () => {
     if (w) assert.ok(!validSet.has(w), `removal still present: ${w}`);
   }
 });
+
+// MorphoBr's mechanically generated paradigms include a few plurals that
+// Portuguese orthography cannot produce (see badPlural in lib/sources.js).
+// They must not reach the pool, while the loanwords whose plural really is a
+// bare -s, and the correctly formed plurals themselves, must survive.
+test("malformed MorphoBr plurals stay out of the pool", () => {
+  const validSet = new Set(result.valid);
+  for (const w of [
+    "invess",
+    "jesuss",
+    "sifiliss",
+    "aniis",
+    "varoniis",
+    "duplexs",
+    "xeroxs",
+    "ultrizs",
+    "docils",
+    "imorals",
+    "decolagems",
+    "macoms",
+  ]) {
+    assert.ok(!validSet.has(w), `malformed plural still present: ${w}`);
+  }
+  for (const w of [
+    "anis",
+    "doceis",
+    "imorais",
+    "decolagens",
+    "macons",
+    "pixels",
+    "emails",
+    "hifens",
+    "hackers",
+  ]) {
+    assert.ok(validSet.has(w), `well-formed plural missing: ${w}`);
+  }
+});

@@ -87,6 +87,7 @@ alugado	A	3
 amarra	N	3
 amecas	-	3
 americas	-	2
+ana	-	2
 ancho	A	2
 ancora	N	3
 angelico	-	2
@@ -1030,6 +1031,7 @@ networking	N	3	english
 newsletter	N	3	english
 nina	N	3
 ninfeta	N	3	polemic
+nini	-	3
 nirvana	N	3	english
 notebook	N	3
 notre	-	3
@@ -1190,12 +1192,52 @@ povoa	N	3
 poxa	INTJ	3	interj
 pregado	-	3
 premier	N	3
-premir	-	3	
+premir	-	3
 prenda	N	3
 preservado	A	3
 prestigiado	A	3
 pretexta	N	2
 pretinha	N	3
+print	LOAN	3	english
+printa	-	3
+printada	-	3
+printadas	-	3
+printado	-	3
+printados	-	3
+printam	-	3
+printamos	-	3
+printando	-	3
+printar	-	3
+printara	-	3
+printaram	-	3
+printarao	-	3
+printaras	-	3
+printarei	-	3
+printarem	-	3
+printaremos	-	3
+printaria	-	3
+printariam	-	3
+printariamos	-	3
+printarias	-	3
+printarmos	-	3
+printas	-	3
+printasse	-	3
+printassem	-	3
+printassemos	-	3
+printasses	-	3
+printaste	-	3
+printava	-	3
+printavam	-	3
+printavamos	-	3
+printavas	-	3
+printe	-	3
+printei	-	3
+printem	-	3
+printemos	-	3
+printes	-	3
+printo	-	3
+printou	-	3
+prints	LOAN	3	english
 projetora	-	2
 projetoras	-	2
 prolonga	N	3
@@ -1371,6 +1413,7 @@ salga	N	3
 samurai	N	3
 sapata	N	2
 sara	N	3
+sarue	-	3
 satiro	N	2
 savia	-	x	firstname
 scanner	N	3	english
@@ -1452,6 +1495,7 @@ slogan	N	3
 slot	LOAN	3	english
 soado	A	3
 soca	N	3
+socol	-	3
 soer	V	3
 soft	-	3	english
 solicito	A	3
