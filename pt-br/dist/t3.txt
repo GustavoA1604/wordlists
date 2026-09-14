@@ -2698,10 +2698,7 @@ abominai
 abominais
 abominam
 abominamos
-abominanda
-abominandas
 abominando
-abominandos
 abominar
 abominara
 abominaram
@@ -11056,10 +11053,7 @@ admirai
 admirais
 admiram
 admiramos
-admiranda
-admirandas
 admirando
-admirandos
 admirara
 admiraram
 admiraramos
@@ -11465,10 +11459,7 @@ adolesco
 adonai
 adonde
 adonis
-adoptanda
-adoptandas
 adoptando
-adoptandos
 adopte
 adorador
 adoradora
@@ -12363,7 +12354,6 @@ advinde
 advindes
 advinhas
 advinheis
-advins
 adviras
 advirdes
 advireis
@@ -17053,7 +17043,6 @@ agucemo
 agucemos
 aguces
 aguco
-agucos
 agucou
 agudense
 agudenses
@@ -28317,7 +28306,6 @@ anotemo
 anotemos
 anotes
 anoto
-anotos
 anotou
 anoxico
 anquilosada
@@ -29177,7 +29165,6 @@ anulemo
 anulemos
 anules
 anulo
-anulos
 anulou
 anunciacao
 anunciacoes
@@ -53927,6 +53914,7 @@ bisbilhoto
 bisbilhotou
 bisborria
 bisborrias
+bisca
 biscada
 biscadas
 biscado
@@ -53960,6 +53948,7 @@ biscariamos
 biscarias
 biscarieis
 biscarmos
+biscas
 biscasse
 biscasseis
 biscassem
@@ -67015,10 +67004,7 @@ cevai
 cevais
 cevam
 cevamos
-cevanda
-cevandas
 cevando
-cevandos
 cevar
 cevara
 cevaram
@@ -78176,10 +78162,7 @@ confessai
 confessais
 confessam
 confessamos
-confessanda
-confessandas
 confessando
-confessandos
 confessara
 confessaram
 confessaramos
@@ -81384,7 +81367,6 @@ contenhais
 contenhamo
 contenhamos
 contenhas
-contenhos
 contens
 contenta
 contentada
@@ -83537,7 +83519,6 @@ copilotos
 copinho
 copio
 copioes
-copios
 copiosamente
 copiou
 copirraite
@@ -88676,7 +88657,6 @@ danificavamos
 danificavas
 danificaveis
 danifico
-danificos
 danificou
 danifique
 danifiquei
@@ -91883,7 +91863,6 @@ degolemo
 degolemos
 degoles
 degolo
-degolos
 degolou
 degrada
 degradada
@@ -92138,7 +92117,6 @@ deificavamos
 deificavas
 deificaveis
 deifico
-deificos
 deificou
 deifique
 deifiquei
@@ -97926,7 +97904,6 @@ desarrumemo
 desarrumemos
 desarrumes
 desarrumo
-desarrumos
 desarrumou
 desarticula
 desarticulada
@@ -98999,7 +98976,6 @@ descabelemo
 descabelemos
 descabeles
 descabelo
-descabelos
 descabelou
 descabem
 descabemos
@@ -101726,7 +101702,6 @@ desdenhemo
 desdenhemos
 desdenhes
 desdenho
-desdenhos
 desdenhosa
 desdenhosamente
 desdenhosas
@@ -105648,7 +105623,6 @@ desgastem
 desgastemo
 desgastemos
 desgasto
-desgastos
 desgastou
 desgostada
 desgostadas
@@ -113159,10 +113133,7 @@ detestai
 detestais
 detestam
 detestamos
-detestanda
-detestandas
 detestando
-detestandos
 detestar
 detestara
 detestaram
@@ -119163,10 +119134,7 @@ doutrinais
 doutrinal
 doutrinam
 doutrinamos
-doutrinanda
-doutrinandas
 doutrinando
-doutrinandos
 doutrinar
 doutrinara
 doutrinaram
@@ -121475,10 +121443,7 @@ elegei
 elegeis
 elegem
 elegemos
-elegenda
-elegendas
 elegendo
-elegendos
 elegera
 elegeram
 elegeramos
@@ -124697,7 +124662,6 @@ embriaguem
 embriaguemo
 embriaguemos
 embriagues
-embriagueses
 embriaguez
 embriaguezes
 embriologia
@@ -135470,7 +135434,6 @@ enigmaticamente
 enigmaticas
 enigmatico
 enigmaticos
-eniores
 enjambement
 enjeita
 enjeitada
@@ -161146,10 +161109,7 @@ fabricai
 fabricais
 fabricam
 fabricamos
-fabricanda
-fabricandas
 fabricando
-fabricandos
 fabricara
 fabricaram
 fabricaramos
@@ -164272,7 +164232,6 @@ fervilhemo
 fervilhemos
 fervilhes
 fervilho
-fervilhos
 fervilhou
 fervo
 fervorosa
@@ -183453,10 +183412,7 @@ imolai
 imolais
 imolam
 imolamos
-imolanda
-imolandas
 imolando
-imolandos
 imolara
 imolaram
 imolaramos
@@ -193614,10 +193570,7 @@ invejai
 invejais
 invejam
 invejamos
-invejanda
-invejandas
 invejando
-invejandos
 invejara
 invejaram
 invejaramos
@@ -199459,10 +199412,7 @@ lecionai
 lecionais
 lecionam
 lecionamos
-lecionanda
-lecionandas
 lecionando
-lecionandos
 lecionar
 lecionara
 lecionaram
@@ -203583,7 +203533,6 @@ machucavamos
 machucavas
 machucaveis
 machuco
-machucos
 machucou
 machuque
 machuquei
@@ -208957,10 +208906,7 @@ medicamentosas
 medicamentoso
 medicamentosos
 medicamos
-medicanda
-medicandas
 medicando
-medicandos
 medicara
 medicaram
 medicaramos
@@ -250578,6 +250524,7 @@ rebaveis
 rebe
 rebei
 rebeis
+rebela
 rebelada
 rebeladas
 rebelado
@@ -250604,6 +250551,7 @@ rebelariamos
 rebelarias
 rebelarieis
 rebelarmos
+rebelas
 rebelasse
 rebelasseis
 rebelassem
@@ -271931,15 +271879,13 @@ secais
 secamente
 secante
 secantes
+secarao
 secaras
 secardes
 secareis
 secares
 secarias
 secarieis
-secaroes
-secarona
-secaronas
 secasse
 secasseis
 secassem

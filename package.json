@@ -10,6 +10,8 @@
     "move": "node --max-old-space-size=6000 pt-br/move.js",
     "lint-curated": "node --max-old-space-size=6000 pt-br/lint-curated.js",
     "candidates": "node pt-br/gen-candidates.js",
+    "diff-dist": "node --max-old-space-size=6000 pt-br/diff-dist.js",
+    "phantoms": "node --max-old-space-size=6000 pt-br/find-phantoms.js",
     "analyze": "node pt-br/analyze.js",
     "compile-morphobr": "node --max-old-space-size=6000 pt-br/compile-morphobr.js",
     "compile-wiktionary": "node --max-old-space-size=6000 pt-br/compile-wiktionary.js",

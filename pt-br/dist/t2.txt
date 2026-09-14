@@ -4426,7 +4426,6 @@ batizado
 batizados
 bato
 batons
-batos
 batota
 batotas
 batuque
@@ -4735,12 +4734,9 @@ birras
 bis
 bisavo
 bisavos
-bisca
-biscas
 bisco
 biscoito
 biscoitos
-biscos
 bisneta
 bisnetas
 bisneto
@@ -7031,10 +7027,7 @@ citadas
 citados
 citam
 citamos
-citanda
-citandas
 citando
-citandos
 citara
 citaram
 citaramos
@@ -11444,7 +11437,6 @@ discografia
 discografias
 discordar
 discordo
-discordos
 discreta
 discretas
 discreto
@@ -12833,10 +12825,7 @@ ensinam
 ensinamento
 ensinamentos
 ensinamos
-ensinanda
-ensinandas
 ensinando
-ensinandos
 ensinara
 ensinaram
 ensinaramos
@@ -13840,7 +13829,6 @@ estreladas
 estrelado
 estrelados
 estrelo
-estrelos
 estresses
 estria
 estrias
@@ -14355,10 +14343,7 @@ explicado
 explicados
 explicam
 explicamos
-explicanda
-explicandas
 explicando
-explicandos
 explicara
 explicaram
 explicaramos
@@ -18208,7 +18193,6 @@ individuos
 indole
 indoles
 indonesia
-indos
 inducao
 inducoes
 industriais
@@ -19968,10 +19952,7 @@ liberais
 liberal
 liberalismo
 liberalismos
-liberanda
-liberandas
 liberando
-liberandos
 liberar
 liberdades
 libero
@@ -24300,7 +24281,6 @@ paroquia
 paroquiais
 paroquial
 paroquias
-paros
 parques
 parra
 parras
@@ -24783,7 +24763,6 @@ penei
 peneira
 peneiras
 peneiro
-peneiros
 penetracao
 penetracoes
 penetrar
@@ -25792,7 +25771,6 @@ pomposas
 pomposo
 pomposos
 pondo
-pondos
 poneis
 ponha
 ponho
@@ -27707,9 +27685,7 @@ rebanho
 rebanhos
 rebater
 rebecca
-rebela
 rebelar
-rebelas
 rebelde
 rebeldes
 rebeldia
@@ -27717,7 +27693,6 @@ rebeldias
 rebeliao
 rebelioes
 rebelo
-rebelos
 rebenta
 rebentas
 rebento
@@ -28911,7 +28886,6 @@ ressaltou
 ressalva
 ressalvas
 ressalvo
-ressalvos
 ressarcimento
 ressarcimentos
 ressoar
@@ -29232,7 +29206,6 @@ revirao
 revirar
 reviravolta
 reviravoltas
-reviroes
 revisado
 revisando
 revisar
@@ -30289,7 +30262,6 @@ secando
 secara
 secaram
 secaramos
-secarao
 secarei
 secarem
 secaremos
@@ -31756,10 +31728,7 @@ superado
 superados
 superam
 superamos
-superanda
-superandas
 superando
-superandos
 superara
 superaram
 superaramos
@@ -32421,7 +32390,6 @@ terceirizacao
 terceirizacoes
 tercos
 terei
-terens
 teres
 teresina
 teriamos
@@ -34953,7 +34921,6 @@ vivida
 vividas
 vivido
 vividos
-vivis
 vizinha
 vizinhanca
 vizinhancas

@@ -47,6 +47,11 @@
 // A lemma is "in the game" (its paradigm expands into the pool) when its
 // headword form is itself valid: curated with a tier, or present in a base
 // source, and not removed.
+//
+// The exception is the "formonly" tag (see FORM_ONLY below): a headword string
+// that is only ever a word because it is an inflected form of *another* lemma.
+// Such a row keeps the word valid without letting MorphoBr's lemma entry for it
+// expand a paradigm nothing attests.
 
 import { readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
@@ -75,6 +80,26 @@ export const TAG_POLICY = {
   interj: 3,
   country: 2,
 };
+
+/**
+ * Tag marking a curated headword whose MorphoBr lemma entry is a generation
+ * artifact: the string is a word, but only as an inflected form of some other
+ * lemma, so its own paradigm must not expand.
+ *
+ * MorphoBr invents nominal lemmas out of verb forms - alongside the real noun
+ * "peneira" it carries a masculine "peneiro" (in fact the 1sg present of
+ * "peneirar"), whose paradigm then contributes the non-word "peneiros". The
+ * headword itself is valid and stays in the pool at its curated tier; only the
+ * rest of its paradigm is dropped. Tell the two apart by the pair shape: a real
+ * gender pair is ONE MorphoBr lemma carrying both M and F rows ("gato" ->
+ * gato/gata/gatos/gatas), so a masculine-only lemma sitting beside a separate
+ * feminine-only lemma of the same stem is the artifact's signature.
+ *
+ * `npm run phantoms` lists candidates for this tag; the call is a human one,
+ * since regressive derivation is productive in Portuguese and plenty of these
+ * homographs are real nouns ("envio", "retiro", "elenco", "arranco").
+ */
+export const FORM_ONLY = "formonly";
 
 const DERIVATIONAL = /(?:^|\+)(?:DIM|AUG|SUPER)(?:\+|$)/;
 
@@ -230,12 +255,24 @@ export async function loadEngine() {
   }
 
   /**
+   * Is this headword curated as `formonly` -- a word only by virtue of being
+   * another lemma's inflected form, so that MorphoBr's lemma entry for it
+   * contributes nothing beyond the headword string itself? See FORM_ONLY.
+   */
+  function formOnly(lemma) {
+    const rows = lemmas.get(lemma);
+    return !!rows && rows.some((r) => r.tags.includes(FORM_ONLY));
+  }
+
+  /**
    * Rule tier contributed by one (form, lemma, pos) analysis group, or null
-   * when the group contributes nothing (derivational rows, out-of-game lemma).
+   * when the group contributes nothing (derivational rows, out-of-game lemma,
+   * a `formonly` lemma's non-headword forms).
    */
   function analysisTier(form, lemma, pos, rows) {
     const lt = lemmaTier(lemma, pos);
     if (lt === null || lt === "x") return null;
+    if (form !== lemma && formOnly(lemma)) return null;
     const real = rows.filter((r) => !DERIVATIONAL.test(r.feats));
     if (real.length === 0) return null;
     if (form === lemma) return lt;
@@ -325,12 +362,16 @@ export async function loadEngine() {
     return { tier: null, why: "not in any source, curation, or expansion", analyses };
   }
 
-  /** In-game MorphoBr lemmas: headword valid and not removed. Map lemma -> Set<pos>. */
+  /**
+   * In-game MorphoBr lemmas: headword valid, not removed, not `formonly`.
+   * Map lemma -> tier.
+   */
   function inGameLemmas() {
     const result = new Map();
     for (const lemma of morpho.byLemma.keys()) {
       const lt = lemmaTier(lemma);
       if (lt === null || lt === "x") continue;
+      if (formOnly(lemma)) continue;
       result.set(lemma, lt);
     }
     return result;
@@ -364,6 +405,6 @@ export async function loadEngine() {
 
   return {
     t1Base, t2Base, t3Base, morpho, lemmas, forms, removals,
-    baseTier, lemmaTier, explicitLemmaTier, analysisTier, analysesOf, resolve, inGameLemmas, pool,
+    baseTier, lemmaTier, explicitLemmaTier, formOnly, analysisTier, analysesOf, resolve, inGameLemmas, pool,
   };
 }

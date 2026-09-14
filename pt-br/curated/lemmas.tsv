@@ -12,6 +12,7 @@ abalada	N	3
 abalar	V	1
 abanar	V	1
 abobado	A	2
+abominando	A	3	formonly
 abr	-	3
 absorvido	A	3
 abstrata	N	3
@@ -28,9 +29,10 @@ adao	N	3
 adentro	ADV	3
 adiantado	-	3
 admirado	A	3
-admirando	A	3
+admirando	A	3	formonly
 adobe	N	3	english
-advim	N	3
+adoptando	N	3	formonly
+advim	N	3	formonly
 ae	-	3	english
 afazeres	N	3
 aff	-	3	english
@@ -71,6 +73,7 @@ agrem	-	3
 agremos	-	3
 agrou	-	3
 aguca	N	3
+aguco	N	3	formonly
 aids	-	3
 alares	N	3	english
 alargado	A	3
@@ -94,9 +97,11 @@ angelico	-	2
 angelo	-	2	firstname
 anhembi	-	3	place
 anis	N	2
+anoto	A	3	formonly
 anteriora	-	2
 anterioras	-	2
 antonios	-	2
+anulo	N	3	formonly
 apache	-	3
 apaga	N	3
 apanha	N	3
@@ -199,6 +204,7 @@ baroa	-	2
 barrado	A	3
 barroca	N	3
 bateia	N	2
+bato	N	2	formonly
 baza	-	3	place
 bazai	-	3
 bazais	-	3
@@ -253,6 +259,7 @@ bike	-	3
 bio	A	3
 bios	ABBR	3	abbrev
 biota	N	3
+bisco	A	2	formonly
 biscuit	N	3	english
 bit	N	3
 bitcoin	-	3
@@ -391,6 +398,7 @@ ceifa	N	3
 censo	N	1
 cep	ABBR	3	abbrev
 cevada	N	3
+cevando	A	3	formonly
 champagne	N	3
 champanhe	N	3
 chapeco	-	3	place
@@ -411,6 +419,7 @@ chupa	-	3
 chupar	V	3
 cia	N	3
 cinetico	-	3
+citando	A	2	formonly
 clean	-	3	english
 click	-	3	english
 clip	-	3	english
@@ -435,12 +444,15 @@ concorde	A	3
 concursa	-	2
 concursas	-	2
 conduto	N	2
+confessando	N	3	formonly
 consola	N	3
 consolo	N	3
 consome	N	3
 contenda	N	2	place
+contenho	N	2	formonly
 cookies	-	3	english
 cool	-	3	english
+copio	N	3	formonly
 cora	N	3
 corneo	-	2
 corno	-	2
@@ -461,6 +473,7 @@ curry	-	2
 cute	N	3
 dalai	-	3	place
 damo	N	3
+danifico	A	3	formonly
 debatido	A	3
 debil	A	2
 deck	-	x	english
@@ -468,6 +481,8 @@ decor	N	x	english
 decorrido	A	3
 dedaos	-	x
 default	-	3	english
+degolo	N	3	formonly
+deifico	A	3	formonly
 deita	N	3
 del	-	3
 delivery	-	3	english
@@ -481,10 +496,14 @@ derrete	N	3
 derretido	A	3
 derruba	N	3
 derrubado	-	3
+desarrumo	N	3	formonly
 desativado	A	3
+descabelo	N	3	formonly
 descartado	A	3
+desdenho	N	3	formonly
 desempenhado	A	3
 desfiado	A	3
+desgasto	A	3	formonly
 designer	N	3
 desktop	-	3	english
 deslize	N	3
@@ -493,6 +512,7 @@ despejo	N	3
 despertado	A	3
 destro	-	2
 desviado	A	3
+detestando	A	3	formonly
 die	A	x
 diese	N	3
 diet	LOAN	3	english
@@ -501,6 +521,7 @@ dildo	-	2	english
 diminuido	A	3
 diretivo	A	3
 diretriz	N	3
+discordo	N	2	formonly
 disfarcado	A	3
 disfarce	N	3
 disparado	-	3
@@ -519,6 +540,7 @@ dope	N	2
 dora	N	3	firstname,english
 dosa	N	3
 doula	-	2
+doutrinando	N	3	formonly
 down	-	3
 drear	-	3
 drink	-	3	english
@@ -541,6 +563,7 @@ eh	-	3
 eira	N	3
 eiro	N	3
 eita	-	3
+elegendo	N	3	formonly
 eletro	N	3
 elfos	-	2
 elixis	-	3
@@ -548,6 +571,7 @@ elogiado	A	3
 email	N	2	english
 embala	N	3
 embate	N	3
+embriagues	N	3	formonly
 emo	LOAN	3	english
 emoji	-	2
 empata	N	3
@@ -563,6 +587,7 @@ engorda	N	3
 enquadrado	A	3
 enriquecido	A	3
 enrolado	A	3
+ensinando	N	2	formonly
 enter	-	3
 enterro	N	3
 entorna	N	2
@@ -593,6 +618,7 @@ estala	N	3
 estimulado	A	3
 estorva	N	2
 estouro	N	3
+estrelo	N	2	formonly
 estupro	N	3
 eta	-	3
 etipes	-	3
@@ -609,7 +635,9 @@ expandido	A	3
 expedida	N	3
 expensas	N	2
 expert	N	3	english
+explicando	N	2	formonly
 expo	N	x
+fabricando	A	3	formonly
 facilitado	A	3
 fair	-	x	english
 faisca	N	3
@@ -627,6 +655,7 @@ fdp	-	3
 feedback	N	3	english
 feria	N	3
 ferra	N	3
+fervilho	N	3	formonly
 fetiche	N	3
 fev	-	3
 file	N	3
@@ -792,6 +821,7 @@ ilho	N	2
 ima	N	2
 imaginado	A	3
 imersaos	-	2
+imolando	A	3	formonly
 imortais	N	3
 impulsionado	A	3
 inca	-	3	place
@@ -799,6 +829,7 @@ incentivado	A	3
 incesto	-	3
 incha	N	3
 incomodado	A	3
+indo	N	1	formonly
 induzido	-	3
 inferiora	-	2
 inferioras	-	2
@@ -807,10 +838,12 @@ ingerido	A	3
 interface	N	3
 intima	N	3
 invadido	A	3
+invejando	A	3	formonly
 inversa	N	3
 invertido	-	3
 investida	N	3
 ion	-	2
+iro	N	3	formonly
 islandia	-	3	country
 iso	-	3
 it	N	3	english
@@ -854,11 +887,13 @@ lavada	N	3
 lavra	N	3
 layout	N	3
 le	N	3
+lecionando	A	3	formonly
 led	ABBR	3	abbrev
 leria	N	3
 lesbico	A	2
 lestes	A	3
 lias	N	3
+liberando	N	2	formonly
 light	-	2
 like	-	3	english
 lima	N	3	place
@@ -929,6 +964,7 @@ luna	-	3
 macae	-	3	place
 macau	N	3	country
 machuca	N	3
+machuco	N	3	formonly
 maconha	N	3
 macro	-	3
 macula	N	3
@@ -958,6 +994,7 @@ maua	PROP	3	place
 maxi	-	x
 maxim	-	3
 meca	N	3
+medicando	A	3	formonly
 medra	N	3
 meiao	-	3
 meioes	-	2
@@ -1076,6 +1113,7 @@ paper	-	3	english
 paraibas	-	2
 parasito	-	3
 parda	N	3
+paro	N	2	formonly
 partilhado	A	3
 pass	-	x	english
 password	N	3	english
@@ -1092,7 +1130,7 @@ peita	N	3
 peitudo	A	3	polemic
 pelem	N	3
 pen	-	3	place
-peneiro	N	2
+peneiro	N	2	formonly
 penetra	-	3
 penis	N	2
 penne	-	2
@@ -1175,6 +1213,7 @@ playboy	N	3
 playground	N	3
 podcast	-	3
 pole	N	3
+pondo	N	2	formonly
 pool	N	3
 porens	-	2
 porno	A	3
@@ -1288,6 +1327,7 @@ rave	-	2
 raves	-	2
 reata	N	3
 rebate	N	3
+rebelo	A	2	formonly
 reclamado	A	3
 reclusaos	-	2
 recolhida	N	3
@@ -1320,7 +1360,7 @@ reproduzido	A	3
 repulso	-	2
 resgatado	A	3
 resort	-	3
-ressalvo	N	2
+ressalvo	N	2	formonly
 restaurado	A	3
 resumido	A	3
 retem	-	3
@@ -1377,7 +1417,7 @@ reusou	-	2
 reveillon	N	3
 revenda	N	3
 revir	V	3
-revirao	N	2
+revirao	N	2	formonly
 ribamar	N	3
 ricarda	-	x	firstname
 rifa	N	3
@@ -1421,6 +1461,7 @@ screen	-	3	english
 script	N	3	english
 sebento	-	2
 sec	N	3
+secarao	N	3	formonly
 security	-	3	english
 sedem	N	3
 seg	-	3	english
@@ -1568,6 +1609,7 @@ subordinada	N	3
 suica	N	2	country
 suite	N	2
 sumare	-	3	place
+superando	A	2	formonly
 superiora	-	2
 suportado	A	3
 surf	N	3
@@ -1605,6 +1647,7 @@ temia	N	3
 tempera	N	3
 tempero	N	3
 template	-	3	english
+terem	N	1	formonly
 teresopolis	-	3	place
 tes	-	3
 tesao	N	3
@@ -1693,6 +1736,7 @@ vinculo	N	3
 viro	N	3
 visgo	N	2
 vitro	-	3
+vivi	N	2	formonly
 vlw	-	x
 vodka	N	3	english
 vogue	N	3	english

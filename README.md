@@ -33,12 +33,45 @@ test/           invariant tests (node --test)
 ## Building
 
 ```bash
-npm run build    # regenerate pt-br/dist/ from sources + curated decisions
-npm test         # check invariants (a-z only, sorted, tiers exclusive, lexicon consistent)
+npm run build      # regenerate pt-br/dist/ from sources + curated decisions
+npm test           # check invariants (a-z only, sorted, tiers exclusive, lexicon consistent)
+npm run diff-dist  # what the rebuild actually changed, in plain text
 ```
 
 `dist/` is committed, so consumers that pin this repo as a submodule do not need
 to run the build.
+
+### Reviewing a rebuild (`diff-dist`)
+
+Because `dist/` is committed, `git diff` on it is a 300k-line wall of sorted
+words that says nothing about _what changed for a word_. `diff-dist` reads the
+old and new `lexicon.jsonl` instead and reports the change per word, grouped:
+
+```
+── REMOVIDAS (25) ──
+- peneiros     t2   verb: primeira pessoa do singular do presente do indicativo do verbo peneirar
+── CAMADA ALTERADA (2) ──
+~ rebela       t2 -> t3
+── DEFINIÇÃO PERDIDA (414) ──
+~ arrancos     t2
+    - verb: primeira pessoa do singular do presente do indicativo do verbo arrancar
+```
+
+Sections are REMOVIDAS, ADICIONADAS, CAMADA ALTERADA (tier), TAGS ALTERADAS
+(`polemic`, `place`, ...), and DEFINIÇÃO PERDIDA / GANHA / ALTERADA, each sorted
+by tier then alphabetically. The header carries the t1/t2/t3/total/withDefs
+counts with their deltas.
+
+```bash
+npm run diff-dist                     # committed dist/ (HEAD) vs working tree
+npm run diff-dist -- --base=HEAD~3    # any git revision as the baseline
+npm run diff-dist -- --base=old.jsonl # or a lexicon.jsonl saved elsewhere
+npm run diff-dist -- --full           # print every section in full
+```
+
+The complete report is always written to `pt-br/review/dist-diff.txt` (gitignored,
+like the other review queues); only the terminal copy is cut to `--limit` rows
+per section (default 25).
 
 ## How tiering works
 
@@ -56,7 +89,10 @@ Facts and decisions are kept apart:
 
 A lemma whose headword is valid is "in the game": its full paradigm (minus
 mechanical diminutives/augmentatives/superlatives) expands into the pool
-automatically. Tiers then resolve per word, in precedence order:
+automatically. The one exception is the `formonly` tag, for headwords whose
+MorphoBr lemma entry is itself an artifact: see "Phantom lemmas" below.
+
+Tiers then resolve per word, in precedence order:
 
 1. `removals.txt` / tier `x` row: excluded.
 2. `forms.tsv` override.
@@ -92,6 +128,7 @@ npm run move -- porra 3 --tag=polemic     # record a decision + retier
 npm run move -- corrias 3 --reason="..."  # per-form exception
 npm run build                   # regenerate dist/
 npm run lint-curated            # well-formedness + redundant-row report
+npm run phantoms                # queue of suspect MorphoBr lemmas (see below)
 ```
 
 `move` records the decision at the right level automatically: headwords (and
@@ -107,6 +144,55 @@ File formats (tab-separated, `#` comments):
 - `forms.tsv`: `form  tier  reason`. Exceptions where the rules are wrong for
   one specific form; keep it small.
 - `removals.txt`: one word per line, excluded from everything.
+
+### Phantom lemmas (`formonly`)
+
+MorphoBr also over-generates whole _lemmas_, not just the plural rows
+`badPlural` drops. Where a verb form is homographic with a noun it invents the
+noun: beside the real "peneira" it carries a masculine "peneiro" — in fact the
+1sg present of "peneirar" — and that lemma's paradigm hands the pool the
+non-word "peneiros". Because the headword string is a perfectly good word, it
+passes every source and curation check, and only the rest of the paradigm is
+wrong.
+
+Tag such a headword `formonly` in `lemmas.tsv`. The word keeps its tier; its
+paradigm simply stops expanding:
+
+```
+peneiro	N	2	formonly
+```
+
+This cannot be automated — regressive derivation is productive in Portuguese,
+so many identically-shaped homographs are real nouns ("envio", "retiro",
+"elenco", "arranco") — so it is a report rather than an engine rule:
+
+```bash
+npm run phantoms                 # -> pt-br/review/phantom-lemmas.tsv
+npm run phantoms -- --max-tier=2 # only the ones a game would actually show
+```
+
+It lists nominal lemmas whose headword is also another lemma's inflected form,
+that Wiktionary attests no nominal sense for, and whose paradigm contributes at
+least one form nothing else in the pipeline attests — with those forms named,
+ordered worst-tier first.
+
+The `shape` column flags the two families with a recognizable signature:
+
+- `fem-split` — a real gender pair is _one_ MorphoBr lemma carrying both M and F
+  rows ("gato" → gato/gata/gatos/gatas), so a masculine-only lemma sitting
+  beside a separate feminine-only lemma of the same stem is the artifact.
+- `gerundive` — an `-ndo` lemma that is also some verb's gerund, handed a full
+  M/F × SG/PL nominal paradigm ("admirando" → admiranda, admirandas,
+  admirandos). Portuguese lexicalizes a few of these ("formando", "doutorando",
+  "memorando", "tremendo"); MorphoBr generates them wholesale.
+
+The `dicio` column is the strongest keep signal: a hit means one of the Ueda
+dictionaries lists an _inflected_ form of the nominal paradigm — a word the verb
+cannot produce, so it is independent evidence that the nominal lemma is real.
+Those dictionaries are not part of tiering (the engine only mines them for
+`englishNoise`), which is why they are worth consulting here. A miss is weak
+evidence: they are incomplete, and miss real words ("crescendos",
+"integrandos", "multiplicandos").
 
 ## Growing the dictionary (candidate review)
 
@@ -170,7 +256,12 @@ Length is never constrained here; that is a per-game concern for consumers.
   `{"pos":"noun","g":["gloss one","gloss two"]}`, one item per word class the
   word is attested in on Wiktionary. It prefers the word's own entry (many
   inflected forms have one, e.g. "flexão de X"); otherwise it falls back to its
-  lemma's definitions. Coverage tracks tier: ~99% of t1, ~92% of t2, ~78% of
+  lemma's definitions — minus the lemma's own form-of stubs that pin it to one
+  slot of a paradigm, which are false for any borrower ("arrancos" used to come
+  out as "primeira pessoa do singular ... do verbo arrancar"). Stubs that name a
+  base word instead ("feminino de ator", "particípio do verbo credenciar") are
+  kept, since the borrower is another form of that same base; see
+  `FORM_OF_GLOSS` in `pt-br/build.js`. Coverage tracks tier: ~99% of t1, ~92% of t2, ~78% of
   t3 have a definition (the remainder is mostly mechanically-generated
   MorphoBr forms with no independent headword, e.g. regular `-vel` adjectives).
   Consumers must handle absence.

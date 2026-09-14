@@ -35,7 +35,7 @@ import { argv } from "node:process";
 import { pathToFileURL } from "node:url";
 import { normalizeWord } from "../lib/normalize.js";
 import { ptbr, loadWiktionary } from "../lib/sources.js";
-import { loadEngine } from "./engine.js";
+import { loadEngine, FORM_ONLY } from "./engine.js";
 
 // Wiktionary's own row order (sorted "word\tpos") is alphabetical by POS code,
 // which is not remotely a proxy for how likely a reading is: "rua" sorts its
@@ -50,6 +50,56 @@ function posRank(pos) {
 }
 function byPosPriority(a, b) {
   return posRank(a.pos) - posRank(b.pos) || a.pos.localeCompare(b.pos);
+}
+
+// Portuguese Wiktionary gives most inflected forms a page whose only "gloss" is
+// a description of the inflection itself ("primeira pessoa do singular do
+// presente do indicativo do verbo peneirar", "feminino plural de aacheniano").
+// That is a fine definition for the form it is written about, and build() keeps
+// it when the word has such an entry of its own. It is nonsense when *borrowed*:
+// a word with no entry falls back to its lemma's glosses, and where the lemma is
+// itself a verb-form homograph whose only Wiktionary page is one of these stubs,
+// the borrower ends up defined as a person of a tense it is not — "arrancos"
+// came out as "primeira pessoa do singular do presente do indicativo do verbo
+// arrancar". Recognized by shape, since the compiled source keeps gloss text
+// only (see compile-wiktionary.js) and pt.wiktionary phrases these uniformly.
+//
+// The stub is dropped rather than followed to the verb it names: the lemma's
+// own meaning is exactly what is missing, and guessing it from the verb would
+// define "elencos" as "listar, enumerar". Words left with nothing surface in
+// the build's `withDefs` count, and can be given a real gloss in
+// curated/definitions.tsv or pointed at one in definition-redirects.tsv.
+//
+// Only stubs that pin the lemma to ONE slot of a paradigm count, because only
+// those are false for the borrower — which is by construction a different form:
+//
+//   dropped  "primeira pessoa do singular do presente do indicativo do verbo
+//            arrancar" — "arrancos" is a plural noun, not a 1sg verb;
+//            "gerúndio do verbo orientar" — gerunds do not inflect at all, so a
+//            borrower of one is always some other lemma's homograph
+//            ("orientandos"); "masculino plural do particípio passado do verbo
+//            abrir" — wrong the moment the borrower is feminine or singular.
+//   kept     "feminino de ator", "plural de casa", "particípio do verbo
+//            credenciar" — these name a base word rather than a slot, and the
+//            borrower is another form of that same base, so the relation still
+//            points at the right meaning ("atrizes", "credenciadas").
+const FORM_OF_GLOSS = [
+  // finite forms: "(primeira|...) pessoa do ... do verbo X", "infinitivo pessoal ..."
+  /^(?:primeira|segunda|terceira)(?:\s+e\s+(?:primeira|segunda|terceira))?\s+(?:pessoas?\s+)?(?:do|da)\b[\s\S]*?\bdo verbo\s/i,
+  /^infinitivo pessoal\b[\s\S]*?\bdo verbo\s/i,
+  // participles pinned to a gender/number ("masculino plural do particípio ...")
+  /^(?:masculino|feminino)\s+(?:singular|plural)\s+(?:do\s+)?particípio\b[\s\S]*?\bdo verbo\s/i,
+  // gerunds, which have no inflections of their own
+  /^gerúndio\s+(?:do verbo\s+)?\S/i,
+];
+const isFormOfGloss = (text) =>
+  FORM_OF_GLOSS.some((re) => re.test(text.trim()));
+
+/** Drop form-of stubs from a { pos, g } list, and any row they empty out. */
+function withoutFormOfGlosses(defs) {
+  return defs
+    .map((d) => ({ pos: d.pos, g: d.g.filter((it) => !isFormOfGloss(it.t)) }))
+    .filter((d) => d.g.length > 0);
 }
 
 function readTsv(name) {
@@ -150,8 +200,13 @@ export async function build() {
     if (tier !== 1 && tier !== 2 && tier !== 3) continue; // defensive; pool excludes removals
     [null, t1, t2, t3][tier].push(w);
 
+    // FORM_ONLY is a note about MorphoBr's lemma inventory, not a property of
+    // the word, so it stays out of the export the way the tiers themselves do.
+    const exported = (rows) =>
+      rows.flatMap((r) => r.tags).filter((t) => t !== FORM_ONLY);
+
     const entry = { w, t: tier };
-    const tags = engine.lemmas.get(w)?.flatMap((r) => r.tags) ?? [];
+    const tags = exported(engine.lemmas.get(w) ?? []);
     if (tags.length) entry.g = [...new Set(tags)];
 
     // Prefer the word's own Wiktionary entry (also covers inflected forms
@@ -162,7 +217,8 @@ export async function build() {
     // "PET" plastic sense, curated/definitions.tsv adds the "animal de
     // estimação" one); otherwise fall back to its lemma(s), since most
     // conjugations/plurals are not defined on their own.
-    const ownRows = (rows, curated) => (rows || curated ? [...(rows ?? []), ...(curated ?? [])] : null);
+    const ownRows = (rows, curated) =>
+      rows || curated ? [...(rows ?? []), ...(curated ?? [])] : null;
     let own = resolveOwnDefs(w, ownRows(wiktionary.get(w), curatedDefs.get(w)));
     if (!own && redirects.has(w)) {
       // Another word whose definition also applies here: either a spelling
@@ -178,7 +234,10 @@ export async function build() {
       // definition text (`d`), never a display override (`dw`): the game
       // shows the word actually found, not a different-but-related one.
       const target = redirects.get(w);
-      const targetOwn = resolveOwnDefs(target, ownRows(wiktionary.get(target), curatedDefs.get(target)));
+      const targetOwn = resolveOwnDefs(
+        target,
+        ownRows(wiktionary.get(target), curatedDefs.get(target)),
+      );
       if (targetOwn) own = { d: targetOwn.d };
     }
     if (own) {
@@ -186,8 +245,16 @@ export async function build() {
       if (own.dw) entry.dw = own.dw;
     } else {
       const lemmaWords = [...new Set(analyses.map((a) => a.lemma))];
-      const rawDefs = lemmaWords.flatMap((l) => ownRows(wiktionary.get(l), curatedDefs.get(l)) ?? []).sort(byPosPriority);
-      if (rawDefs.length) entry.d = rawDefs.map((d) => ({ pos: d.pos, g: d.g.map((it) => it.t) }));
+      const rawDefs = withoutFormOfGlosses(
+        lemmaWords.flatMap(
+          (l) => ownRows(wiktionary.get(l), curatedDefs.get(l)) ?? [],
+        ),
+      ).sort(byPosPriority);
+      if (rawDefs.length)
+        entry.d = rawDefs.map((d) => ({
+          pos: d.pos,
+          g: d.g.map((it) => it.t),
+        }));
     }
 
     if (analyses.length) {
@@ -195,8 +262,8 @@ export async function build() {
         const a = { l: lemma, pos, f: rows.map((r) => r.feats) };
         if (at !== null) a.t = at;
         const ltags =
-          lemma !== w && engine.lemmas.get(lemma)?.flatMap((r) => r.tags);
-        if (ltags && ltags.length) a.g = [...new Set(ltags)];
+          lemma !== w ? exported(engine.lemmas.get(lemma) ?? []) : [];
+        if (ltags.length) a.g = [...new Set(ltags)];
         return a;
       });
     }

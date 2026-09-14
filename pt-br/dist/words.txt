@@ -2882,10 +2882,7 @@ abominai
 abominais
 abominam
 abominamos
-abominanda
-abominandas
 abominando
-abominandos
 abominar
 abominara
 abominaram
@@ -12010,10 +12007,7 @@ admirai
 admirais
 admiram
 admiramos
-admiranda
-admirandas
 admirando
-admirandos
 admirar
 admirara
 admiraram
@@ -12441,10 +12435,7 @@ adolesco
 adonai
 adonde
 adonis
-adoptanda
-adoptandas
 adoptando
-adoptandos
 adopte
 adora
 adoracao
@@ -13467,7 +13458,6 @@ advinham
 advinhamos
 advinhas
 advinheis
-advins
 advir
 advira
 advirao
@@ -18539,7 +18529,6 @@ agucemo
 agucemos
 aguces
 aguco
-agucos
 agucou
 aguda
 agudas
@@ -30844,7 +30833,6 @@ anotemo
 anotemos
 anotes
 anoto
-anotos
 anotou
 anoxico
 anquilosada
@@ -31788,7 +31776,6 @@ anulemo
 anulemos
 anules
 anulo
-anulos
 anulou
 anuncia
 anunciacao
@@ -56715,7 +56702,6 @@ batoque
 batoques
 batore
 batoreu
-batos
 batota
 batotas
 batoteira
@@ -59526,7 +59512,6 @@ biscoites
 biscoito
 biscoitos
 biscoitou
-biscos
 biscou
 biscuit
 bise
@@ -74656,10 +74641,7 @@ cevai
 cevais
 cevam
 cevamos
-cevanda
-cevandas
 cevando
-cevandos
 cevar
 cevara
 cevaram
@@ -78994,10 +78976,7 @@ citai
 citais
 citam
 citamos
-citanda
-citandas
 citando
-citandos
 citania
 citanias
 citar
@@ -87697,10 +87676,7 @@ confessai
 confessais
 confessam
 confessamos
-confessanda
-confessandas
 confessando
-confessandos
 confessar
 confessara
 confessaram
@@ -91461,7 +91437,6 @@ contenhamo
 contenhamos
 contenhas
 contenho
-contenhos
 contens
 contenta
 contentada
@@ -93966,7 +93941,6 @@ copilotos
 copinho
 copio
 copioes
-copios
 copiosa
 copiosamente
 copiosas
@@ -100202,7 +100176,6 @@ danificavamos
 danificavas
 danificaveis
 danifico
-danificos
 danificou
 danifique
 danifiquei
@@ -103739,7 +103712,6 @@ degolemo
 degolemos
 degoles
 degolo
-degolos
 degolou
 degrada
 degradacao
@@ -104005,7 +103977,6 @@ deificavamos
 deificavas
 deificaveis
 deifico
-deificos
 deificou
 deifique
 deifiquei
@@ -110164,7 +110135,6 @@ desarrumemo
 desarrumemos
 desarrumes
 desarrumo
-desarrumos
 desarrumou
 desarticula
 desarticulada
@@ -111249,7 +111219,6 @@ descabelemo
 descabelemos
 descabeles
 descabelo
-descabelos
 descabelou
 descabem
 descabemos
@@ -114128,7 +114097,6 @@ desdenhemo
 desdenhemos
 desdenhes
 desdenho
-desdenhos
 desdenhosa
 desdenhosamente
 desdenhosas
@@ -118201,7 +118169,6 @@ desgastemo
 desgastemos
 desgastes
 desgasto
-desgastos
 desgastou
 desgosta
 desgostada
@@ -126045,10 +126012,7 @@ detestai
 detestais
 detestam
 detestamos
-detestanda
-detestandas
 detestando
-detestandos
 detestar
 detestara
 detestaram
@@ -129179,7 +129143,6 @@ discordes
 discordia
 discordias
 discordo
-discordos
 discordou
 discorra
 discorrais
@@ -133089,10 +133052,7 @@ doutrinais
 doutrinal
 doutrinam
 doutrinamos
-doutrinanda
-doutrinandas
 doutrinando
-doutrinandos
 doutrinar
 doutrinara
 doutrinaram
@@ -135808,10 +135768,7 @@ elegei
 elegeis
 elegem
 elegemos
-elegenda
-elegendas
 elegendo
-elegendos
 eleger
 elegera
 elegeram
@@ -139212,7 +139169,6 @@ embriaguem
 embriaguemo
 embriaguemos
 embriagues
-embriagueses
 embriaguez
 embriaguezes
 embriao
@@ -150320,7 +150276,6 @@ enigmaticamente
 enigmaticas
 enigmatico
 enigmaticos
-eniores
 enjambement
 enjeita
 enjeitada
@@ -152656,10 +152611,7 @@ ensinamentos
 ensinamos
 ensinanca
 ensinancas
-ensinanda
-ensinandas
 ensinando
-ensinandos
 ensinar
 ensinara
 ensinaram
@@ -170822,7 +170774,6 @@ estrelinhas
 estrelismo
 estrelismos
 estrelo
-estrelos
 estrelou
 estrem
 estrema
@@ -176222,10 +176173,7 @@ explicai
 explicais
 explicam
 explicamos
-explicanda
-explicandas
 explicando
-explicandos
 explicar
 explicara
 explicaram
@@ -178012,10 +177960,7 @@ fabricai
 fabricais
 fabricam
 fabricamos
-fabricanda
-fabricandas
 fabricando
-fabricandos
 fabricante
 fabricantes
 fabricar
@@ -181752,7 +181697,6 @@ fervilhemo
 fervilhemos
 fervilhes
 fervilho
-fervilhos
 fervilhou
 fervo
 fervor
@@ -204142,10 +204086,7 @@ imolai
 imolais
 imolam
 imolamos
-imolanda
-imolandas
 imolando
-imolandos
 imolar
 imolara
 imolaram
@@ -208897,7 +208838,6 @@ indonesias
 indonesio
 indonesios
 indoor
-indos
 indouta
 indoutas
 indouto
@@ -215600,10 +215540,7 @@ invejai
 invejais
 invejam
 invejamos
-invejanda
-invejandas
 invejando
-invejandos
 invejar
 invejara
 invejaram
@@ -222458,10 +222395,7 @@ lecionai
 lecionais
 lecionam
 lecionamos
-lecionanda
-lecionandas
 lecionando
-lecionandos
 lecionar
 lecionara
 lecionaram
@@ -223884,10 +223818,7 @@ liberalizacao
 liberalizacoes
 liberam
 liberamos
-liberanda
-liberandas
 liberando
-liberandos
 liberar
 liberara
 liberaram
@@ -227721,7 +227652,6 @@ machucavamos
 machucavas
 machucaveis
 machuco
-machucos
 machucou
 machuque
 machuquei
@@ -233886,10 +233816,7 @@ medicamentosas
 medicamentoso
 medicamentosos
 medicamos
-medicanda
-medicandas
 medicando
-medicandos
 medicao
 medicar
 medicara
@@ -255833,7 +255760,6 @@ paroquianas
 paroquiano
 paroquianos
 paroquias
-paros
 parosmia
 parosmias
 parotidite
@@ -258814,7 +258740,6 @@ peneiremo
 peneiremos
 peneires
 peneiro
-peneiros
 peneirou
 peneis
 penela
@@ -266458,7 +266383,6 @@ pondero
 ponderou
 pondes
 pondo
-pondos
 ponei
 poneis
 ponente
@@ -283205,7 +283129,6 @@ rebeles
 rebeliao
 rebelioes
 rebelo
-rebelos
 rebelou
 rebem
 rebemo
@@ -296998,7 +296921,6 @@ ressalvemo
 ressalvemos
 ressalves
 ressalvo
-ressalvos
 ressalvou
 ressaquinha
 ressarca
@@ -300265,7 +300187,6 @@ revirias
 revirieis
 revirmos
 reviro
-reviroes
 revirou
 revisa
 revisada
@@ -307449,9 +307370,6 @@ secariamos
 secarias
 secarieis
 secarmos
-secaroes
-secarona
-secaronas
 secas
 secasse
 secasseis
@@ -318253,10 +318171,7 @@ superai
 superais
 superam
 superamos
-superanda
-superandas
 superando
-superandos
 superar
 superara
 superaram
@@ -324208,7 +324123,6 @@ teremim
 teremins
 teremos
 terenos
-terens
 terere
 teres
 teresina
@@ -343558,7 +343472,6 @@ vivipara
 viviparas
 viviparo
 viviparos
-vivis
 viviveis
 vivivel
 vivo
