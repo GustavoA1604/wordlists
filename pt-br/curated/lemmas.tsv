@@ -25,6 +25,7 @@ aclamado	A	3
 acolhido	-	3
 acorda	N	3
 acrescento	N	3
+activo	-	3
 adao	N	3
 adentro	ADV	3
 adiantado	-	3
@@ -95,6 +96,8 @@ ancho	A	2
 ancora	N	3
 angelico	-	2
 angelo	-	2	firstname
+angico	-	3
+angu	-	2
 anhembi	-	3	place
 anis	N	2
 anoto	A	3	formonly
@@ -563,6 +566,7 @@ eh	-	3
 eira	N	3
 eiro	N	3
 eita	-	3
+eito	-	3
 elegendo	N	3	formonly
 eletro	N	3
 elfos	-	2
@@ -835,6 +839,7 @@ inferiora	-	2
 inferioras	-	2
 ingenua	N	3
 ingerido	A	3
+intentar	-	x
 interface	N	3
 intima	N	3
 invadido	A	3
@@ -1312,6 +1317,7 @@ racha	N	3
 racing	-	3	english
 rack	-	3	english
 ragu	-	3
+rail	-	3
 rajado	-	2
 rajo	N	2
 rala	N	3

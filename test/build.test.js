@@ -144,6 +144,16 @@ test("curated removals are absent from all tiers", () => {
   }
 });
 
+test("intentar and its exclusive conjugations are removed", () => {
+  const validSet = new Set(result.valid);
+  for (const w of ["intentou", "intentando", "intentasse", "intentei"])
+    assert.ok(!validSet.has(w), `excluded conjugation still valid: ${w}`);
+
+  // Homographs with another valid analysis are preserved.
+  for (const w of ["intenta", "intentas", "intento"])
+    assert.ok(validSet.has(w), `valid homograph was removed: ${w}`);
+});
+
 // MorphoBr's mechanically generated paradigms include a few plurals that
 // Portuguese orthography cannot produce (see badPlural in lib/sources.js).
 // They must not reach the pool, while the loanwords whose plural really is a

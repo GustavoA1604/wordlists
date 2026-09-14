@@ -17,6 +17,8 @@ pt-br/
     lemmas.tsv    headword-level: lemma, pos, tier, tags
     forms.tsv     per-form exceptions to the rules (keep small)
     removals.txt  words excluded from the pool entirely
+    definitions.tsv       supplemental definitions
+    definition-edits.tsv  exact corrections to upstream definitions
   engine.js     tiering engine: sources + morphology + curation -> tiers
   build.js      pipeline: engine -> dist/
   dist/         generated output, committed (consumers read this; no build needed)
@@ -144,6 +146,11 @@ File formats (tab-separated, `#` comments):
 - `forms.tsv`: `form  tier  reason`. Exceptions where the rules are wrong for
   one specific form; keep it small.
 - `removals.txt`: one word per line, excluded from everything.
+- `definitions.tsv`: `word  pos  gloss  accent`. Adds a missing sense; `accent`
+  is optional and records the display spelling when it differs from the board
+  word.
+- `definition-edits.tsv`: `word  pos  old gloss  new gloss`. Replaces an exact
+  upstream gloss; use `-` as the new gloss to delete an invalid sense.
 
 ### Phantom lemmas (`formonly`)
 

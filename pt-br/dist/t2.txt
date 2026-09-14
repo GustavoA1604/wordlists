@@ -631,11 +631,7 @@ acrilica
 acrilicas
 acrilico
 acrilicos
-activa
-activas
 actividades
-activo
-activos
 actuacao
 actuacoes
 actuais
@@ -2129,8 +2125,6 @@ angelicos
 angelina
 angelinas
 angelo
-angico
-angicos
 angina
 anginas
 angla
@@ -2146,6 +2140,7 @@ angolares
 angolas
 angra
 angras
+angu
 angular
 angulares
 angulo
@@ -12269,8 +12264,6 @@ egoistas
 egos
 einstein
 einsteins
-eito
-eitos
 eivada
 eivadas
 eivado
@@ -19047,7 +19040,6 @@ itinerarias
 itinerario
 itinerarios
 itu
-itus
 jacare
 jacares
 jacinto
@@ -27474,9 +27466,6 @@ raiavamos
 raide
 raides
 raiei
-rail
-railes
-rails
 rainhas
 raiou
 raivas

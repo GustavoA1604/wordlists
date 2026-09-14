@@ -1,0 +1,14 @@
+# curated/definition-edits.tsv: exact replacements for incorrect or poorly
+# written upstream glosses. Columns: word<TAB>pos<TAB>old gloss<TAB>new gloss.
+# Use "-" as the new gloss to delete an invalid sense.
+agio	noun	diferença que o comprador paga a mais sobre o valor nominal dum título (de acordo com o Ciberdúvidas).	diferença que o comprador paga a mais sobre o valor nominal de um título
+agio	noun	diferença entre a cotação da moeda de um país e a de outro (de acordo com o Ciberdúvidas).	diferença entre a cotação da moeda de um país e a de outro
+amanhar	verb	, pronominal, arrumar-se (com roupas e/ou enfeites) de forma apropriada	vestir-se ou enfeitar-se de forma apropriada
+angico	noun	município brasileiro do estado do Tocantins	-
+eito	noun	fila, renque, série de objetos ou pessoas alinhados, sucessão de cousas dispostas na mesma direção	sequência de coisas dispostas na mesma direção ou fileira
+eito	noun	roça onde trabalham escravos	(histórico) roça onde trabalhavam pessoas escravizadas
+eito	noun	quantidade grande	grande quantidade
+eito	noun	quantidade de trabalho feito por uma pessoa ou um grupo	tarefa ou quantidade de trabalho realizada por uma pessoa ou grupo
+eito	noun	trabalho intenso	-
+eito	noun	lavoura de roça com enxada e fouce	limpeza ou cultivo manual de uma plantação com enxada ou foice
+lob	noun	lobe	no tênis, lance alto em arco que encobre o adversário próximo à rede

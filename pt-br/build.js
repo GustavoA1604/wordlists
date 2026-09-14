@@ -2,7 +2,8 @@
 //
 // Sources give candidate words and frequency; MorphoBr gives morphology (lemma,
 // POS, features); curated/ gives the hand-made decisions (lemmas.tsv, forms.tsv,
-// removals.txt, definitions.tsv, definition-redirects.tsv). The engine
+// removals.txt, definitions.tsv, definition-edits.tsv,
+// definition-redirects.tsv). The engine
 // (engine.js) combines the tiering inputs: every in-game lemma's paradigm
 // expands into the pool, and each word's tier follows the precedence
 // documented at the top of engine.js.
@@ -135,6 +136,37 @@ function loadCuratedDefinitions() {
   return byWord;
 }
 
+// curated/definition-edits.tsv: exact corrections to upstream Wiktionary
+// glosses. Columns: word  pos  old gloss  new gloss. A new gloss of "-"
+// deletes the bad sense. Exact matching makes stale corrections fail loudly
+// when a refreshed upstream snapshot changes underneath them.
+function applyDefinitionEdits(wiktionary) {
+  for (const [word, pos, oldGloss, newGloss] of readTsv("definition-edits.tsv")) {
+    const w = normalizeWord(word);
+    if (!w || !pos || !oldGloss || !newGloss) {
+      throw new Error(`malformed definition edit for "${word || "?"}"`);
+    }
+    const rows = wiktionary.get(w) ?? [];
+    let matched = false;
+    const edited = rows
+      .map((row) => ({
+        ...row,
+        g: row.g.flatMap((item) => {
+          if (row.pos !== pos || item.t !== oldGloss) return [item];
+          matched = true;
+          return newGloss === "-" ? [] : [{ ...item, t: newGloss }];
+        }),
+      }))
+      .filter((row) => row.g.length > 0);
+    if (!matched) {
+      throw new Error(
+        `stale definition edit: ${word}/${pos}: "${oldGloss}"`,
+      );
+    }
+    wiktionary.set(w, edited);
+  }
+}
+
 // curated/definition-redirects.tsv: words that are pure spelling variants of
 // another, already-defined word (e.g. "lage", the pre-orthographic-reform
 // spelling of "laje") rather than a distinct sense worth its own gloss, or a
@@ -188,6 +220,7 @@ export async function build() {
   const engine = await loadEngine();
   const pool = engine.pool();
   const wiktionary = loadWiktionary();
+  applyDefinitionEdits(wiktionary);
   const curatedDefs = loadCuratedDefinitions();
   const redirects = loadDefinitionRedirects();
 
